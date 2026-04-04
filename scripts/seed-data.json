@@ -3191,15 +3191,6 @@
       "tier": "S"
     },
     {
-      "name": "Defense Hybrid (Pallanus Fast)",
-      "slug": "defense-hybrid-pallanus",
-      "category": "defense_hybrid",
-      "description": "พาลานอสเร็ว - เน้นสปีดให้เปิดก่อน หวัง cc จากอารากอน กันโดนไรอัลกระโดด",
-      "strategy_notes": "Focus on speed to open first, hope for CC from Aragon, prevent Royal jump",
-      "speed_requirement": "250+",
-      "tier": "A"
-    },
-    {
       "name": "Defense Phy (Very Fast)",
       "slug": "defense-phy-fast",
       "category": "defense_phy",
@@ -3223,7 +3214,7 @@
       "category": "defense_tank",
       "description": "Slow variation (spd < 150) - wait to counter",
       "strategy_notes": "Block <= 100",
-      "speed_requirement": "<150",
+      "speed_requirement": "spd < 150",
       "tier": "B"
     },
     {
@@ -3232,8 +3223,175 @@
       "category": "defense_tank",
       "description": "Very fast variation (spd > 250)",
       "strategy_notes": "Block <= 100",
-      "speed_requirement": "250+",
+      "speed_requirement": "spd > 250",
       "tier": "A"
+    }
+  ],
+  "team_builds": [
+    {
+      "name": "Physical Lubu — Very Fast",
+      "slug": "attack-lubu-very-fast",
+      "category": "attack",
+      "speed_requirement": "Very Fast (spd > 250)",
+      "skill_order": "Skill: Lubu bottom → Lubu top → BnB bottom",
+      "speed_order": "Speed order: Amelia > BnB (need atk), Lubu (need some dmg to kill)",
+      "strategy_notes": "Speed carry, tough",
+      "tier": "S",
+      "members": [
+        { "slug": "lubu",   "position": 1, "stat_primary": "DEF/HP%",    "stat_secondary": "BLOCK/DMG%", "stat_target": "90++", "notes": "Speed carry, tough" },
+        { "slug": "bnb",    "position": 2, "stat_primary": "C.R./ATK%",  "stat_secondary": "ATK%",       "stat_target": "80++", "notes": "Focus: Wkness 100%, Atk, Crit" },
+        { "slug": "amelia", "position": 3, "stat_primary": "WKNESS%",    "stat_secondary": "ATK%",       "stat_target": "90++", "notes": "Speed carry, Wkness 100%" }
+      ]
+    },
+    {
+      "name": "Physical Lubu — Slow",
+      "slug": "attack-lubu-slow",
+      "category": "attack",
+      "speed_requirement": "Slow (spd < 150)",
+      "skill_order": "Skill: Lubu bottom → Lubu top → BnB bottom",
+      "speed_order": "Speed order: Amelia > BnB (High atk), Lubu (Build stat)",
+      "strategy_notes": "NEED GOOD RINGS (5* L Rings refined or many 6*)",
+      "tier": "A",
+      "members": [
+        { "slug": "lubu",   "position": 1, "stat_primary": "C.RATE%",     "stat_secondary": "ATK%",  "stat_target": "40-50", "notes": "Focus: Wkness 100%, Atk, Crit" },
+        { "slug": "bnb",    "position": 2, "stat_primary": "ATK%",         "stat_secondary": "CRIT%", "stat_target": "60-70", "notes": "Highest atk as possible for shield" },
+        { "slug": "amelia", "position": 3, "stat_primary": "C.DMG%/ATK%", "stat_secondary": "ATK%",  "stat_target": "40-50", "notes": "Focus: Wkness 100%, Atk, Crit" }
+      ]
+    },
+    {
+      "name": "Kris / Knox / Rosie",
+      "slug": "attack-kris-knox-rosie",
+      "category": "attack",
+      "speed_requirement": "Very Fast (spd > 250)",
+      "skill_order": "",
+      "speed_order": "",
+      "strategy_notes": "Focus: Wkness 100%, Atk, Crit as much as possible",
+      "tier": "A",
+      "members": [
+        { "slug": "kris",  "position": 1, "stat_primary": "C.R./ATK%", "stat_secondary": "ATK%",    "stat_target": "90++", "notes": "Focus: Wkness 100%" },
+        { "slug": "knox",  "position": 2, "stat_primary": "ATK%",      "stat_secondary": "WKNESS%", "stat_target": "80++", "notes": "Highest atk" },
+        { "slug": "rosie", "position": 3, "stat_primary": "WKNESS%",   "stat_secondary": "ATK%",    "stat_target": "90++", "notes": "Focus: Wkness 100%" }
+      ]
+    },
+    {
+      "name": "Physical Lubu — Very Fast (Kagura variant)",
+      "slug": "defense-phy-lubu-kagura-fast",
+      "category": "defense_phy",
+      "speed_requirement": "Very Fast (spd > 250)",
+      "skill_order": "Skill: Lubu bottom → Lubu top → BnB bottom",
+      "speed_order": "Speed order: Kagura > BnB (need atk), Lubu (need some dmg to kill)",
+      "strategy_notes": "Speed main, highest atk for health",
+      "tier": "S",
+      "members": [
+        { "slug": "lubu",   "position": 1, "stat_primary": "C.RATE%",    "stat_secondary": "ATK%",  "stat_target": "70++",  "notes": "Focus: Wkness 100%, Atk, Crit" },
+        { "slug": "bnb",    "position": 2, "stat_primary": "ATK%",        "stat_secondary": "CRIT%", "stat_target": "100++", "notes": "Speed main, highest atk" },
+        { "slug": "kagura", "position": 3, "stat_primary": "C.DMG%/ATK%","stat_secondary": "ATK%",  "stat_target": "90++",  "notes": "Focus: Wkness 100%, Atk, Crit" }
+      ]
+    },
+    {
+      "name": "Physical Lubu — Slow (Kagura variant)",
+      "slug": "defense-phy-lubu-kagura-slow",
+      "category": "defense_phy",
+      "speed_requirement": "Slow (spd < 150)",
+      "skill_order": "Skill: Lubu bottom → Lubu top → BnB bottom",
+      "speed_order": "Speed order: Kagura > BnB (need atk), Lubu (need some dmg to kill)",
+      "strategy_notes": "NEED GOOD RINGS (5* L Rings refined or many 6*)",
+      "tier": "A",
+      "members": [
+        { "slug": "lubu",   "position": 1, "stat_primary": "C.RATE%",    "stat_secondary": "ATK%",  "stat_target": "30-40", "notes": "Focus: Wkness 100%, Atk, Crit" },
+        { "slug": "bnb",    "position": 2, "stat_primary": "ATK%",        "stat_secondary": "CRIT%", "stat_target": "60++",  "notes": "Highest atk as possible for shield" },
+        { "slug": "kagura", "position": 3, "stat_primary": "C.DMG%/ATK%","stat_secondary": "ATK%",  "stat_target": "40-50", "notes": "Focus: Wkness 100%, Atk, Crit" }
+      ]
+    },
+    {
+      "name": "Vanessa / Freyja / Melia — Very Fast",
+      "slug": "defense-mage-vanessa-fast",
+      "category": "defense_mage",
+      "speed_requirement": "Very Fast (spd > 270)",
+      "skill_order": "Skill: Vanessa bottom → Freya top → Freya bottom",
+      "speed_order": "Speed order: Melia, Vanessa > Freya (need some dmg to kill)",
+      "strategy_notes": "Mage team has to be fast only. Increase CD or Sleep first = Win",
+      "tier": "S",
+      "members": [
+        { "slug": "vanessa", "position": 1, "stat_primary": "DEF/HP%",   "stat_secondary": "BLOCK/DMG%", "stat_target": "90++", "notes": "Speed carry, tough" },
+        { "slug": "freyja",  "position": 2, "stat_primary": "C.R./ATK%", "stat_secondary": "ATK%",       "stat_target": "80++", "notes": "Focus: Wkness 100%, Atk, Crit" },
+        { "slug": "milia",   "position": 3, "stat_primary": "DEF%",      "stat_secondary": "BLOCK%",     "stat_target": "90++", "notes": "Speed carry, EHR 50-65%" }
+      ]
+    },
+    {
+      "name": "Diaochan / Freyja / Melia — Very Fast",
+      "slug": "defense-mage-diao-fast",
+      "category": "defense_mage",
+      "speed_requirement": "Very Fast (spd > 270)",
+      "skill_order": "Skill: Diao top → Freya top → Freya bottom",
+      "speed_order": "Speed order: Melia, Diaochan > Freya (need some dmg to kill)",
+      "strategy_notes": "High speed 270++",
+      "tier": "S",
+      "members": [
+        { "slug": "diaochan", "position": 1, "stat_primary": "DEF/HP%",   "stat_secondary": "BLOCK/DMG%", "stat_target": "90++", "notes": "Speed carry, tough" },
+        { "slug": "freyja",   "position": 2, "stat_primary": "C.R./ATK%", "stat_secondary": "ATK%",       "stat_target": "80++", "notes": "Focus: Wkness 100%, Atk, Crit" },
+        { "slug": "milia",    "position": 3, "stat_primary": "HP%",        "stat_secondary": "BLOCK%",     "stat_target": "90++", "notes": "Speed carry, EHR based on HP%" }
+      ]
+    },
+    {
+      "name": "Reginleif / Freyja / Melia — Very Fast",
+      "slug": "defense-mage-regin-fast",
+      "category": "defense_mage",
+      "speed_requirement": "Very Fast (spd > 270)",
+      "skill_order": "Skill: Freya top → Regin top → Freya bottom",
+      "speed_order": "Speed order: Melia > Reginleif > Freya (need some dmg to kill)",
+      "strategy_notes": "High speed 270++",
+      "tier": "A",
+      "members": [
+        { "slug": "freyja",     "position": 1, "stat_primary": "DEF/HP%",   "stat_secondary": "BLOCK/DMG%", "stat_target": "90++", "notes": "Speed carry, tough" },
+        { "slug": "reginleif",  "position": 2, "stat_primary": "C.R./ATK%", "stat_secondary": "ATK%",       "stat_target": "80++", "notes": "Focus: Wkness 100%, Atk, Crit" },
+        { "slug": "milia",      "position": 3, "stat_primary": "WKNESS%",   "stat_secondary": "ATK%",       "stat_target": "90++", "notes": "Speed carry, Wkness 100%" }
+      ]
+    },
+    {
+      "name": "Sun Wukong / Radgrid / Elysia — Slow",
+      "slug": "defense-tank-wk-slow",
+      "category": "defense_tank",
+      "speed_requirement": "Slow (spd < 150)",
+      "skill_order": "Skill: WK top → Elysia bottom → WK bottom",
+      "speed_order": "Speed order: WK > Radgrid, Elysia",
+      "strategy_notes": "High on atk, 100% block with 16% DTR. Gelidus t6 is op",
+      "tier": "S",
+      "members": [
+        { "slug": "sun-wukong", "position": 1, "stat_primary": "WKNESS%", "stat_secondary": "DTR%", "stat_target": "-",  "notes": "High on atk, 100% block with 16% DTR" },
+        { "slug": "radgrid",    "position": 2, "stat_primary": "DEF%",    "stat_secondary": "DTR%", "stat_target": "-",  "notes": "High on def, 100% block with 16-32% DTR" },
+        { "slug": "elysia",     "position": 3, "stat_primary": "HP%",     "stat_secondary": "DTR%", "stat_target": "-",  "notes": "EHR 30-50%, Block 100% (inc pet) with DTR 16-32%" }
+      ]
+    },
+    {
+      "name": "Sun Wukong / Gelidus / Radgrid — Slow",
+      "slug": "defense-tank-wk-gelidus-slow",
+      "category": "defense_tank",
+      "speed_requirement": "Slow (spd < 150)",
+      "skill_order": "Skill: WK top → Gelidus top → WK bottom",
+      "speed_order": "Speed order: Gelidus > WK > Radgrid",
+      "strategy_notes": "Gelidus t6 is op. Avoid death",
+      "tier": "S",
+      "members": [
+        { "slug": "sun-wukong", "position": 1, "stat_primary": "WKNESS%", "stat_secondary": "DTR%",   "stat_target": "-", "notes": "High on atk, 100% block with 16% DTR" },
+        { "slug": "gelidus",    "position": 2, "stat_primary": "DEF%",    "stat_secondary": "BLOCK%", "stat_target": "-", "notes": "High on def, 100% block with 16-32% DTR" },
+        { "slug": "radgrid",    "position": 3, "stat_primary": "DEF%",    "stat_secondary": "DTR%",   "stat_target": "-", "notes": "Block 67% (+ passive to 100) with DTR 32%" }
+      ]
+    },
+    {
+      "name": "Aragon / Pallanus / Pallanus — Flex",
+      "slug": "defense-tank-aragon-pallanus",
+      "category": "defense_tank",
+      "speed_requirement": "Fast (spd 240++) or Slow",
+      "skill_order": "Skill: Aragon top → Pallanus top → Pallanus bottom",
+      "speed_order": "",
+      "strategy_notes": "Either very fast to counter ryan/mage (Speed 240++) or slow to counter death",
+      "tier": "A",
+      "members": [
+        { "slug": "aragon",   "position": 1, "stat_primary": "DEF%",    "stat_secondary": "DTR%",        "stat_target": "-", "notes": "Block 100% with DTR 32%, MUST: Enhance passive" },
+        { "slug": "pallanus", "position": 2, "stat_primary": "C.RATE%", "stat_secondary": "ATK%",        "stat_target": "-", "notes": "Crit rate 100%. If slow, prioritize DMG" },
+        { "slug": "pallanus", "position": 3, "stat_primary": "HP%",     "stat_secondary": "DTR/BLOCK%",  "stat_target": "-", "notes": "Block 100% with DTR 32%, MUST: Enhance passive" }
+      ]
     }
   ]
 }

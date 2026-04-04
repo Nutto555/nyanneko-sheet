@@ -1,14 +1,13 @@
 import { supabase } from '../lib/supabase';
 import type { Character, CharacterWithSkills } from '../types/database';
+import { getCached, setCached } from './cache';
 import seedData from '../../scripts/seed-data.json';
 
-// Fallback: use local seed data if Supabase is not configured
 const isSupabaseConfigured = () => {
   const url = import.meta.env.VITE_SUPABASE_URL;
   return url && url !== '' && url !== 'undefined';
 };
 
-// Local character data (from seed) for offline/demo mode
 const localCharacters: Character[] = seedData.characters.map((c, i) => ({
   id: `local-${i}`,
   name_en: c.name_en,
@@ -41,15 +40,20 @@ const localCharactersWithSkills: CharacterWithSkills[] = seedData.characters.map
 export async function getCharacters(): Promise<Character[]> {
   if (!isSupabaseConfigured()) return localCharacters;
 
+  const key = 'characters:all';
+  const cached = getCached<Character[]>(key);
+  if (cached) return cached;
+
   const { data, error } = await supabase
     .from('characters')
     .select('*')
     .order('name_en');
 
   if (error) {
-    console.error('Error fetching characters:', error);
+    if (import.meta.env.DEV) console.error('Error fetching characters:', error);
     return localCharacters;
   }
+  setCached(key, data);
   return data;
 }
 
@@ -58,6 +62,10 @@ export async function getCharacterBySlug(slug: string): Promise<CharacterWithSki
     return localCharactersWithSkills.find((c) => c.slug === slug) || null;
   }
 
+  const key = `character:${slug}`;
+  const cached = getCached<CharacterWithSkills>(key);
+  if (cached) return cached;
+
   const { data, error } = await supabase
     .from('characters')
     .select(`*, character_skills(*)`)
@@ -65,9 +73,10 @@ export async function getCharacterBySlug(slug: string): Promise<CharacterWithSki
     .single();
 
   if (error) {
-    console.error('Error fetching character:', error);
+    if (import.meta.env.DEV) console.error('Error fetching character:', error);
     return localCharactersWithSkills.find((c) => c.slug === slug) || null;
   }
+  setCached(key, data as CharacterWithSkills);
   return data as CharacterWithSkills;
 }
 
@@ -76,6 +85,10 @@ export async function getCharactersByRole(role: string): Promise<Character[]> {
     return localCharacters.filter((c) => c.role === role);
   }
 
+  const key = `characters:role:${role}`;
+  const cached = getCached<Character[]>(key);
+  if (cached) return cached;
+
   const { data, error } = await supabase
     .from('characters')
     .select('*')
@@ -83,8 +96,9 @@ export async function getCharactersByRole(role: string): Promise<Character[]> {
     .order('name_en');
 
   if (error) {
-    console.error('Error fetching characters by role:', error);
+    if (import.meta.env.DEV) console.error('Error fetching characters by role:', error);
     return localCharacters.filter((c) => c.role === role);
   }
+  setCached(key, data);
   return data;
 }

@@ -1,123 +1,153 @@
 import { Link } from 'react-router-dom';
-import Card from '../components/ui/Card';
-import Badge from '../components/ui/Badge';
-import Button from '../components/ui/Button';
 
-const features = [
+const modes = [
   {
     icon: '⚔️',
-    title: 'Character Database',
-    description: 'Complete database of Seven Knights characters with skills, stats, and GvG strategies.',
-    path: '/characters',
-    badge: 'Database',
-    badgeVariant: 'primary' as const,
+    title_en: 'Attack',
+    title_th: 'ทีมโจมตี',
+    description: 'Physical & mage offense builds. Speed order, skill rotation, stat priorities.',
+    path: '/attack',
+    accent: 'rgba(239,68,68,.15)',
+    accentBorder: 'rgba(239,68,68,.25)',
+    accentText: '#fca5a5',
   },
   {
     icon: '🛡️',
-    title: 'Team Compositions',
-    description: 'Meta team compositions organized by category with tier ratings and strategy notes.',
-    path: '/compositions',
-    badge: 'Comps',
-    badgeVariant: 'secondary' as const,
+    title_en: 'Defense — Physical',
+    title_th: 'ทีมรับ กายภาพ',
+    description: 'Physical defense. Very Fast (spd > 250) and Slow (spd < 150) variants.',
+    path: '/defense/phy',
+    accent: 'rgba(59,130,246,.15)',
+    accentBorder: 'rgba(59,130,246,.25)',
+    accentText: '#93c5fd',
   },
   {
-    icon: '📊',
-    title: 'Guides',
-    description: 'Comprehensive GvG strategy guides covering formations, positioning, and tactics.',
-    path: '/guides',
-    badge: 'Guides',
-    badgeVariant: 'accent' as const,
+    icon: '🔮',
+    title_en: 'Defense — Mage',
+    title_th: 'ทีมรับ เวทย์',
+    description: 'Mage defense must be fast. Speed 270++ to open first with CC or Sleep.',
+    path: '/defense/mage',
+    accent: 'rgba(139,92,246,.15)',
+    accentBorder: 'rgba(139,92,246,.25)',
+    accentText: '#c4b5fd',
   },
   {
-    icon: '📈',
-    title: 'Resources',
-    description: 'Gear recommendations, stat breakpoints, and optimization tips for competitive play.',
-    path: '/about',
-    badge: 'Resources',
-    badgeVariant: 'neutral' as const,
+    icon: '⚙️',
+    title_en: 'Defense — Tank',
+    title_th: 'ทีมรับ แท้งก์',
+    description: 'Tank/HP defense. Block 100% + DTR 32%. Slow counter or Very Fast.',
+    path: '/defense/tank',
+    accent: 'rgba(16,185,129,.15)',
+    accentBorder: 'rgba(16,185,129,.25)',
+    accentText: '#6ee7b7',
   },
-];
-
-const stats = [
-  { label: 'Characters', value: '25+' },
-  { label: 'Team Comps', value: '6+' },
-  { label: 'Guides', value: '10+' },
+  {
+    icon: '📖',
+    title_en: 'Equipment Guide',
+    title_th: 'คู่มืออุปกรณ์',
+    description: 'Per-character equipment stat priorities for each skill slot.',
+    path: '/equip',
+    accent: 'rgba(240,160,48,.15)',
+    accentBorder: 'rgba(240,160,48,.25)',
+    accentText: '#f8c060',
+  },
 ];
 
 export default function Home() {
   return (
-    <div>
-      {/* Hero Section */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-          <Badge label="GvG Guide Platform" variant="primary" />
-          <h1 className="mt-6 text-5xl md:text-6xl font-bold text-white leading-tight">
-            NyanNeko
-            <span className="text-primary-light"> Sheet</span>
-          </h1>
-          <p className="mt-6 text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Your ultimate Guild vs Guild companion. Complete character database, team compositions,
-            strategies, and everything you need to dominate the battlefield in Seven Knights.
-          </p>
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/characters">
-              <Button size="lg">
-                Browse Characters
-              </Button>
-            </Link>
-            <Link to="/compositions">
-              <Button variant="secondary" size="lg">
-                View Compositions
-              </Button>
-            </Link>
-          </div>
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+      {/* Hero */}
+      <section className="text-center mb-14">
+        <div
+          className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold mb-5"
+          style={{ background: 'rgba(240,160,48,.12)', color: 'var(--color-gold)', border: '1px solid rgba(240,160,48,.25)' }}
+        >
+          <span>⚔</span>
+          <span>Seven Knights Rebirth — GVG Strategy</span>
         </div>
+        <h1
+          className="text-4xl sm:text-5xl font-bold text-white mb-4 leading-tight"
+          style={{ fontFamily: 'var(--font-display)' }}
+        >
+          NyanNeko <span style={{ color: 'var(--color-gold)' }}>Sheet</span>
+        </h1>
+        <p className="text-slate-400 max-w-lg mx-auto text-sm leading-relaxed">
+          คู่มือกลยุทธ์ Guild vs Guild สำหรับ Seven Knights Rebirth
+          <br />
+          <span className="opacity-60">Team builds · Stat priorities · Skill rotations</span>
+        </p>
+        <div className="mt-4 mx-auto w-24 h-px" style={{ background: 'linear-gradient(to right, transparent, var(--color-gold-dim), transparent)' }} />
       </section>
 
-      {/* Stats Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-b border-primary/10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {stats.map((stat) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-4xl font-bold text-primary">{stat.value}</div>
-              <div className="mt-2 text-gray-400">{stat.label}</div>
-            </div>
+      {/* Mode cards */}
+      <section>
+        <h2
+          className="text-xs font-semibold uppercase tracking-widest mb-5 opacity-40"
+          style={{ fontFamily: 'var(--font-display)' }}
+        >
+          Game Modes / โหมดเกม
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {modes.map((m) => (
+            <Link
+              key={m.path}
+              to={m.path}
+              className="group rounded-xl p-5 flex gap-4 items-start transition-all duration-200 hover:scale-[1.01]"
+              style={{
+                background: 'var(--color-surface)',
+                border: `1px solid var(--color-border)`,
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLElement).style.borderColor = m.accentBorder;
+                (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 24px ${m.accent}`;
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLElement).style.borderColor = 'var(--color-border)';
+                (e.currentTarget as HTMLElement).style.boxShadow = 'none';
+              }}
+            >
+              {/* Icon */}
+              <div
+                className="text-2xl w-12 h-12 rounded-lg flex items-center justify-center shrink-0"
+                style={{ background: m.accent, border: `1px solid ${m.accentBorder}` }}
+              >
+                {m.icon}
+              </div>
+
+              {/* Text */}
+              <div className="min-w-0">
+                <div className="flex items-baseline gap-2 flex-wrap">
+                  <span
+                    className="font-bold text-white text-sm"
+                    style={{ fontFamily: 'var(--font-display)' }}
+                  >
+                    {m.title_en}
+                  </span>
+                  <span className="text-xs opacity-40" style={{ fontFamily: 'var(--font-body)' }}>
+                    {m.title_th}
+                  </span>
+                </div>
+                <p className="text-xs text-slate-400 mt-1 leading-relaxed">{m.description}</p>
+              </div>
+
+              {/* Arrow */}
+              <span
+                className="shrink-0 text-lg opacity-0 group-hover:opacity-60 transition-opacity mt-1"
+                style={{ color: m.accentText }}
+              >
+                →
+              </span>
+            </Link>
           ))}
         </div>
       </section>
 
-      {/* Features Grid */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white">Everything You Need</h2>
-          <p className="mt-3 text-gray-400">Comprehensive resources for guild warfare</p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {features.map((feature) => (
-            <Link key={feature.title} to={feature.path}>
-              <Card>
-                <div className="text-3xl mb-4">{feature.icon}</div>
-                <Badge label={feature.badge} variant={feature.badgeVariant} />
-                <h3 className="mt-3 text-lg font-semibold text-white">{feature.title}</h3>
-                <p className="mt-2 text-sm text-gray-400 leading-relaxed">{feature.description}</p>
-              </Card>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <Card hover={false} className="text-center bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20">
-          <h2 className="text-2xl font-bold text-white">Ready to level up your GvG game?</h2>
-          <p className="mt-3 text-gray-400">Explore our complete character database and team compositions.</p>
-          <div className="mt-6">
-            <Link to="/characters">
-              <Button>Get Started</Button>
-            </Link>
-          </div>
-        </Card>
+      {/* Quick reference footer note */}
+      <section className="mt-10 text-center">
+        <p className="text-xs opacity-30">
+          ข้อมูลจาก gvg-nyanneko.xlsx · อัพเดทตามเมต้าเกม
+        </p>
       </section>
     </div>
   );

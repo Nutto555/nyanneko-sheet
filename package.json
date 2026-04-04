@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "seed": "npx tsx scripts/seed.ts",
+    "seed:images": "npx tsx scripts/seed.ts --upload-images",
+    "map-images": "python3 scripts/map-images.py"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.101.1",

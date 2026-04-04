@@ -3,9 +3,8 @@ import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import Characters from './pages/Characters';
 import CharacterDetail from './pages/CharacterDetail';
-import Guides from './pages/Guides';
-import Compositions from './pages/Compositions';
-import TierList from './pages/TierList';
+import GvgMode from './pages/GvgMode';
+import Equip from './pages/Equip';
 import About from './pages/About';
 
 function App() {
@@ -14,11 +13,21 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+
+          {/* GVG modes */}
+          <Route path="attack" element={<GvgMode mode="attack" />} />
+          <Route path="defense/phy" element={<GvgMode mode="defense-phy" />} />
+          <Route path="defense/mage" element={<GvgMode mode="defense-mage" />} />
+          <Route path="defense/tank" element={<GvgMode mode="defense-tank" />} />
+
+          {/* Equipment legend */}
+          <Route path="equip" element={<Equip />} />
+
+          {/* Characters */}
           <Route path="characters" element={<Characters />} />
           <Route path="characters/:slug" element={<CharacterDetail />} />
-          <Route path="guides" element={<Guides />} />
-          <Route path="compositions" element={<Compositions />} />
-          <Route path="tier-list" element={<TierList />} />
+
+          {/* Misc */}
           <Route path="about" element={<About />} />
         </Route>
       </Routes>
