@@ -1,0 +1,435 @@
+{
+  "characters": [
+    {
+      "name_en": "Pallanus",
+      "name_th": "พาลานอส",
+      "slug": "pallanus",
+      "role": "defense",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_6.jpg",
+      "notes": "โจมตี 2700, อัตราคริ 78%-100%, บล็อค เท่าที่ได้, ลดดาเมจ 42%",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Diaochan",
+      "name_th": "เตียวเสี้ยน",
+      "slug": "diaochan",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_10.jpg",
+      "notes": "",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "⏳", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Zhao Yun",
+      "name_th": "จูล่ง",
+      "slug": "zhao-yun",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_11.jpg",
+      "notes": "",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "⏳", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Fai",
+      "name_th": "ไพร์",
+      "slug": "fai",
+      "role": "support",
+      "type": "ทั่วไป / ซัพพอร์ต",
+      "image_url": "/images/characters/cellImage_53149694_12.jpg",
+      "notes": "ความเร็ว มากสุดเท่าที่ได้, บล็อคเท่าที่ได้ (ใช้อาวุธผลเข้าเป้า ถ้าเจอทีมถึกเยอะ)",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Rosie",
+      "name_th": "โรซี่",
+      "slug": "rosie",
+      "role": "attack",
+      "type": "ทีมสปีดเดธ (เบ็ดเสร็จ)",
+      "image_url": "/images/characters/cellImage_53149694_22.jpg",
+      "notes": "",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Juri",
+      "name_th": "จูริ",
+      "slug": "juri",
+      "role": "attack",
+      "type": "ทีมสปีด ดับสูญ (เกมเร็ว)",
+      "image_url": "/images/characters/cellImage_53149694_25.jpg",
+      "notes": "",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Gelidus",
+      "name_th": "เกลลิดัส",
+      "slug": "gelidus",
+      "role": "tank",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_35.jpg",
+      "notes": "ป้องกัน 1650, บล็อค 67%, ลดดาเมจ 26%-42%, ต้านทานผล เท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Milia",
+      "name_th": "มิเลีย",
+      "slug": "milia",
+      "role": "attack",
+      "type": "ทีมเวทดาเมจ / ทีมเวทโควิด (ดันสปีด)",
+      "image_url": "/images/characters/cellImage_53149694_37.jpg",
+      "notes": "ป้องกัน / HP",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Rudy",
+      "name_th": "ลูดี้",
+      "slug": "rudy",
+      "role": "tank",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_39.jpg",
+      "notes": "ลดดาเมจ 26%-42%, ต้านทานผล 50%-100%, บล็อค มากสุดเท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Eileen",
+      "name_th": "ไอลีน",
+      "slug": "eileen",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_41.jpg",
+      "notes": "ความเร็ว มากสุดเท่าที่ได้ (ถ้าของไม่ดีใส่ยำเซ็ทแบกสปีดก่อนได้)",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Rachel",
+      "name_th": "ราเชล",
+      "slug": "rachel",
+      "role": "attack",
+      "type": "ตีบอส",
+      "image_url": "/images/characters/cellImage_53149694_44.jpg",
+      "notes": "อัตราคริ 75%-100%, จุดอ่อน เท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "★6", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Dellons",
+      "name_th": "เดลโลนส์",
+      "slug": "dellons",
+      "role": "support",
+      "type": "แบกสปีดทีม",
+      "image_url": "/images/characters/cellImage_53149694_47.jpg",
+      "notes": "",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Spike",
+      "name_th": "สไปค์",
+      "slug": "spike",
+      "role": "tank",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_54.jpg",
+      "notes": "ลดดาเมจ 42%, ต้านทานผล 50%-100%, HP เท่าที่ได้, บล็อค มากสุดเท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Jave",
+      "name_th": "เจฟ",
+      "slug": "jave",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_55.jpg",
+      "notes": "โจมตี 3300, ลดดาเมจ 32%, บล็อค มากสุดเท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⛔", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Vanessa",
+      "name_th": "วาเนสซ่า",
+      "slug": "vanessa",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_56.jpg",
+      "notes": "",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Kris",
+      "name_th": "คริส",
+      "slug": "kris",
+      "role": "attack",
+      "type": "เบ็ดเสร็จ",
+      "image_url": "/images/characters/cellImage_53149694_60.jpg",
+      "notes": "จุดอ่อน / ป้องกัน / HP",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Silvesta",
+      "name_th": "ซิลเวสต้า",
+      "slug": "silvesta",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_64.jpg",
+      "notes": "อัตราคริ 75%-100%, จุดอ่อน 50%-75%, ความเร็ว เท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Mercure",
+      "name_th": "เมลคีร์",
+      "slug": "mercure",
+      "role": "attack",
+      "type": "สายเร็ว",
+      "image_url": "/images/characters/cellImage_53149694_65.jpg",
+      "notes": "โจมตี",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Colt",
+      "name_th": "โคลท์",
+      "slug": "colt",
+      "role": "attack",
+      "type": "ทีมสปีด",
+      "image_url": "/images/characters/cellImage_53149694_66.jpg",
+      "notes": "โจมตี",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Platin",
+      "name_th": "เพลตัน",
+      "slug": "platin",
+      "role": "attack",
+      "type": "ทีมกาย / ทีมเวท",
+      "image_url": "/images/characters/cellImage_53149694_67.jpg",
+      "notes": "อัตราคริ 50%-100%, จุดอ่อน 75%-100%, โจมตี มากสุดเท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Freyja",
+      "name_th": "เฟรยา",
+      "slug": "freyja",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_68.jpg",
+      "notes": "จุดอ่อน 100%, บล็อค 0%-40%, ลดดาเมจ 16%-32%",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "★6", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Sun Wukong",
+      "name_th": "ซุนหงอคง",
+      "slug": "sun-wukong",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_70.jpg",
+      "notes": "จุดอ่อน 91%-100%, บล็อค 100%, ลดดาเมจ 10%-26%, โจมตี เท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Ace",
+      "name_th": "เอซ",
+      "slug": "ace",
+      "role": "support",
+      "type": "ซัพพอร์ต",
+      "image_url": "/images/characters/cellImage_53149694_71.jpg",
+      "notes": "ลดดาเมจ 0%-32%, บล็อค เท่าที่ได้, โจมตี เท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⛔", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "RIN",
+      "name_th": "ริน",
+      "slug": "rin",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_53149694_72.jpg",
+      "notes": "อัตราคริ 67%, จุดอ่อน 75%-100%, โจมตี 3850, ความเร็ว เท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    },
+    {
+      "name_en": "Teo",
+      "name_th": "แทโอ",
+      "slug": "teo",
+      "role": "attack",
+      "type": "C6 ทีมสปีด",
+      "image_url": "/images/characters/cellImage_53149694_73.jpg",
+      "notes": "โจมตี มากสุดเท่าที่ได้",
+      "skills": [
+        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
+        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
+        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
+        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+      ]
+    }
+  ],
+  "team_compositions": [
+    {
+      "name": "Physical Lubu",
+      "slug": "physical-lubu",
+      "category": "attack",
+      "description": "Physical Lu Bu team - main attack formation",
+      "strategy_notes": "Skill: Freya top -> Regin top -> Freya bottom\nSpeed order: Melia > Reginleif > Freya (need some dmg to kill)",
+      "speed_requirement": "90++",
+      "tier": "S"
+    },
+    {
+      "name": "Defense Hybrid (Pallanus Fast)",
+      "slug": "defense-hybrid-pallanus",
+      "category": "defense_hybrid",
+      "description": "พาลานอสเร็ว - เน้นสปีดให้เปิดก่อน หวัง cc จากอารากอน กันโดนไรอัลกระโดด",
+      "strategy_notes": "Focus on speed to open first, hope for CC from Aragon, prevent Royal jump",
+      "speed_requirement": "250+",
+      "tier": "A"
+    },
+    {
+      "name": "Defense Phy (Very Fast)",
+      "slug": "defense-phy-fast",
+      "category": "defense_phy",
+      "description": "Very fast physical defense (spd > 250)",
+      "strategy_notes": "ถ้ามั่นใจสปีด ใส่แหวนเกิดดีกว่า",
+      "speed_requirement": "250+",
+      "tier": "A"
+    },
+    {
+      "name": "Defense Mage",
+      "slug": "defense-mage",
+      "category": "defense_mage",
+      "description": "Mage team has to be fast only, Increase CD or Sleep first = Win",
+      "strategy_notes": "High speed 270++",
+      "speed_requirement": "270++",
+      "tier": "S"
+    },
+    {
+      "name": "Defense Tank (Slow Counter)",
+      "slug": "defense-tank-slow",
+      "category": "defense_tank",
+      "description": "Slow variation (spd < 150) - wait to counter",
+      "strategy_notes": "Block <= 100",
+      "speed_requirement": "<150",
+      "tier": "B"
+    },
+    {
+      "name": "Defense Tank (Fast)",
+      "slug": "defense-tank-fast",
+      "category": "defense_tank",
+      "description": "Very fast variation (spd > 250)",
+      "strategy_notes": "Block <= 100",
+      "speed_requirement": "250+",
+      "tier": "A"
+    }
+  ]
+}
