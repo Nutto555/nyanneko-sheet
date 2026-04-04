@@ -32,6 +32,7 @@ const localCharactersWithSkills: CharacterWithSkills[] = seedData.characters.map
     name_th: s.name_th,
     description: null,
     cooldown: s.cooldown || null,
+    icon_url: (s as Record<string, unknown>).icon_url as string | null || null,
     skill_order: s.skill_order,
     created_at: new Date().toISOString(),
   })),

@@ -6,10 +6,10 @@ import Button from '../components/ui/Button';
 import { getImageUrl } from '../lib/supabase';
 
 const roleColors: Record<string, 'primary' | 'secondary' | 'accent' | 'neutral'> = {
-  Attack: 'accent',
-  Defense: 'primary',
-  Support: 'secondary',
-  Tank: 'neutral',
+  attack: 'accent',
+  defense: 'primary',
+  support: 'secondary',
+  tank: 'neutral',
 };
 
 export default function CharacterDetail() {
@@ -36,7 +36,7 @@ export default function CharacterDetail() {
           onClick={() => navigate('/characters')}
           className="mb-6"
         >
-          Back to Characters
+          ← Back to Characters
         </Button>
         <div className="text-center">
           <p className="text-red-400">
@@ -56,20 +56,20 @@ export default function CharacterDetail() {
         onClick={() => navigate('/characters')}
         className="mb-6"
       >
-        Back to Characters
+        ← Back to Characters
       </Button>
 
       {/* Character Header */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-        {/* Image */}
-        <div className="lg:col-span-1">
-          <Card hover={false}>
+        {/* Portrait */}
+        <div className="lg:col-span-1 flex justify-center">
+          <Card hover={false} className="inline-block">
             <img
               src={getImageUrl(character.image_url || '')}
               alt={character.name_en}
-              className="w-full rounded-lg"
+              className="w-48 h-auto rounded-lg mx-auto"
               onError={(e) => {
-                e.currentTarget.src = '/images/placeholder.png';
+                e.currentTarget.style.display = 'none';
               }}
             />
           </Card>
@@ -83,7 +83,7 @@ export default function CharacterDetail() {
           </div>
 
           {/* Badges */}
-          <div className="flex gap-3 mb-8">
+          <div className="flex flex-wrap gap-3 mb-8">
             {character.role && (
               <Badge
                 label={character.role}
@@ -96,7 +96,7 @@ export default function CharacterDetail() {
           {/* Notes */}
           {character.notes && (
             <Card>
-              <h3 className="text-lg font-semibold text-white mb-3">Notes & Strategy</h3>
+              <h3 className="text-lg font-semibold text-white mb-3">Stat Recommendations</h3>
               <p className="text-gray-300 whitespace-pre-line">{character.notes}</p>
             </Card>
           )}
@@ -112,34 +112,43 @@ export default function CharacterDetail() {
               .sort((a, b) => a.skill_order - b.skill_order)
               .map((skill) => (
                 <Card key={skill.id}>
-                  <div className="flex items-start justify-between mb-3">
-                    <div>
-                      <h3 className="text-lg font-semibold text-white">{skill.name}</h3>
+                  <div className="flex items-center gap-4">
+                    {/* Skill Icon */}
+                    {skill.icon_url && (
+                      <img
+                        src={skill.icon_url}
+                        alt={skill.name}
+                        className="w-16 h-16 rounded-lg border border-white/10 shrink-0"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                        }}
+                      />
+                    )}
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between mb-1">
+                        <h3 className="text-lg font-semibold text-white">{skill.name}</h3>
+                        {skill.cooldown && (
+                          <span className="text-lg" title="Cooldown">{skill.cooldown}</span>
+                        )}
+                      </div>
                       {skill.name_th && (
                         <p className="text-sm text-gray-400">{skill.name_th}</p>
                       )}
+                      {skill.description && (
+                        <p className="text-sm text-gray-300 mt-2">{skill.description}</p>
+                      )}
                     </div>
-                    {skill.cooldown && (
-                      <Badge label={`${skill.cooldown}s`} variant="neutral" />
-                    )}
                   </div>
-                  {skill.description && (
-                    <p className="text-sm text-gray-300">{skill.description}</p>
-                  )}
                 </Card>
               ))}
           </div>
         </div>
       )}
 
-      {/* Related Characters */}
+      {/* Back to All */}
       <div className="mt-12 pt-8 border-t border-primary/10">
         <div className="text-center">
-          <h2 className="text-2xl font-bold text-white mb-4">Want to explore more?</h2>
-          <Button
-            onClick={() => navigate('/characters')}
-            className="inline-flex"
-          >
+          <Button onClick={() => navigate('/characters')} className="inline-flex">
             Back to Character Database
           </Button>
         </div>

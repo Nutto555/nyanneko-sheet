@@ -51,6 +51,7 @@ export interface CharacterSkill {
   name_th: string | null;
   description: string | null;
   cooldown: string | null;
+  icon_url: string | null;
   skill_order: number;
   created_at: string;
 }

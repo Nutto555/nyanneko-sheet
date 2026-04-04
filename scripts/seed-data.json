@@ -1,228 +1,35 @@
 {
   "characters": [
     {
-      "name_en": "Pallanus",
-      "name_th": "พาลานอส",
-      "slug": "pallanus",
-      "role": "defense",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_6.jpg",
-      "notes": "โจมตี 2700, อัตราคริ 78%-100%, บล็อค เท่าที่ได้, ลดดาเมจ 42%",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Diaochan",
-      "name_th": "เตียวเสี้ยน",
-      "slug": "diaochan",
-      "role": "attack",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_10.jpg",
-      "notes": "",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "⏳", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Zhao Yun",
-      "name_th": "จูล่ง",
-      "slug": "zhao-yun",
-      "role": "attack",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_11.jpg",
-      "notes": "",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "⏳", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Fai",
-      "name_th": "ไพร์",
-      "slug": "fai",
-      "role": "support",
-      "type": "ทั่วไป / ซัพพอร์ต",
-      "image_url": "/images/characters/cellImage_53149694_12.jpg",
-      "notes": "ความเร็ว มากสุดเท่าที่ได้, บล็อคเท่าที่ได้ (ใช้อาวุธผลเข้าเป้า ถ้าเจอทีมถึกเยอะ)",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Rosie",
-      "name_th": "โรซี่",
-      "slug": "rosie",
-      "role": "attack",
-      "type": "ทีมสปีดเดธ (เบ็ดเสร็จ)",
-      "image_url": "/images/characters/cellImage_53149694_22.jpg",
-      "notes": "",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Juri",
-      "name_th": "จูริ",
-      "slug": "juri",
-      "role": "attack",
-      "type": "ทีมสปีด ดับสูญ (เกมเร็ว)",
-      "image_url": "/images/characters/cellImage_53149694_25.jpg",
-      "notes": "",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Gelidus",
-      "name_th": "เกลลิดัส",
-      "slug": "gelidus",
+      "name_en": "Guan Yu",
+      "name_th": "กวนอู",
+      "slug": "guan-yu",
       "role": "tank",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_35.jpg",
-      "notes": "ป้องกัน 1650, บล็อค 67%, ลดดาเมจ 26%-42%, ต้านทานผล เท่าที่ได้",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Milia",
-      "name_th": "มิเลีย",
-      "slug": "milia",
-      "role": "attack",
-      "type": "ทีมเวทดาเมจ / ทีมเวทโควิด (ดันสปีด)",
-      "image_url": "/images/characters/cellImage_53149694_37.jpg",
-      "notes": "ป้องกัน / HP",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Rudy",
-      "name_th": "ลูดี้",
-      "slug": "rudy",
-      "role": "tank",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_39.jpg",
-      "notes": "ลดดาเมจ 26%-42%, ต้านทานผล 50%-100%, บล็อค มากสุดเท่าที่ได้",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Eileen",
-      "name_th": "ไอลีน",
-      "slug": "eileen",
-      "role": "attack",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_41.jpg",
-      "notes": "ความเร็ว มากสุดเท่าที่ได้ (ถ้าของไม่ดีใส่ยำเซ็ทแบกสปีดก่อนได้)",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Rachel",
-      "name_th": "ราเชล",
-      "slug": "rachel",
-      "role": "attack",
-      "type": "ตีบอส",
-      "image_url": "/images/characters/cellImage_53149694_44.jpg",
-      "notes": "อัตราคริ 75%-100%, จุดอ่อน เท่าที่ได้",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "★6", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Dellons",
-      "name_th": "เดลโลนส์",
-      "slug": "dellons",
-      "role": "support",
-      "type": "แบกสปีดทีม",
-      "image_url": "/images/characters/cellImage_53149694_47.jpg",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_279.jpg",
       "notes": "",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⏳", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Spike",
-      "name_th": "สไปค์",
-      "slug": "spike",
-      "role": "tank",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_54.jpg",
-      "notes": "ลดดาเมจ 42%, ต้านทานผล 50%-100%, HP เท่าที่ได้, บล็อค มากสุดเท่าที่ได้",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Jave",
-      "name_th": "เจฟ",
-      "slug": "jave",
-      "role": "attack",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_55.jpg",
-      "notes": "โจมตี 3300, ลดดาเมจ 32%, บล็อค มากสุดเท่าที่ได้",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⛔", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Vanessa",
-      "name_th": "วาเนสซ่า",
-      "slug": "vanessa",
-      "role": "attack",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_56.jpg",
-      "notes": "",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_280.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_281.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_282.jpg"
+        }
       ]
     },
     {
@@ -231,13 +38,414 @@
       "slug": "kris",
       "role": "attack",
       "type": "เบ็ดเสร็จ",
-      "image_url": "/images/characters/cellImage_53149694_60.jpg",
+      "image_url": "/images/characters/cellImage_333587538_309.jpg",
       "notes": "จุดอ่อน / ป้องกัน / HP",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_310.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_311.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_312.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Cleo",
+      "name_th": "คลีโอ",
+      "slug": "cleo",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_139.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_140.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_141.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_142.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Kagura",
+      "name_th": "คางูระ",
+      "slug": "kagura",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_46.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_47.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_48.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_49.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Charon",
+      "name_th": "คารอน",
+      "slug": "charon",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_372.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_373.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_374.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_375.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Karin",
+      "name_th": "คาริน",
+      "slug": "karin",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_364.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_365.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_366.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_367.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Karma",
+      "name_th": "คาร์ม่า",
+      "slug": "karma",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_289.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_290.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_291.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_292.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Kiriel",
+      "name_th": "คิริเอล",
+      "slug": "kiriel",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_167.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_168.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_169.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_170.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Jin",
+      "name_th": "จิน",
+      "slug": "jin",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_12.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_13.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_14.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_15.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Jupy",
+      "name_th": "จูพี้",
+      "slug": "jupy",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_70.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_71.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_72.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_73.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Juri",
+      "name_th": "จูริ",
+      "slug": "juri",
+      "role": "attack",
+      "type": "ทีมสปีด ดับสูญ (เกมเร็ว)",
+      "image_url": "/images/characters/cellImage_333587538_127.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "⏳",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_128.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_129.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_130.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Zhao Yun",
+      "name_th": "จูล่ง",
+      "slug": "zhao-yun",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_41.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_42.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "⏳",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_43.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_44.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Chancellor",
+      "name_th": "ชานชะเลอร์",
+      "slug": "chancellor",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_251.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_252.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_253.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_254.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Sarah",
+      "name_th": "ซาร่า",
+      "slug": "sarah",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_404.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_405.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_406.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_407.jpg"
+        }
       ]
     },
     {
@@ -246,73 +454,94 @@
       "slug": "silvesta",
       "role": "attack",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_64.jpg",
+      "image_url": "/images/characters/cellImage_333587538_215.jpg",
       "notes": "อัตราคริ 75%-100%, จุดอ่อน 50%-75%, ความเร็ว เท่าที่ได้",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_216.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_217.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_218.jpg"
+        }
       ]
     },
     {
-      "name_en": "Mercure",
-      "name_th": "เมลคีร์",
-      "slug": "mercure",
-      "role": "attack",
-      "type": "สายเร็ว",
-      "image_url": "/images/characters/cellImage_53149694_65.jpg",
-      "notes": "โจมตี",
+      "name_en": "Sylvia",
+      "name_th": "ซิลเวีย",
+      "slug": "sylvia",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_151.jpg",
+      "notes": "",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_152.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_153.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_154.jpg"
+        }
       ]
     },
     {
-      "name_en": "Colt",
-      "name_th": "โคลท์",
-      "slug": "colt",
-      "role": "attack",
-      "type": "ทีมสปีด",
-      "image_url": "/images/characters/cellImage_53149694_66.jpg",
-      "notes": "โจมตี",
+      "name_en": "Sieg",
+      "name_th": "ซีค",
+      "slug": "sieg",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_263.jpg",
+      "notes": "",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Platin",
-      "name_th": "เพลตัน",
-      "slug": "platin",
-      "role": "attack",
-      "type": "ทีมกาย / ทีมเวท",
-      "image_url": "/images/characters/cellImage_53149694_67.jpg",
-      "notes": "อัตราคริ 50%-100%, จุดอ่อน 75%-100%, โจมตี มากสุดเท่าที่ได้",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "⏳", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
-      ]
-    },
-    {
-      "name_en": "Freyja",
-      "name_th": "เฟรยา",
-      "slug": "freyja",
-      "role": "attack",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_68.jpg",
-      "notes": "จุดอ่อน 100%, บล็อค 0%-40%, ลดดาเมจ 16%-32%",
-      "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "★6", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_264.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_265.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_266.jpg"
+        }
       ]
     },
     {
@@ -321,28 +550,542 @@
       "slug": "sun-wukong",
       "role": "attack",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_70.jpg",
+      "image_url": "/images/characters/cellImage_333587538_271.jpg",
       "notes": "จุดอ่อน 91%-100%, บล็อค 100%, ลดดาเมจ 10%-26%, โจมตี เท่าที่ได้",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_272.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_273.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_274.jpg"
+        }
       ]
     },
     {
-      "name_en": "Ace",
-      "name_th": "เอซ",
-      "slug": "ace",
-      "role": "support",
-      "type": "ซัพพอร์ต",
-      "image_url": "/images/characters/cellImage_53149694_71.jpg",
-      "notes": "ลดดาเมจ 0%-32%, บล็อค เท่าที่ได้, โจมตี เท่าที่ได้",
+      "name_en": "Taka",
+      "name_th": "ทากะ",
+      "slug": "taka",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_4.jpg",
+      "notes": "",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⛔", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "⛔", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_5.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_6.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_7.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Thrud",
+      "name_th": "ธรูด",
+      "slug": "thrud",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_285.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_286.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_287.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_288.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Knox",
+      "name_th": "น๊อกซ์",
+      "slug": "knox",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_348.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_349.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_350.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_351.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Ballista",
+      "name_th": "บาลิสต้า",
+      "slug": "ballista",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_31.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_32.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_33.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_34.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Biscuit",
+      "name_th": "บิสกิต",
+      "slug": "biscuit",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_376.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_377.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_378.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_379.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Pascal",
+      "name_th": "ปาสคาล",
+      "slug": "pascal",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_183.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_184.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_185.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_186.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Byakko",
+      "name_th": "พยัคฆ์เมฆา",
+      "slug": "byakko",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_91.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_92.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_93.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_94.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Pallanus",
+      "name_th": "พาลานอส",
+      "slug": "pallanus",
+      "role": "defense",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_259.jpg",
+      "notes": "โจมตี 2700, อัตราคริ 78%-100%, บล็อค เท่าที่ได้, ลดดาเมจ 42%",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "⏳",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_260.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "⏳",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_261.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_262.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Bidam",
+      "name_th": "พีดัม",
+      "slug": "bidam",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_50.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_51.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_52.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_53.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Milia",
+      "name_th": "มิเลีย",
+      "slug": "milia",
+      "role": "attack",
+      "type": "ทีมเวทดาเมจ / ทีมเวทโควิด (ดันสปีด)",
+      "image_url": "/images/characters/cellImage_333587538_143.jpg",
+      "notes": "ป้องกัน / HP",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_144.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_145.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_146.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Miho",
+      "name_th": "มิโฮะ",
+      "slug": "miho",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_207.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_208.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_209.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_210.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Yeonhee",
+      "name_th": "ยอนฮี",
+      "slug": "yeonhee",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_191.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_192.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_193.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_194.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Yushin",
+      "name_th": "ยูชิน",
+      "slug": "yushin",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_171.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_172.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_173.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_174.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Yuri",
+      "name_th": "ยูริ",
+      "slug": "yuri",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_199.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_200.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_201.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_202.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Yui",
+      "name_th": "ยูอิ",
+      "slug": "yui",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_388.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_389.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_390.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_391.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Rachel",
+      "name_th": "ราเชล",
+      "slug": "rachel",
+      "role": "attack",
+      "type": "ตีบอส",
+      "image_url": "/images/characters/cellImage_333587538_297.jpg",
+      "notes": "อัตราคริ 75%-100%, จุดอ่อน เท่าที่ได้",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "★6",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_298.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_299.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_300.jpg"
+        }
       ]
     },
     {
@@ -351,13 +1094,1552 @@
       "slug": "rin",
       "role": "attack",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_53149694_72.jpg",
+      "image_url": "/images/characters/cellImage_333587538_179.jpg",
       "notes": "อัตราคริ 67%, จุดอ่อน 75%-100%, โจมตี 3850, ความเร็ว เท่าที่ได้",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_180.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_181.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_182.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Reina",
+      "name_th": "รีน่า",
+      "slug": "reina",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_392.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_393.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_394.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_395.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Lania",
+      "name_th": "ลาเนีย",
+      "slug": "lania",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_267.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_268.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_269.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_270.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Lu Bu",
+      "name_th": "ลิโป้",
+      "slug": "lu-bu",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_62.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_63.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_64.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_65.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Lee",
+      "name_th": "ลี",
+      "slug": "lee",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_352.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_353.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_354.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_355.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Leo",
+      "name_th": "ลีโอ",
+      "slug": "leo",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_58.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_59.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_60.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_61.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Luc",
+      "name_th": "ลุค",
+      "slug": "luc",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_336.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_337.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_338.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_339.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Lucy",
+      "name_th": "ลูซี่",
+      "slug": "lucy",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_380.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_381.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_382.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_383.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Rudy",
+      "name_th": "ลูดี้",
+      "slug": "rudy",
+      "role": "tank",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_317.jpg",
+      "notes": "ลดดาเมจ 26%-42%, ต้านทานผล 50%-100%, บล็อค มากสุดเท่าที่ได้",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "⏳",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_318.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_319.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_320.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Lully",
+      "name_th": "ลูลี่",
+      "slug": "lully",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_147.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_148.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_149.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_150.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Vanessa",
+      "name_th": "วาเนสซา่",
+      "slug": "vanessa",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_227.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_228.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_229.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_230.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Victoria",
+      "name_th": "วิคตอเรีย",
+      "slug": "victoria",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_243.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_244.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_245.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_246.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Snipper",
+      "name_th": "สนิปเปอร์",
+      "slug": "snipper",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_54.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_55.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_56.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_57.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Spike",
+      "name_th": "สไปค์",
+      "slug": "spike",
+      "role": "tank",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_301.jpg",
+      "notes": "ลดดาเมจ 42%, ต้านทานผล 50%-100%, HP เท่าที่ได้, บล็อค มากสุดเท่าที่ได้",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_302.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_303.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_304.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Ling Ling",
+      "name_th": "หลิงหลิง",
+      "slug": "ling-ling",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_187.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_188.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_189.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_190.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Alice",
+      "name_th": "อลิซ",
+      "slug": "alice",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_384.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_385.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_386.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_387.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Asura",
+      "name_th": "อสุรา",
+      "slug": "asura",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_255.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_256.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_257.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_258.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Orly",
+      "name_th": "ออร์ลี่",
+      "slug": "orly",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_400.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_401.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_402.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_403.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Aquila",
+      "name_th": "อากีลา",
+      "slug": "aquila",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_332.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_333.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_334.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_335.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Aragon",
+      "name_th": "อารากอน",
+      "slug": "aragon",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_322.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_323.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_324.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_325.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Evan",
+      "name_th": "อีวาน",
+      "slug": "evan",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_340.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_341.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_342.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_343.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Gelidus",
+      "name_th": "เกลลิดัส",
+      "slug": "gelidus",
+      "role": "tank",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_235.jpg",
+      "notes": "ป้องกัน 1650, บล็อค 67%, ลดดาเมจ 26%-42%, ต้านทานผล เท่าที่ได้",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_236.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_237.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_238.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Jane",
+      "name_th": "เจน",
+      "slug": "jane",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_99.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_100.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_101.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_102.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Jave",
+      "name_th": "เจฟ",
+      "slug": "jave",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_305.jpg",
+      "notes": "โจมตี 3300, ลดดาเมจ 32%, บล็อค มากสุดเท่าที่ได้",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "⛔",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_306.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "⏳",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_307.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_308.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Sera",
+      "name_th": "เซร่า",
+      "slug": "sera",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_163.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_164.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_165.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_166.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Shane",
+      "name_th": "เซอิน",
+      "slug": "shane",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_19.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_20.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_21.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Daisy",
+      "name_th": "เดซี่",
+      "slug": "daisy",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_195.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_196.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_197.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_198.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Dellons",
+      "name_th": "เดลโลนส์",
+      "slug": "dellons",
+      "role": "support",
+      "type": "แบกสปีดทีม",
+      "image_url": "/images/characters/cellImage_333587538_119.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "⏳",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_120.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_121.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_122.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Diaochan",
+      "name_th": "เตียวเสี้ยน",
+      "slug": "diaochan",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_360.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "⏳",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_361.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_362.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_363.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Nia",
+      "name_th": "เนีย",
+      "slug": "nia",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_239.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_240.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_241.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_242.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Ben",
+      "name_th": "เบน",
+      "slug": "ben",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_211.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_212.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_213.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_214.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Bellika",
+      "name_th": "เบลลีก้า",
+      "slug": "bellika",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_131.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_132.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_133.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_134.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Platin",
+      "name_th": "เพลตัน",
+      "slug": "platin",
+      "role": "attack",
+      "type": "ทีมกาย / ทีมเวท",
+      "image_url": "/images/characters/cellImage_333587538_368.jpg",
+      "notes": "อัตราคริ 50%-100%, จุดอ่อน 75%-100%, โจมตี มากสุดเท่าที่ได้",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_369.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "⏳",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_370.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_371.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Freyja",
+      "name_th": "เฟรยา",
+      "slug": "freyja",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_155.jpg",
+      "notes": "จุดอ่อน 100%, บล็อค 0%-40%, ลดดาเมจ 16%-32%",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "★6",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_156.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_157.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_158.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Feng Yan",
+      "name_th": "เฟิงเยี่ยน",
+      "slug": "feng-yan",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_22.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_23.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_24.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "May",
+      "name_th": "เมย์",
+      "slug": "may",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_107.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_108.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_109.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_110.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Mercure",
+      "name_th": "เมลคีร์",
+      "slug": "mercure",
+      "role": "attack",
+      "type": "สายเร็ว",
+      "image_url": "/images/characters/cellImage_333587538_203.jpg",
+      "notes": "โจมตี",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_204.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_205.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_206.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Reginleif",
+      "name_th": "เรกินเลฟ",
+      "slug": "reginleif",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_231.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_232.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_233.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_234.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Ray",
+      "name_th": "เรย์",
+      "slug": "ray",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_25.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_26.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_27.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_28.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Xiao",
+      "name_th": "เสี่ยว",
+      "slug": "xiao",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_86.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_87.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_88.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_89.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Xiao Qiao",
+      "name_th": "เสี่ยวเฉียว",
+      "slug": "xiao-qiao",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_219.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_220.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_221.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_222.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Ace",
+      "name_th": "เอซ",
+      "slug": "ace",
+      "role": "support",
+      "type": "ซัพพอร์ต",
+      "image_url": "/images/characters/cellImage_333587538_313.jpg",
+      "notes": "ลดดาเมจ 0%-32%, บล็อค เท่าที่ได้, โจมตี เท่าที่ได้",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_314.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_315.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_316.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Emilia",
+      "name_th": "เอมิเลีย",
+      "slug": "emilia",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_66.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_67.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_68.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_69.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Elisia",
+      "name_th": "เอลิเซีย",
+      "slug": "elisia",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_247.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_248.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_249.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_250.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Espada",
+      "name_th": "เอสปาด้า",
+      "slug": "espada",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_159.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_160.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_161.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_162.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Ariel",
+      "name_th": "เอเรียล",
+      "slug": "ariel",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_135.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_136.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_137.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_138.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Heavenia",
+      "name_th": "เฮฟเว่นเนีย",
+      "slug": "heavenia",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_8.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_9.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_10.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_11.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Hellenia",
+      "name_th": "เฮเลเนีย",
+      "slug": "hellenia",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_327.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_328.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_329.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_330.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Catty",
+      "name_th": "แคทตี้",
+      "slug": "catty",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_123.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_124.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_125.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_126.jpg"
+        }
       ]
     },
     {
@@ -366,13 +2648,535 @@
       "slug": "teo",
       "role": "attack",
       "type": "C6 ทีมสปีด",
-      "image_url": "/images/characters/cellImage_53149694_73.jpg",
+      "image_url": "/images/characters/cellImage_333587538_111.jpg",
       "notes": "โจมตี มากสุดเท่าที่ได้",
       "skills": [
-        { "name": "Basic Attack", "name_th": "โจมตีพื้นฐาน", "cooldown": "⏳", "skill_order": 0 },
-        { "name": "Skill 1", "name_th": "สกิล 1", "cooldown": "", "skill_order": 1 },
-        { "name": "Skill 2", "name_th": "สกิล 2", "cooldown": "", "skill_order": 2 },
-        { "name": "Passive", "name_th": "แพสซีฟ", "cooldown": "", "skill_order": 3 }
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_112.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_113.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_114.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Black Rose",
+      "name_th": "แบล็คโรส",
+      "slug": "black-rose",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_115.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_116.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_117.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_118.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Randgrid",
+      "name_th": "แรนด์กริด",
+      "slug": "randgrid",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_95.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_96.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_97.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_98.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Redgrid",
+      "name_th": "แร็ดกริด",
+      "slug": "redgrid",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_344.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_345.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_346.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_347.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Colt",
+      "name_th": "โคลท์",
+      "slug": "colt",
+      "role": "attack",
+      "type": "ทีมสปีด",
+      "image_url": "/images/characters/cellImage_333587538_103.jpg",
+      "notes": "โจมตี",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_104.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "⏳",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_105.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_106.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Chloe",
+      "name_th": "โคลอี้",
+      "slug": "chloe",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_396.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_397.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_398.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_399.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Joker",
+      "name_th": "โจ๊กเกอร์",
+      "slug": "joker",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_223.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_224.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_225.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_226.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Zoe",
+      "name_th": "โซอี",
+      "slug": "zoe",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_36.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_37.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_38.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_39.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Noho",
+      "name_th": "โนโฮ",
+      "slug": "noho",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_175.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_176.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_177.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_178.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Rosie",
+      "name_th": "โรซี่",
+      "slug": "rosie",
+      "role": "attack",
+      "type": "ทีมสปีดเดธ (เบ็ดเสร็จ)",
+      "image_url": "/images/characters/cellImage_333587538_356.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_357.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_358.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_359.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Hoggin",
+      "name_th": "โฮกิ้น",
+      "slug": "hoggin",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_74.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_75.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_76.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_77.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Kyle",
+      "name_th": "ไคล์",
+      "slug": "kyle",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_16.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_17.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_18.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Bai Long",
+      "name_th": "ไป๋หลง",
+      "slug": "bai-long",
+      "role": "attack",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_82.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_83.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_84.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_85.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Bai Jiao",
+      "name_th": "ไป๋เจียว",
+      "slug": "bai-jiao",
+      "role": "support",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_275.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_276.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_277.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_278.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Fai",
+      "name_th": "ไพร์",
+      "slug": "fai",
+      "role": "support",
+      "type": "ทั่วไป / ซัพพอร์ต",
+      "image_url": "/images/characters/cellImage_333587538_0.jpg",
+      "notes": "ความเร็ว มากสุดเท่าที่ได้, บล็อคเท่าที่ได้ (ใช้อาวุธผลเข้าเป้า ถ้าเจอทีมถึกเยอะ)",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_1.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_2.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_3.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Ryan",
+      "name_th": "ไรอัน",
+      "slug": "ryan",
+      "role": "tank",
+      "type": "",
+      "image_url": "/images/characters/cellImage_333587538_78.jpg",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_79.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_80.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_81.jpg"
+        }
+      ]
+    },
+    {
+      "name_en": "Eileen",
+      "name_th": "ไอลีน",
+      "slug": "eileen",
+      "role": "attack",
+      "type": "ทั่วไป",
+      "image_url": "/images/characters/cellImage_333587538_293.jpg",
+      "notes": "ความเร็ว มากสุดเท่าที่ได้ (ถ้าของไม่ดีใส่ยำเซ็ทแบกสปีดก่อนได้)",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "⏳",
+          "skill_order": 0,
+          "icon_url": "/images/characters/cellImage_333587538_294.jpg"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "⏳",
+          "skill_order": 1,
+          "icon_url": "/images/characters/cellImage_333587538_295.jpg"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/cellImage_333587538_296.jpg"
+        }
       ]
     }
   ],
