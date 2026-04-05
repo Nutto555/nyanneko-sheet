@@ -43,7 +43,7 @@ export async function getEquipmentSets(): Promise<EquipmentSet[]> {
     .order('name_en');
 
   if (error) {
-    console.error('Error fetching equipment sets:', error);
+    if (import.meta.env.DEV) console.error('Error fetching equipment sets:', error);
     return localSets;
   }
   return data;
@@ -61,7 +61,7 @@ export async function getEquipmentSetBySlug(slug: string): Promise<EquipmentSetW
     .single();
 
   if (error) {
-    console.error('Error fetching equipment set:', error);
+    if (import.meta.env.DEV) console.error('Error fetching equipment set:', error);
     return localSetsWithItems.find((s) => s.slug === slug) || null;
   }
   return data as EquipmentSetWithItems;
@@ -76,7 +76,7 @@ export async function getEquipmentItems(): Promise<EquipmentItem[]> {
     .order('name_en');
 
   if (error) {
-    console.error('Error fetching equipment items:', error);
+    if (import.meta.env.DEV) console.error('Error fetching equipment items:', error);
     return localItems;
   }
   return data;

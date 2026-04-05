@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS rings (
 CREATE INDEX idx_pets_slug ON pets(slug);
 CREATE INDEX idx_equipment_sets_slug ON equipment_sets(slug);
 CREATE INDEX idx_equipment_items_slug ON equipment_items(slug);
-CREATE INDEX idx_equipment_items_set ON equipment_items(set_id);
+CREATE INDEX idx_equipment_items_set ON equipment_items(set_id) WHERE set_id IS NOT NULL;
 CREATE INDEX idx_rings_slug ON rings(slug);
 
 -- ============================================================

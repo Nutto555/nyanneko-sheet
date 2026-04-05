@@ -1,21 +1,8 @@
 import { useEffect, useState } from 'react';
+import { getUpdates } from '../services/updates';
+import type { GameUpdate, UpdateCategory } from '../types/database';
 
-interface UpdateEntry {
-  date: string;
-  url: string;
-  title: string;
-  summary: string;
-  category: 'patch' | 'developer' | 'meta' | 'event' | 'other';
-  affects_gvg: boolean;
-  tags?: string[];
-}
-
-interface UpdatesData {
-  last_updated: string | null;
-  entries: UpdateEntry[];
-}
-
-const CATEGORY_CONFIG: Record<UpdateEntry['category'], { label: string; label_th: string; color: string; icon: string }> = {
+const CATEGORY_CONFIG: Record<UpdateCategory, { label: string; label_th: string; color: string; icon: string }> = {
   patch:     { label: 'Patch Notes',     label_th: 'อัปเดต',       color: '#ef4444', icon: '🔧' },
   developer: { label: 'Developer Notes', label_th: 'โน้ตนักพัฒนา', color: '#8b5cf6', icon: '📝' },
   meta:      { label: 'Meta Change',     label_th: 'เมต้าเปลี่ยน', color: '#f0a030', icon: '⚔️' },
@@ -27,21 +14,7 @@ function isSafeUrl(url: string): boolean {
   return url.startsWith('https://') || url.startsWith('http://');
 }
 
-function sanitizeEntries(raw: unknown): UpdateEntry[] {
-  if (!Array.isArray(raw)) return [];
-  return raw.filter((e): e is UpdateEntry =>
-    e !== null &&
-    typeof e === 'object' &&
-    typeof e.date === 'string' &&
-    typeof e.url === 'string' &&
-    typeof e.title === 'string' &&
-    typeof e.summary === 'string' &&
-    e.category in CATEGORY_CONFIG &&
-    typeof e.affects_gvg === 'boolean'
-  );
-}
-
-function CategoryBadge({ category }: { category: UpdateEntry['category'] }) {
+function CategoryBadge({ category }: { category: UpdateCategory }) {
   const cfg = CATEGORY_CONFIG[category] ?? CATEGORY_CONFIG['other'];
   return (
     <span
@@ -73,7 +46,7 @@ function GvgBadge() {
   );
 }
 
-function UpdateCard({ entry }: { entry: UpdateEntry }) {
+function UpdateCard({ entry }: { entry: GameUpdate }) {
   const formattedDate = new Date(entry.date).toLocaleDateString('en-GB', {
     day: 'numeric', month: 'short', year: 'numeric',
   });
@@ -161,31 +134,25 @@ function Skeleton() {
 }
 
 export default function Updates() {
-  const [data, setData] = useState<UpdatesData | null>(null);
+  const [entries, setEntries] = useState<GameUpdate[]>([]);
   const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState<UpdateEntry['category'] | 'all'>('all');
+  const [filter, setFilter] = useState<UpdateCategory | 'all'>('all');
 
   useEffect(() => {
-    fetch('/data/updates.json')
-      .then((r) => r.json())
-      .then((raw: unknown) => {
-        const obj = raw !== null && typeof raw === 'object' ? raw as Record<string, unknown> : {};
-        setData({
-          last_updated: typeof obj.last_updated === 'string' ? obj.last_updated : null,
-          entries: sanitizeEntries(obj.entries),
-        });
-      })
-      .catch(() => setData({ last_updated: null, entries: [] }))
-      .finally(() => setLoading(false));
+    let cancelled = false;
+    getUpdates()
+      .then((rows) => { if (!cancelled) setEntries(rows); })
+      .catch(() => { /* service already logs in dev */ })
+      .finally(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
   }, []);
 
-  const filtered = data?.entries.filter(
-    (e) => filter === 'all' || e.category === filter
-  ) ?? [];
+  const filtered = filter === 'all' ? entries : entries.filter((e) => e.category === filter);
 
-  const gvgCount = data?.entries.filter((e) => e.affects_gvg).length ?? 0;
-  const lastUpdated = data?.last_updated
-    ? new Date(data.last_updated).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
+  const gvgCount = entries.filter((e) => e.affects_gvg).length;
+  const lastEntry = entries[0];
+  const lastUpdated = lastEntry
+    ? new Date(lastEntry.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
     : null;
 
   return (
@@ -210,10 +177,10 @@ export default function Updates() {
       </div>
 
       {/* Stats bar */}
-      {!loading && data && (
+      {!loading && entries.length > 0 && (
         <div className="flex flex-wrap items-center gap-4 mb-6 text-xs text-slate-400">
           <span>
-            <span className="text-white font-semibold">{data.entries.length}</span> total entries
+            <span className="text-white font-semibold">{entries.length}</span> total entries
           </span>
           {gvgCount > 0 && (
             <span>
@@ -221,7 +188,7 @@ export default function Updates() {
             </span>
           )}
           {lastUpdated && (
-            <span>Last scouted: <span className="text-white">{lastUpdated}</span></span>
+            <span>Last updated: <span className="text-white">{lastUpdated}</span></span>
           )}
         </div>
       )}
@@ -257,11 +224,11 @@ export default function Updates() {
         <div className="text-center py-20">
           <div className="text-5xl mb-4 opacity-40">📭</div>
           <p className="text-slate-400 text-sm">
-            {data?.entries.length === 0
+            {entries.length === 0
               ? 'No updates yet — the scout runs every Thursday.'
               : 'No entries match this filter.'}
           </p>
-          {data?.entries.length === 0 && (
+          {entries.length === 0 && (
             <p className="text-xs opacity-40 mt-2">
               Check back after Thursday or visit{' '}
               <a
@@ -278,8 +245,8 @@ export default function Updates() {
         </div>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2">
-          {filtered.map((entry, i) => (
-            <UpdateCard key={`${entry.url}-${i}`} entry={entry} />
+          {filtered.map((entry) => (
+            <UpdateCard key={entry.id} entry={entry} />
           ))}
         </div>
       )}

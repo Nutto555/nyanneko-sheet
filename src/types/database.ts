@@ -46,6 +46,11 @@ export interface Database {
         Insert: Omit<TeamMember, 'id' | 'created_at'>;
         Update: Partial<Omit<TeamMember, 'id'>>;
       };
+      game_updates: {
+        Row: GameUpdate;
+        Insert: Omit<GameUpdate, 'id' | 'created_at'>;
+        Update: Partial<Omit<GameUpdate, 'id'>>;
+      };
     };
   };
 }
@@ -84,7 +89,7 @@ export interface Character {
   name_en: string;
   name_th: string;
   slug: string;
-  role: string | null;
+  role: CharacterRole | null;
   type: string | null;
   image_url: string | null;
   thumbnail_url: string | null;
@@ -220,4 +225,22 @@ export interface CharacterWithSkills extends Character {
 
 export interface TeamWithMembers extends TeamComposition {
   team_members: (TeamMember & { characters: Character })[];
+}
+
+// ============================================================
+// Game updates (written by research-scout cron agent)
+// ============================================================
+
+export type UpdateCategory = 'patch' | 'developer' | 'meta' | 'event' | 'other';
+
+export interface GameUpdate {
+  id: string;
+  date: string;         // ISO date string (DATE column → string in JS)
+  url: string;
+  title: string;
+  summary: string;
+  category: UpdateCategory;
+  affects_gvg: boolean;
+  tags: string[];
+  created_at: string;
 }
