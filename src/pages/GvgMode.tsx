@@ -141,7 +141,7 @@ export default function GvgMode({ mode }: GvgModeProps) {
         if (cancelled) return;
 
         const charMap = new Map(chars.map((c: Character) => [c.id, c])) as Map<string, Character>;
-        setTeams(buildTeamCards(rawTeams as unknown as TeamWithMembers[], charMap));
+        setTeams(buildTeamCards(rawTeams, charMap));
       } catch {
         if (!cancelled) setError('Failed to load team data. Please try again.');
       } finally {

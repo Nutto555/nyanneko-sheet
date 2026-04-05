@@ -10,6 +10,7 @@ import Rings from './pages/Rings';
 import EquipmentSets from './pages/EquipmentSets';
 import About from './pages/About';
 import Updates from './pages/Updates';
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
 
           {/* Updates */}
           <Route path="updates" element={<Updates />} />
+
+          {/* Admin */}
+          <Route path="admin" element={<Admin />} />
 
           {/* Misc */}
           <Route path="about" element={<About />} />

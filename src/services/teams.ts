@@ -1,11 +1,20 @@
 import { supabase } from '../lib/supabase';
-import type { TeamComposition, TeamWithMembers } from '../types/database';
+import type { TeamComposition, TeamWithMembers, Character } from '../types/database';
 import seedData from '../../scripts/seed-data.json';
 
 const isSupabaseConfigured = () => {
   const url = import.meta.env.VITE_SUPABASE_URL;
   return url && url !== '' && url !== 'undefined';
 };
+
+interface SeedMember {
+  slug: string;
+  position: number;
+  stat_primary?: string;
+  stat_secondary?: string;
+  stat_target?: string;
+  notes?: string;
+}
 
 interface SeedTeamBuild {
   name: string;
@@ -17,10 +26,31 @@ interface SeedTeamBuild {
   skill_order?: string;
   speed_order?: string;
   tier?: string;
-  members?: unknown[];
+  members?: SeedMember[];
 }
 
-const legacyTeams: TeamComposition[] = (seedData.team_compositions || []).map((t, i) => ({
+// Build character lookup by slug for local fallback
+const charBySlug = new Map<string, Character>();
+for (const c of seedData.characters) {
+  const char: Character = {
+    id: `local-char-${c.slug}`,
+    name_en: c.name_en,
+    name_th: c.name_th,
+    slug: c.slug,
+    role: (c.role as Character['role']) ?? null,
+    type: c.type ?? null,
+    image_url: c.image_url ?? null,
+    thumbnail_url: null,
+    notes: c.notes ?? null,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+  };
+  charBySlug.set(c.slug, char);
+}
+
+const now = new Date().toISOString();
+
+const legacyTeams: TeamWithMembers[] = (seedData.team_compositions || []).map((t, i) => ({
   id: `local-team-${i}`,
   name: t.name,
   slug: t.slug,
@@ -30,11 +60,12 @@ const legacyTeams: TeamComposition[] = (seedData.team_compositions || []).map((t
   speed_requirement: t.speed_requirement ?? null,
   tier: t.tier ?? null,
   image_url: null,
-  created_at: new Date().toISOString(),
-  updated_at: new Date().toISOString(),
+  created_at: now,
+  updated_at: now,
+  team_members: [],
 }));
 
-const teamBuilds: TeamComposition[] = (
+const teamBuilds: TeamWithMembers[] = (
   (seedData as Record<string, unknown>).team_builds as SeedTeamBuild[] || []
 ).map((b, i) => {
   const notes = [
@@ -43,8 +74,40 @@ const teamBuilds: TeamComposition[] = (
     b.strategy_notes || '',
   ].filter(Boolean).join('\n');
 
+  const teamId = `local-build-${i}`;
+  const members = (b.members || []).map((m, j) => {
+    const char = charBySlug.get(m.slug);
+    return {
+      id: `local-member-${i}-${j}`,
+      team_id: teamId,
+      character_id: char?.id || `unknown-${m.slug}`,
+      position: m.position,
+      role_in_team: null,
+      gear_notes: JSON.stringify({
+        stat_primary: m.stat_primary,
+        stat_secondary: m.stat_secondary,
+        stat_target: m.stat_target,
+        notes: m.notes,
+      }),
+      created_at: now,
+      characters: char || {
+        id: `unknown-${m.slug}`,
+        name_en: m.slug,
+        name_th: '',
+        slug: m.slug,
+        role: null,
+        type: null,
+        image_url: null,
+        thumbnail_url: null,
+        notes: null,
+        created_at: now,
+        updated_at: now,
+      },
+    };
+  });
+
   return {
-    id: `local-build-${i}`,
+    id: teamId,
     name: b.name,
     slug: b.slug,
     category: b.category,
@@ -53,36 +116,37 @@ const teamBuilds: TeamComposition[] = (
     speed_requirement: b.speed_requirement ?? null,
     tier: b.tier ?? null,
     image_url: null,
-    created_at: new Date().toISOString(),
-    updated_at: new Date().toISOString(),
+    created_at: now,
+    updated_at: now,
+    team_members: members,
   };
 });
 
-const localTeams: TeamComposition[] = [...teamBuilds, ...legacyTeams];
+const localTeams: TeamWithMembers[] = [...teamBuilds, ...legacyTeams];
 
-export async function getTeamCompositions(): Promise<TeamComposition[]> {
+export async function getTeamCompositions(): Promise<TeamWithMembers[]> {
   if (!isSupabaseConfigured()) return localTeams;
 
   const { data, error } = await supabase
     .from('team_compositions')
-    .select('*')
+    .select('*, team_members(*, characters(*))')
     .order('category');
 
   if (error) {
     if (import.meta.env.DEV) console.error('Error fetching teams:', error);
     return localTeams;
   }
-  return data;
+  return data as TeamWithMembers[];
 }
 
-export async function getTeamsByCategory(category: string): Promise<TeamComposition[]> {
+export async function getTeamsByCategory(category: string): Promise<TeamWithMembers[]> {
   if (!isSupabaseConfigured()) {
     return localTeams.filter((t) => t.category === category);
   }
 
   const { data, error } = await supabase
     .from('team_compositions')
-    .select('*')
+    .select('*, team_members(*, characters(*))')
     .eq('category', category)
     .order('name');
 
@@ -90,7 +154,7 @@ export async function getTeamsByCategory(category: string): Promise<TeamComposit
     if (import.meta.env.DEV) console.error('Error fetching teams by category:', error);
     return localTeams.filter((t) => t.category === category);
   }
-  return data;
+  return data as TeamWithMembers[];
 }
 
 export async function getTeamBySlug(slug: string): Promise<TeamWithMembers | null> {
