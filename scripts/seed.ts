@@ -12,10 +12,15 @@
  * The JSON files are the source of truth. The DB is a queryable cache.
  */
 
+import { config } from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
 import seedData from './seed-data.json';
 import * as fs from 'fs';
 import * as path from 'path';
+
+// Load .env.local (then .env as fallback)
+config({ path: '.env.local' });
+config();
 
 const supabaseUrl = process.env.SUPABASE_URL || '';
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
