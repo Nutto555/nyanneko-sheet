@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import TeamCard from '../components/team-card/TeamCard';
 import type { TeamCardData, GvgModeConfig } from '../types/ui';
 import type { TeamWithMembers, Character } from '../types/database';
-import { getTeamsWithMembersByCategory } from '../services/teams';
+import { getTeamsByCategory } from '../services/teams';
 import { getCharacters } from '../services/characters';
 
 const MODE_CONFIGS: Record<string, GvgModeConfig> = {
