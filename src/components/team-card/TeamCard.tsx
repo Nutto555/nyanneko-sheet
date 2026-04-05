@@ -1,14 +1,5 @@
 import UnitSlot from '../unit-slot/UnitSlot';
-import type { UnitSlotData } from '../unit-slot/UnitSlot';
-
-export interface TeamCardData {
-  title: string;
-  speedTier?: string | null;
-  units: UnitSlotData[];
-  skillOrder?: string | null;
-  speedOrder?: string | null;
-  notes?: string | null;
-}
+import type { TeamCardData } from '../../types/ui';
 
 interface TeamCardProps {
   team: TeamCardData;
@@ -59,8 +50,8 @@ export default function TeamCard({ team }: TeamCardProps) {
             className="grid gap-3"
             style={{ gridTemplateColumns: `repeat(${Math.min(team.units.length, 3)}, minmax(0, 1fr))` }}
           >
-            {team.units.map((unit, i) => (
-              <UnitSlot key={i} unit={unit} />
+            {team.units.map((unit) => (
+              <UnitSlot key={`${unit.name_en}-${unit.stat_primary ?? ''}`} unit={unit} />
             ))}
           </div>
         ) : (

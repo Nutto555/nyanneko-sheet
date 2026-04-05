@@ -1,9 +1,10 @@
 import type { ButtonHTMLAttributes, ReactNode } from 'react';
+import type { ButtonVariant, ButtonSize } from '../../types/ui';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
-  variant?: 'primary' | 'secondary' | 'ghost';
-  size?: 'sm' | 'md' | 'lg';
+  variant?: ButtonVariant;
+  size?: ButtonSize;
 }
 
 const variantStyles = {

@@ -3,7 +3,7 @@
  * Maps stat abbreviations to a semantic color group.
  */
 
-type StatVariant = 'atk' | 'def' | 'block' | 'crit' | 'spd' | 'neutral';
+import type { StatVariant } from '../../types/ui';
 
 const STAT_COLORS: Record<StatVariant, { bg: string; text: string; border: string }> = {
   atk:     { bg: 'rgba(239,68,68,.15)',   text: '#fca5a5', border: 'rgba(239,68,68,.35)' },

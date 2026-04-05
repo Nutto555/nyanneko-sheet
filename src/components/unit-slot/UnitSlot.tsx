@@ -1,13 +1,18 @@
 import StatBadge from '../ui/StatBadge';
+import type { UnitSlotData } from '../../types/ui';
 
-export interface UnitSlotData {
-  name_en: string;
-  name_th?: string;
-  image_url?: string | null;
-  stat_primary?: string;
-  stat_secondary?: string;
-  stat_target?: string;
-  notes?: string;
+/** Allow only relative paths and same-origin Supabase URLs as image src. */
+function safeImageUrl(url: string | null | undefined): string | null {
+  if (!url) return null;
+  if (url.startsWith('/')) return url;
+  try {
+    const parsed = new URL(url);
+    const supabaseHost = import.meta.env.VITE_SUPABASE_URL
+      ? new URL(import.meta.env.VITE_SUPABASE_URL).host
+      : null;
+    if (supabaseHost && parsed.host === supabaseHost) return url;
+  } catch { /* invalid URL */ }
+  return null;
 }
 
 interface UnitSlotProps {
@@ -15,6 +20,7 @@ interface UnitSlotProps {
 }
 
 export default function UnitSlot({ unit }: UnitSlotProps) {
+  const portraitUrl = safeImageUrl(unit.image_url);
   return (
     <div className="flex flex-col items-center gap-1.5 min-w-0">
       {/* Portrait */}
@@ -27,9 +33,9 @@ export default function UnitSlot({ unit }: UnitSlotProps) {
           border: '1px solid var(--color-border-bright)',
         }}
       >
-        {unit.image_url ? (
+        {portraitUrl ? (
           <img
-            src={unit.image_url}
+            src={portraitUrl}
             alt={unit.name_en}
             loading="lazy"
             className="w-full h-full object-cover"

@@ -6,6 +6,7 @@ import CharacterDetail from './pages/CharacterDetail';
 import GvgMode from './pages/GvgMode';
 import Equip from './pages/Equip';
 import About from './pages/About';
+import Updates from './pages/Updates';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           {/* Characters */}
           <Route path="characters" element={<Characters />} />
           <Route path="characters/:slug" element={<CharacterDetail />} />
+
+          {/* Updates */}
+          <Route path="updates" element={<Updates />} />
 
           {/* Misc */}
           <Route path="about" element={<About />} />

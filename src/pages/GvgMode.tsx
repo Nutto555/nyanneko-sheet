@@ -1,20 +1,11 @@
 import { useEffect, useState } from 'react';
 import TeamCard from '../components/team-card/TeamCard';
-import type { TeamCardData } from '../components/team-card/TeamCard';
-import type { TeamWithMembers } from '../types/database';
+import type { TeamCardData, GvgModeConfig } from '../types/ui';
+import type { TeamWithMembers, Character } from '../types/database';
 import { getTeamsWithMembersByCategory } from '../services/teams';
 import { getCharacters } from '../services/characters';
-import type { Character } from '../types/database';
 
-interface ModeConfig {
-  category: string;
-  title_en: string;
-  title_th: string;
-  description: string;
-  icon: string;
-}
-
-const MODE_CONFIGS: Record<string, ModeConfig> = {
+const MODE_CONFIGS: Record<string, GvgModeConfig> = {
   attack: {
     category: 'attack',
     title_en: 'GVG Attack',
