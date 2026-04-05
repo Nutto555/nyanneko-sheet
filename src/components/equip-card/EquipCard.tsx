@@ -32,7 +32,7 @@ interface EquipCardProps {
 
 export default function EquipCard({ entry }: EquipCardProps) {
   const { character, team_context, skill_1, basic_attack, skill_2, passive } = entry;
-  const portraitUrl = safeImageUrl(character.image_url);
+  void safeImageUrl(character.image_url);
 
   const rows: { label_en: string; label_th: string; text?: string }[] = [
     { label_en: 'Basic', label_th: 'โจมตีพื้นฐาน', text: basic_attack },

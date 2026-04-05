@@ -4,7 +4,7 @@
       "name_en": "Guan Yu",
       "name_th": "กวนอู",
       "slug": "guan-yu",
-      "role": "tank",
+      "role": "guardian",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_279.jpg",
       "notes": "",
@@ -36,7 +36,7 @@
       "name_en": "Kris",
       "name_th": "คริส",
       "slug": "kris",
-      "role": "attack",
+      "role": "hunter",
       "type": "เบ็ดเสร็จ",
       "image_url": "/images/characters/cellImage_333587538_309.jpg",
       "notes": "จุดอ่อน / ป้องกัน / HP",
@@ -68,7 +68,7 @@
       "name_en": "Cleo",
       "name_th": "คลีโอ",
       "slug": "cleo",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_139.jpg",
       "notes": "",
@@ -100,7 +100,7 @@
       "name_en": "Kagura",
       "name_th": "คางูระ",
       "slug": "kagura",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_46.jpg",
       "notes": "",
@@ -132,7 +132,7 @@
       "name_en": "Charon",
       "name_th": "คารอน",
       "slug": "charon",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_372.jpg",
       "notes": "",
@@ -164,7 +164,7 @@
       "name_en": "Karin",
       "name_th": "คาริน",
       "slug": "karin",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_364.jpg",
       "notes": "",
@@ -196,7 +196,7 @@
       "name_en": "Karma",
       "name_th": "คาร์ม่า",
       "slug": "karma",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_289.jpg",
       "notes": "",
@@ -228,7 +228,7 @@
       "name_en": "Kiriel",
       "name_th": "คิริเอล",
       "slug": "kiriel",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_167.jpg",
       "notes": "",
@@ -260,7 +260,7 @@
       "name_en": "Jin",
       "name_th": "จิน",
       "slug": "jin",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_12.jpg",
       "notes": "",
@@ -292,7 +292,7 @@
       "name_en": "Jupy",
       "name_th": "จูพี้",
       "slug": "jupy",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_70.jpg",
       "notes": "",
@@ -324,7 +324,7 @@
       "name_en": "Juri",
       "name_th": "จูริ",
       "slug": "juri",
-      "role": "attack",
+      "role": "avenger",
       "type": "ทีมสปีด ดับสูญ (เกมเร็ว)",
       "image_url": "/images/characters/cellImage_333587538_127.jpg",
       "notes": "",
@@ -356,7 +356,7 @@
       "name_en": "Zhao Yun",
       "name_th": "จูล่ง",
       "slug": "zhao-yun",
-      "role": "attack",
+      "role": "avenger",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_41.jpg",
       "notes": "",
@@ -388,7 +388,7 @@
       "name_en": "Chancellor",
       "name_th": "ชานชะเลอร์",
       "slug": "chancellor",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_251.jpg",
       "notes": "",
@@ -420,7 +420,7 @@
       "name_en": "Sarah",
       "name_th": "ซาร่า",
       "slug": "sarah",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_404.jpg",
       "notes": "",
@@ -452,7 +452,7 @@
       "name_en": "Silvesta",
       "name_th": "ซิลเวสต้า",
       "slug": "silvesta",
-      "role": "attack",
+      "role": "assassin",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_215.jpg",
       "notes": "อัตราคริ 75%-100%, จุดอ่อน 50%-75%, ความเร็ว เท่าที่ได้",
@@ -484,7 +484,7 @@
       "name_en": "Sylvia",
       "name_th": "ซิลเวีย",
       "slug": "sylvia",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_151.jpg",
       "notes": "",
@@ -516,7 +516,7 @@
       "name_en": "Sieg",
       "name_th": "ซีค",
       "slug": "sieg",
-      "role": "tank",
+      "role": "guardian",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_263.jpg",
       "notes": "",
@@ -548,7 +548,7 @@
       "name_en": "Sun Wukong",
       "name_th": "ซุนหงอคง",
       "slug": "sun-wukong",
-      "role": "attack",
+      "role": "hunter",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_271.jpg",
       "notes": "จุดอ่อน 91%-100%, บล็อค 100%, ลดดาเมจ 10%-26%, โจมตี เท่าที่ได้",
@@ -580,7 +580,7 @@
       "name_en": "Taka",
       "name_th": "ทากะ",
       "slug": "taka",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_4.jpg",
       "notes": "",
@@ -612,7 +612,7 @@
       "name_en": "Thrud",
       "name_th": "ธรูด",
       "slug": "thrud",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_285.jpg",
       "notes": "",
@@ -644,7 +644,7 @@
       "name_en": "Knox",
       "name_th": "น๊อกซ์",
       "slug": "knox",
-      "role": "tank",
+      "role": "guardian",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_348.jpg",
       "notes": "",
@@ -676,7 +676,7 @@
       "name_en": "Ballista",
       "name_th": "บาลิสต้า",
       "slug": "ballista",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_31.jpg",
       "notes": "",
@@ -708,7 +708,7 @@
       "name_en": "Biscuit",
       "name_th": "บิสกิต",
       "slug": "biscuit",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_376.jpg",
       "notes": "",
@@ -740,7 +740,7 @@
       "name_en": "Pascal",
       "name_th": "ปาสคาล",
       "slug": "pascal",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_183.jpg",
       "notes": "",
@@ -772,7 +772,7 @@
       "name_en": "Byakko",
       "name_th": "พยัคฆ์เมฆา",
       "slug": "byakko",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_91.jpg",
       "notes": "",
@@ -804,7 +804,7 @@
       "name_en": "Pallanus",
       "name_th": "พาลานอส",
       "slug": "pallanus",
-      "role": "defense",
+      "role": "holy_knight",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_259.jpg",
       "notes": "โจมตี 2700, อัตราคริ 78%-100%, บล็อค เท่าที่ได้, ลดดาเมจ 42%",
@@ -836,7 +836,7 @@
       "name_en": "Bidam",
       "name_th": "พีดัม",
       "slug": "bidam",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_50.jpg",
       "notes": "",
@@ -868,7 +868,7 @@
       "name_en": "Milia",
       "name_th": "มิเลีย",
       "slug": "milia",
-      "role": "attack",
+      "role": "assassin",
       "type": "ทีมเวทดาเมจ / ทีมเวทโควิด (ดันสปีด)",
       "image_url": "/images/characters/cellImage_333587538_143.jpg",
       "notes": "ป้องกัน / HP",
@@ -900,7 +900,7 @@
       "name_en": "Miho",
       "name_th": "มิโฮะ",
       "slug": "miho",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_207.jpg",
       "notes": "",
@@ -932,7 +932,7 @@
       "name_en": "Yeonhee",
       "name_th": "ยอนฮี",
       "slug": "yeonhee",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_191.jpg",
       "notes": "",
@@ -964,7 +964,7 @@
       "name_en": "Yushin",
       "name_th": "ยูชิน",
       "slug": "yushin",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_171.jpg",
       "notes": "",
@@ -996,7 +996,7 @@
       "name_en": "Yuri",
       "name_th": "ยูริ",
       "slug": "yuri",
-      "role": "support",
+      "role": "commander",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_199.jpg",
       "notes": "",
@@ -1028,7 +1028,7 @@
       "name_en": "Yui",
       "name_th": "ยูอิ",
       "slug": "yui",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_388.jpg",
       "notes": "",
@@ -1060,7 +1060,7 @@
       "name_en": "Rachel",
       "name_th": "ราเชล",
       "slug": "rachel",
-      "role": "attack",
+      "role": "hunter",
       "type": "ตีบอส",
       "image_url": "/images/characters/cellImage_333587538_297.jpg",
       "notes": "อัตราคริ 75%-100%, จุดอ่อน เท่าที่ได้",
@@ -1092,7 +1092,7 @@
       "name_en": "RIN",
       "name_th": "ริน",
       "slug": "rin",
-      "role": "attack",
+      "role": "avenger",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_179.jpg",
       "notes": "อัตราคริ 67%, จุดอ่อน 75%-100%, โจมตี 3850, ความเร็ว เท่าที่ได้",
@@ -1124,7 +1124,7 @@
       "name_en": "Reina",
       "name_th": "รีน่า",
       "slug": "reina",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_392.jpg",
       "notes": "",
@@ -1156,7 +1156,7 @@
       "name_en": "Lania",
       "name_th": "ลาเนีย",
       "slug": "lania",
-      "role": "support",
+      "role": "commander",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_267.jpg",
       "notes": "",
@@ -1188,7 +1188,7 @@
       "name_en": "Lu Bu",
       "name_th": "ลิโป้",
       "slug": "lu-bu",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_62.jpg",
       "notes": "",
@@ -1220,7 +1220,7 @@
       "name_en": "Lee",
       "name_th": "ลี",
       "slug": "lee",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_352.jpg",
       "notes": "",
@@ -1252,7 +1252,7 @@
       "name_en": "Leo",
       "name_th": "ลีโอ",
       "slug": "leo",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_58.jpg",
       "notes": "",
@@ -1284,7 +1284,7 @@
       "name_en": "Luc",
       "name_th": "ลุค",
       "slug": "luc",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_336.jpg",
       "notes": "",
@@ -1316,7 +1316,7 @@
       "name_en": "Lucy",
       "name_th": "ลูซี่",
       "slug": "lucy",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_380.jpg",
       "notes": "",
@@ -1348,7 +1348,7 @@
       "name_en": "Rudy",
       "name_th": "ลูดี้",
       "slug": "rudy",
-      "role": "tank",
+      "role": "guardian",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_317.jpg",
       "notes": "ลดดาเมจ 26%-42%, ต้านทานผล 50%-100%, บล็อค มากสุดเท่าที่ได้",
@@ -1380,7 +1380,7 @@
       "name_en": "Lully",
       "name_th": "ลูลี่",
       "slug": "lully",
-      "role": "support",
+      "role": "commander",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_147.jpg",
       "notes": "",
@@ -1412,7 +1412,7 @@
       "name_en": "Vanessa",
       "name_th": "วาเนสซา่",
       "slug": "vanessa",
-      "role": "attack",
+      "role": "hunter",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_227.jpg",
       "notes": "",
@@ -1444,7 +1444,7 @@
       "name_en": "Victoria",
       "name_th": "วิคตอเรีย",
       "slug": "victoria",
-      "role": "tank",
+      "role": "goalkeeper",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_243.jpg",
       "notes": "",
@@ -1476,7 +1476,7 @@
       "name_en": "Snipper",
       "name_th": "สนิปเปอร์",
       "slug": "snipper",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_54.jpg",
       "notes": "",
@@ -1508,7 +1508,7 @@
       "name_en": "Spike",
       "name_th": "สไปค์",
       "slug": "spike",
-      "role": "tank",
+      "role": "goalkeeper",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_301.jpg",
       "notes": "ลดดาเมจ 42%, ต้านทานผล 50%-100%, HP เท่าที่ได้, บล็อค มากสุดเท่าที่ได้",
@@ -1540,7 +1540,7 @@
       "name_en": "Ling Ling",
       "name_th": "หลิงหลิง",
       "slug": "ling-ling",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_187.jpg",
       "notes": "",
@@ -1572,7 +1572,7 @@
       "name_en": "Alice",
       "name_th": "อลิซ",
       "slug": "alice",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_384.jpg",
       "notes": "",
@@ -1604,7 +1604,7 @@
       "name_en": "Asura",
       "name_th": "อสุรา",
       "slug": "asura",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_255.jpg",
       "notes": "",
@@ -1636,7 +1636,7 @@
       "name_en": "Orly",
       "name_th": "ออร์ลี่",
       "slug": "orly",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_400.jpg",
       "notes": "",
@@ -1668,7 +1668,7 @@
       "name_en": "Aquila",
       "name_th": "อากีลา",
       "slug": "aquila",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_332.jpg",
       "notes": "",
@@ -1700,7 +1700,7 @@
       "name_en": "Aragon",
       "name_th": "อารากอน",
       "slug": "aragon",
-      "role": "tank",
+      "role": "goalkeeper",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_322.jpg",
       "notes": "",
@@ -1732,7 +1732,7 @@
       "name_en": "Evan",
       "name_th": "อีวาน",
       "slug": "evan",
-      "role": "tank",
+      "role": "guardian",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_340.jpg",
       "notes": "",
@@ -1764,7 +1764,7 @@
       "name_en": "Gelidus",
       "name_th": "เกลลิดัส",
       "slug": "gelidus",
-      "role": "tank",
+      "role": "goalkeeper",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_235.jpg",
       "notes": "ป้องกัน 1650, บล็อค 67%, ลดดาเมจ 26%-42%, ต้านทานผล เท่าที่ได้",
@@ -1796,7 +1796,7 @@
       "name_en": "Jane",
       "name_th": "เจน",
       "slug": "jane",
-      "role": "tank",
+      "role": "goalkeeper",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_99.jpg",
       "notes": "",
@@ -1828,7 +1828,7 @@
       "name_en": "Jave",
       "name_th": "เจฟ",
       "slug": "jave",
-      "role": "attack",
+      "role": "avenger",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_305.jpg",
       "notes": "โจมตี 3300, ลดดาเมจ 32%, บล็อค มากสุดเท่าที่ได้",
@@ -1860,7 +1860,7 @@
       "name_en": "Sera",
       "name_th": "เซร่า",
       "slug": "sera",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_163.jpg",
       "notes": "",
@@ -1892,7 +1892,7 @@
       "name_en": "Shane",
       "name_th": "เซอิน",
       "slug": "shane",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_19.jpg",
       "notes": "",
@@ -1917,7 +1917,7 @@
       "name_en": "Daisy",
       "name_th": "เดซี่",
       "slug": "daisy",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_195.jpg",
       "notes": "",
@@ -1949,7 +1949,7 @@
       "name_en": "Dellons",
       "name_th": "เดลโลนส์",
       "slug": "dellons",
-      "role": "support",
+      "role": "shaman",
       "type": "แบกสปีดทีม",
       "image_url": "/images/characters/cellImage_333587538_119.jpg",
       "notes": "",
@@ -1981,7 +1981,7 @@
       "name_en": "Diaochan",
       "name_th": "เตียวเสี้ยน",
       "slug": "diaochan",
-      "role": "attack",
+      "role": "avenger",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_360.jpg",
       "notes": "",
@@ -2013,7 +2013,7 @@
       "name_en": "Nia",
       "name_th": "เนีย",
       "slug": "nia",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_239.jpg",
       "notes": "",
@@ -2045,7 +2045,7 @@
       "name_en": "Ben",
       "name_th": "เบน",
       "slug": "ben",
-      "role": "tank",
+      "role": "goalkeeper",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_211.jpg",
       "notes": "",
@@ -2077,7 +2077,7 @@
       "name_en": "Bellika",
       "name_th": "เบลลีก้า",
       "slug": "bellika",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_131.jpg",
       "notes": "",
@@ -2109,7 +2109,7 @@
       "name_en": "Platin",
       "name_th": "เพลตัน",
       "slug": "platin",
-      "role": "attack",
+      "role": "hunter",
       "type": "ทีมกาย / ทีมเวท",
       "image_url": "/images/characters/cellImage_333587538_368.jpg",
       "notes": "อัตราคริ 50%-100%, จุดอ่อน 75%-100%, โจมตี มากสุดเท่าที่ได้",
@@ -2141,7 +2141,7 @@
       "name_en": "Freyja",
       "name_th": "เฟรยา",
       "slug": "freyja",
-      "role": "attack",
+      "role": "hunter",
       "type": "ทั่วไป",
       "image_url": "/images/characters/cellImage_333587538_155.jpg",
       "notes": "จุดอ่อน 100%, บล็อค 0%-40%, ลดดาเมจ 16%-32%",
@@ -2173,7 +2173,7 @@
       "name_en": "Feng Yan",
       "name_th": "เฟิงเยี่ยน",
       "slug": "feng-yan",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_22.jpg",
       "notes": "",
@@ -2198,7 +2198,7 @@
       "name_en": "May",
       "name_th": "เมย์",
       "slug": "may",
-      "role": "support",
+      "role": "commander",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_107.jpg",
       "notes": "",
@@ -2230,7 +2230,7 @@
       "name_en": "Mercure",
       "name_th": "เมลคีร์",
       "slug": "mercure",
-      "role": "attack",
+      "role": "assassin",
       "type": "สายเร็ว",
       "image_url": "/images/characters/cellImage_333587538_203.jpg",
       "notes": "โจมตี",
@@ -2262,7 +2262,7 @@
       "name_en": "Reginleif",
       "name_th": "เรกินเลฟ",
       "slug": "reginleif",
-      "role": "attack",
+      "role": "avenger",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_231.jpg",
       "notes": "",
@@ -2294,7 +2294,7 @@
       "name_en": "Ray",
       "name_th": "เรย์",
       "slug": "ray",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_25.jpg",
       "notes": "",
@@ -2326,7 +2326,7 @@
       "name_en": "Xiao",
       "name_th": "เสี่ยว",
       "slug": "xiao",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_86.jpg",
       "notes": "",
@@ -2358,7 +2358,7 @@
       "name_en": "Xiao Qiao",
       "name_th": "เสี่ยวเฉียว",
       "slug": "xiao-qiao",
-      "role": "support",
+      "role": "commander",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_219.jpg",
       "notes": "",
@@ -2390,7 +2390,7 @@
       "name_en": "Ace",
       "name_th": "เอซ",
       "slug": "ace",
-      "role": "support",
+      "role": "commander",
       "type": "ซัพพอร์ต",
       "image_url": "/images/characters/cellImage_333587538_313.jpg",
       "notes": "ลดดาเมจ 0%-32%, บล็อค เท่าที่ได้, โจมตี เท่าที่ได้",
@@ -2422,7 +2422,7 @@
       "name_en": "Emilia",
       "name_th": "เอมิเลีย",
       "slug": "emilia",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_66.jpg",
       "notes": "",
@@ -2454,7 +2454,7 @@
       "name_en": "Elisia",
       "name_th": "เอลิเซีย",
       "slug": "elisia",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_247.jpg",
       "notes": "",
@@ -2486,7 +2486,7 @@
       "name_en": "Espada",
       "name_th": "เอสปาด้า",
       "slug": "espada",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_159.jpg",
       "notes": "",
@@ -2518,7 +2518,7 @@
       "name_en": "Ariel",
       "name_th": "เอเรียล",
       "slug": "ariel",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_135.jpg",
       "notes": "",
@@ -2550,7 +2550,7 @@
       "name_en": "Heavenia",
       "name_th": "เฮฟเว่นเนีย",
       "slug": "heavenia",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_8.jpg",
       "notes": "",
@@ -2582,7 +2582,7 @@
       "name_en": "Hellenia",
       "name_th": "เฮเลเนีย",
       "slug": "hellenia",
-      "role": "tank",
+      "role": "guardian",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_327.jpg",
       "notes": "",
@@ -2614,7 +2614,7 @@
       "name_en": "Catty",
       "name_th": "แคทตี้",
       "slug": "catty",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_123.jpg",
       "notes": "",
@@ -2646,7 +2646,7 @@
       "name_en": "Teo",
       "name_th": "แทโอ",
       "slug": "teo",
-      "role": "attack",
+      "role": "avenger",
       "type": "C6 ทีมสปีด",
       "image_url": "/images/characters/cellImage_333587538_111.jpg",
       "notes": "โจมตี มากสุดเท่าที่ได้",
@@ -2678,7 +2678,7 @@
       "name_en": "Black Rose",
       "name_th": "แบล็คโรส",
       "slug": "black-rose",
-      "role": "attack",
+      "role": "hunter",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_115.jpg",
       "notes": "",
@@ -2710,7 +2710,7 @@
       "name_en": "Randgrid",
       "name_th": "แรนด์กริด",
       "slug": "randgrid",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_95.jpg",
       "notes": "",
@@ -2742,7 +2742,7 @@
       "name_en": "Redgrid",
       "name_th": "แร็ดกริด",
       "slug": "redgrid",
-      "role": "support",
+      "role": "balancer",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_344.jpg",
       "notes": "",
@@ -2774,7 +2774,7 @@
       "name_en": "Colt",
       "name_th": "โคลท์",
       "slug": "colt",
-      "role": "attack",
+      "role": "hunter",
       "type": "ทีมสปีด",
       "image_url": "/images/characters/cellImage_333587538_103.jpg",
       "notes": "โจมตี",
@@ -2806,7 +2806,7 @@
       "name_en": "Chloe",
       "name_th": "โคลอี้",
       "slug": "chloe",
-      "role": "support",
+      "role": "shaman",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_396.jpg",
       "notes": "",
@@ -2838,7 +2838,7 @@
       "name_en": "Joker",
       "name_th": "โจ๊กเกอร์",
       "slug": "joker",
-      "role": "attack",
+      "role": "assassin",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_223.jpg",
       "notes": "",
@@ -2870,7 +2870,7 @@
       "name_en": "Zoe",
       "name_th": "โซอี",
       "slug": "zoe",
-      "role": "support",
+      "role": "commander",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_36.jpg",
       "notes": "",
@@ -2902,7 +2902,7 @@
       "name_en": "Noho",
       "name_th": "โนโฮ",
       "slug": "noho",
-      "role": "support",
+      "role": "commander",
       "type": "",
       "image_url": "/images/characters/cellImage_333587538_175.jpg",
       "notes": "",
@@ -2929,469 +2929,675 @@
           "icon_url": "/images/characters/cellImage_333587538_178.jpg"
         }
       ]
-    },
-    {
-      "name_en": "Rosie",
-      "name_th": "โรซี่",
-      "slug": "rosie",
-      "role": "attack",
-      "type": "ทีมสปีดเดธ (เบ็ดเสร็จ)",
-      "image_url": "/images/characters/cellImage_333587538_356.jpg",
-      "notes": "",
-      "skills": [
-        {
-          "name": "Skill 1",
-          "name_th": "สกิล 1",
-          "cooldown": "",
-          "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_357.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_358.jpg"
-        },
-        {
-          "name": "Passive",
-          "name_th": "แพสซีฟ",
-          "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_359.jpg"
-        }
-      ]
-    },
-    {
-      "name_en": "Hoggin",
-      "name_th": "โฮกิ้น",
-      "slug": "hoggin",
-      "role": "tank",
-      "type": "",
-      "image_url": "/images/characters/cellImage_333587538_74.jpg",
-      "notes": "",
-      "skills": [
-        {
-          "name": "Skill 1",
-          "name_th": "สกิล 1",
-          "cooldown": "",
-          "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_75.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_76.jpg"
-        },
-        {
-          "name": "Passive",
-          "name_th": "แพสซีฟ",
-          "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_77.jpg"
-        }
-      ]
-    },
-    {
-      "name_en": "Kyle",
-      "name_th": "ไคล์",
-      "slug": "kyle",
-      "role": "attack",
-      "type": "",
-      "image_url": "/images/characters/cellImage_333587538_16.jpg",
-      "notes": "",
-      "skills": [
-        {
-          "name": "Skill 1",
-          "name_th": "สกิล 1",
-          "cooldown": "",
-          "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_17.jpg"
-        },
-        {
-          "name": "Passive",
-          "name_th": "แพสซีฟ",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_18.jpg"
-        }
-      ]
-    },
-    {
-      "name_en": "Bai Long",
-      "name_th": "ไป๋หลง",
-      "slug": "bai-long",
-      "role": "attack",
-      "type": "",
-      "image_url": "/images/characters/cellImage_333587538_82.jpg",
-      "notes": "",
-      "skills": [
-        {
-          "name": "Skill 1",
-          "name_th": "สกิล 1",
-          "cooldown": "",
-          "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_83.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_84.jpg"
-        },
-        {
-          "name": "Passive",
-          "name_th": "แพสซีฟ",
-          "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_85.jpg"
-        }
-      ]
-    },
-    {
-      "name_en": "Bai Jiao",
-      "name_th": "ไป๋เจียว",
-      "slug": "bai-jiao",
-      "role": "support",
-      "type": "",
-      "image_url": "/images/characters/cellImage_333587538_275.jpg",
-      "notes": "",
-      "skills": [
-        {
-          "name": "Skill 1",
-          "name_th": "สกิล 1",
-          "cooldown": "",
-          "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_276.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_277.jpg"
-        },
-        {
-          "name": "Passive",
-          "name_th": "แพสซีฟ",
-          "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_278.jpg"
-        }
-      ]
-    },
-    {
-      "name_en": "Fai",
-      "name_th": "ไพร์",
-      "slug": "fai",
-      "role": "support",
-      "type": "ทั่วไป / ซัพพอร์ต",
-      "image_url": "/images/characters/cellImage_333587538_0.jpg",
-      "notes": "ความเร็ว มากสุดเท่าที่ได้, บล็อคเท่าที่ได้ (ใช้อาวุธผลเข้าเป้า ถ้าเจอทีมถึกเยอะ)",
-      "skills": [
-        {
-          "name": "Skill 1",
-          "name_th": "สกิล 1",
-          "cooldown": "",
-          "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_1.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_2.jpg"
-        },
-        {
-          "name": "Passive",
-          "name_th": "แพสซีฟ",
-          "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_3.jpg"
-        }
-      ]
-    },
-    {
-      "name_en": "Ryan",
-      "name_th": "ไรอัน",
-      "slug": "ryan",
-      "role": "tank",
-      "type": "",
-      "image_url": "/images/characters/cellImage_333587538_78.jpg",
-      "notes": "",
-      "skills": [
-        {
-          "name": "Skill 1",
-          "name_th": "สกิล 1",
-          "cooldown": "",
-          "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_79.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_80.jpg"
-        },
-        {
-          "name": "Passive",
-          "name_th": "แพสซีฟ",
-          "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_81.jpg"
-        }
-      ]
-    },
-    {
-      "name_en": "Eileen",
-      "name_th": "ไอลีน",
-      "slug": "eileen",
-      "role": "attack",
-      "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_293.jpg",
-      "notes": "ความเร็ว มากสุดเท่าที่ได้ (ถ้าของไม่ดีใส่ยำเซ็ทแบกสปีดก่อนได้)",
-      "skills": [
-        {
-          "name": "Skill 1",
-          "name_th": "สกิล 1",
-          "cooldown": "⏳",
-          "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_294.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "⏳",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_295.jpg"
-        },
-        {
-          "name": "Passive",
-          "name_th": "แพสซีฟ",
-          "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_296.jpg"
-        }
-      ]
     }
   ],
   "team_compositions": [
     {
-      "name": "Physical Lubu",
-      "slug": "physical-lubu",
+      "name": "Speed Rush Team",
+      "slug": "speed-rush",
       "category": "attack",
-      "description": "Physical Lu Bu team - main attack formation",
-      "strategy_notes": "Skill: Freya top -> Regin top -> Freya bottom\nSpeed order: Melia > Reginleif > Freya (need some dmg to kill)",
-      "speed_requirement": "90++",
-      "tier": "S"
-    },
-    {
-      "name": "Defense Phy (Very Fast)",
-      "slug": "defense-phy-fast",
-      "category": "defense_phy",
-      "description": "Very fast physical defense (spd > 250)",
-      "strategy_notes": "ถ้ามั่นใจสปีด ใส่แหวนเกิดดีกว่า",
-      "speed_requirement": "250+",
-      "tier": "A"
-    },
-    {
-      "name": "Defense Mage",
-      "slug": "defense-mage",
-      "category": "defense_mage",
-      "description": "Mage team has to be fast only, Increase CD or Sleep first = Win",
-      "strategy_notes": "High speed 270++",
+      "description": "Fast attack team focused on speed and burst damage",
+      "strategy_notes": "Prioritize speed stats. Aim to move first and eliminate key targets.",
       "speed_requirement": "270++",
       "tier": "S"
     },
     {
-      "name": "Defense Tank (Slow Counter)",
-      "slug": "defense-tank-slow",
+      "name": "Tank Wall",
+      "slug": "tank-wall",
       "category": "defense_tank",
-      "description": "Slow variation (spd < 150) - wait to counter",
-      "strategy_notes": "Block <= 100",
-      "speed_requirement": "spd < 150",
-      "tier": "B"
+      "description": "Maximum survivability defense composition",
+      "strategy_notes": "Stack HP and DEF. Use damage reduction skills to outlast opponents.",
+      "speed_requirement": "> 200",
+      "tier": "A"
     },
     {
-      "name": "Defense Tank (Fast)",
-      "slug": "defense-tank-fast",
-      "category": "defense_tank",
-      "description": "Very fast variation (spd > 250)",
-      "strategy_notes": "Block <= 100",
-      "speed_requirement": "spd > 250",
+      "name": "Mage Burst",
+      "slug": "mage-burst",
+      "category": "attack",
+      "description": "Magic damage focused team with AoE potential",
+      "strategy_notes": "Focus on magic attack stats. Use AoE skills to clear enemy backline.",
+      "speed_requirement": "250++",
+      "tier": "S"
+    },
+    {
+      "name": "Hybrid Defense",
+      "slug": "hybrid-defense",
+      "category": "defense_hybrid",
+      "description": "Balanced defense team with counter-attack potential",
+      "strategy_notes": "Mix physical and magical defense. Include at least one healer.",
+      "speed_requirement": "> 220",
       "tier": "A"
+    },
+    {
+      "name": "Physical Rush",
+      "slug": "physical-rush",
+      "category": "attack",
+      "description": "Physical damage focused attack composition",
+      "strategy_notes": "Stack physical attack and penetration. Target enemy supports first.",
+      "speed_requirement": "260++",
+      "tier": "A"
+    },
+    {
+      "name": "Stall Defense",
+      "slug": "stall-defense",
+      "category": "defense_phy",
+      "description": "Physical defense stall composition",
+      "strategy_notes": "Focus on physical damage reduction and healing over time.",
+      "speed_requirement": "> 180",
+      "tier": "B"
     }
   ],
-  "team_builds": [
+  "pets": [
     {
-      "name": "Physical Lubu — Very Fast",
-      "slug": "attack-lubu-very-fast",
-      "category": "attack",
-      "speed_requirement": "Very Fast (spd > 250)",
-      "skill_order": "Skill: Lubu bottom → Lubu top → BnB bottom",
-      "speed_order": "Speed order: Amelia > BnB (need atk), Lubu (need some dmg to kill)",
-      "strategy_notes": "Speed carry, tough",
-      "tier": "S",
-      "members": [
-        { "slug": "lubu",   "position": 1, "stat_primary": "DEF/HP%",    "stat_secondary": "BLOCK/DMG%", "stat_target": "90++", "notes": "Speed carry, tough" },
-        { "slug": "bnb",    "position": 2, "stat_primary": "C.R./ATK%",  "stat_secondary": "ATK%",       "stat_target": "80++", "notes": "Focus: Wkness 100%, Atk, Crit" },
-        { "slug": "amelia", "position": 3, "stat_primary": "WKNESS%",    "stat_secondary": "ATK%",       "stat_target": "90++", "notes": "Speed carry, Wkness 100%" }
-      ]
+      "name_th": "ยอนจี",
+      "name_en": "Yonji",
+      "slug": "yonji",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_0.jpg"
     },
     {
-      "name": "Physical Lubu — Slow",
-      "slug": "attack-lubu-slow",
-      "category": "attack",
-      "speed_requirement": "Slow (spd < 150)",
-      "skill_order": "Skill: Lubu bottom → Lubu top → BnB bottom",
-      "speed_order": "Speed order: Amelia > BnB (High atk), Lubu (Build stat)",
-      "strategy_notes": "NEED GOOD RINGS (5* L Rings refined or many 6*)",
-      "tier": "A",
-      "members": [
-        { "slug": "lubu",   "position": 1, "stat_primary": "C.RATE%",     "stat_secondary": "ATK%",  "stat_target": "40-50", "notes": "Focus: Wkness 100%, Atk, Crit" },
-        { "slug": "bnb",    "position": 2, "stat_primary": "ATK%",         "stat_secondary": "CRIT%", "stat_target": "60-70", "notes": "Highest atk as possible for shield" },
-        { "slug": "amelia", "position": 3, "stat_primary": "C.DMG%/ATK%", "stat_secondary": "ATK%",  "stat_target": "40-50", "notes": "Focus: Wkness 100%, Atk, Crit" }
-      ]
+      "name_th": "อีรีน",
+      "name_en": "Irene",
+      "slug": "irene-pet",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_1.jpg"
     },
     {
-      "name": "Kris / Knox / Rosie",
-      "slug": "attack-kris-knox-rosie",
-      "category": "attack",
-      "speed_requirement": "Very Fast (spd > 250)",
-      "skill_order": "",
-      "speed_order": "",
-      "strategy_notes": "Focus: Wkness 100%, Atk, Crit as much as possible",
-      "tier": "A",
-      "members": [
-        { "slug": "kris",  "position": 1, "stat_primary": "C.R./ATK%", "stat_secondary": "ATK%",    "stat_target": "90++", "notes": "Focus: Wkness 100%" },
-        { "slug": "knox",  "position": 2, "stat_primary": "ATK%",      "stat_secondary": "WKNESS%", "stat_target": "80++", "notes": "Highest atk" },
-        { "slug": "rosie", "position": 3, "stat_primary": "WKNESS%",   "stat_secondary": "ATK%",    "stat_target": "90++", "notes": "Focus: Wkness 100%" }
-      ]
+      "name_th": "วินดี้",
+      "name_en": "Windy",
+      "slug": "windy",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_2.jpg"
     },
     {
-      "name": "Physical Lubu — Very Fast (Kagura variant)",
-      "slug": "defense-phy-lubu-kagura-fast",
-      "category": "defense_phy",
-      "speed_requirement": "Very Fast (spd > 250)",
-      "skill_order": "Skill: Lubu bottom → Lubu top → BnB bottom",
-      "speed_order": "Speed order: Kagura > BnB (need atk), Lubu (need some dmg to kill)",
-      "strategy_notes": "Speed main, highest atk for health",
-      "tier": "S",
-      "members": [
-        { "slug": "lubu",   "position": 1, "stat_primary": "C.RATE%",    "stat_secondary": "ATK%",  "stat_target": "70++",  "notes": "Focus: Wkness 100%, Atk, Crit" },
-        { "slug": "bnb",    "position": 2, "stat_primary": "ATK%",        "stat_secondary": "CRIT%", "stat_target": "100++", "notes": "Speed main, highest atk" },
-        { "slug": "kagura", "position": 3, "stat_primary": "C.DMG%/ATK%","stat_secondary": "ATK%",  "stat_target": "90++",  "notes": "Focus: Wkness 100%, Atk, Crit" }
-      ]
+      "name_th": "ยู",
+      "name_en": "Yu",
+      "slug": "yu-pet",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_3.jpg"
     },
     {
-      "name": "Physical Lubu — Slow (Kagura variant)",
-      "slug": "defense-phy-lubu-kagura-slow",
-      "category": "defense_phy",
-      "speed_requirement": "Slow (spd < 150)",
-      "skill_order": "Skill: Lubu bottom → Lubu top → BnB bottom",
-      "speed_order": "Speed order: Kagura > BnB (need atk), Lubu (need some dmg to kill)",
-      "strategy_notes": "NEED GOOD RINGS (5* L Rings refined or many 6*)",
-      "tier": "A",
-      "members": [
-        { "slug": "lubu",   "position": 1, "stat_primary": "C.RATE%",    "stat_secondary": "ATK%",  "stat_target": "30-40", "notes": "Focus: Wkness 100%, Atk, Crit" },
-        { "slug": "bnb",    "position": 2, "stat_primary": "ATK%",        "stat_secondary": "CRIT%", "stat_target": "60++",  "notes": "Highest atk as possible for shield" },
-        { "slug": "kagura", "position": 3, "stat_primary": "C.DMG%/ATK%","stat_secondary": "ATK%",  "stat_target": "40-50", "notes": "Focus: Wkness 100%, Atk, Crit" }
-      ]
+      "name_th": "เมลแปร์โรว์",
+      "name_en": "Melperrow",
+      "slug": "melperrow",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_4.jpg"
     },
     {
-      "name": "Vanessa / Freyja / Melia — Very Fast",
-      "slug": "defense-mage-vanessa-fast",
-      "category": "defense_mage",
-      "speed_requirement": "Very Fast (spd > 270)",
-      "skill_order": "Skill: Vanessa bottom → Freya top → Freya bottom",
-      "speed_order": "Speed order: Melia, Vanessa > Freya (need some dmg to kill)",
-      "strategy_notes": "Mage team has to be fast only. Increase CD or Sleep first = Win",
-      "tier": "S",
-      "members": [
-        { "slug": "vanessa", "position": 1, "stat_primary": "DEF/HP%",   "stat_secondary": "BLOCK/DMG%", "stat_target": "90++", "notes": "Speed carry, tough" },
-        { "slug": "freyja",  "position": 2, "stat_primary": "C.R./ATK%", "stat_secondary": "ATK%",       "stat_target": "80++", "notes": "Focus: Wkness 100%, Atk, Crit" },
-        { "slug": "milia",   "position": 3, "stat_primary": "DEF%",      "stat_secondary": "BLOCK%",     "stat_target": "90++", "notes": "Speed carry, EHR 50-65%" }
-      ]
+      "name_th": "คาร์ม",
+      "name_en": "Karm",
+      "slug": "karm",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_5.jpg"
     },
     {
-      "name": "Diaochan / Freyja / Melia — Very Fast",
-      "slug": "defense-mage-diao-fast",
-      "category": "defense_mage",
-      "speed_requirement": "Very Fast (spd > 270)",
-      "skill_order": "Skill: Diao top → Freya top → Freya bottom",
-      "speed_order": "Speed order: Melia, Diaochan > Freya (need some dmg to kill)",
-      "strategy_notes": "High speed 270++",
-      "tier": "S",
-      "members": [
-        { "slug": "diaochan", "position": 1, "stat_primary": "DEF/HP%",   "stat_secondary": "BLOCK/DMG%", "stat_target": "90++", "notes": "Speed carry, tough" },
-        { "slug": "freyja",   "position": 2, "stat_primary": "C.R./ATK%", "stat_secondary": "ATK%",       "stat_target": "80++", "notes": "Focus: Wkness 100%, Atk, Crit" },
-        { "slug": "milia",    "position": 3, "stat_primary": "HP%",        "stat_secondary": "BLOCK%",     "stat_target": "90++", "notes": "Speed carry, EHR based on HP%" }
-      ]
+      "name_th": "อังเจล",
+      "name_en": "Angel",
+      "slug": "angel-pet",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_6.jpg"
     },
     {
-      "name": "Reginleif / Freyja / Melia — Very Fast",
-      "slug": "defense-mage-regin-fast",
-      "category": "defense_mage",
-      "speed_requirement": "Very Fast (spd > 270)",
-      "skill_order": "Skill: Freya top → Regin top → Freya bottom",
-      "speed_order": "Speed order: Melia > Reginleif > Freya (need some dmg to kill)",
-      "strategy_notes": "High speed 270++",
-      "tier": "A",
-      "members": [
-        { "slug": "freyja",     "position": 1, "stat_primary": "DEF/HP%",   "stat_secondary": "BLOCK/DMG%", "stat_target": "90++", "notes": "Speed carry, tough" },
-        { "slug": "reginleif",  "position": 2, "stat_primary": "C.R./ATK%", "stat_secondary": "ATK%",       "stat_target": "80++", "notes": "Focus: Wkness 100%, Atk, Crit" },
-        { "slug": "milia",      "position": 3, "stat_primary": "WKNESS%",   "stat_secondary": "ATK%",       "stat_target": "90++", "notes": "Speed carry, Wkness 100%" }
-      ]
+      "name_th": "ไพค์",
+      "name_en": "Pike",
+      "slug": "pike-pet",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_7.jpg"
     },
     {
-      "name": "Sun Wukong / Radgrid / Elysia — Slow",
-      "slug": "defense-tank-wk-slow",
-      "category": "defense_tank",
-      "speed_requirement": "Slow (spd < 150)",
-      "skill_order": "Skill: WK top → Elysia bottom → WK bottom",
-      "speed_order": "Speed order: WK > Radgrid, Elysia",
-      "strategy_notes": "High on atk, 100% block with 16% DTR. Gelidus t6 is op",
-      "tier": "S",
-      "members": [
-        { "slug": "sun-wukong", "position": 1, "stat_primary": "WKNESS%", "stat_secondary": "DTR%", "stat_target": "-",  "notes": "High on atk, 100% block with 16% DTR" },
-        { "slug": "radgrid",    "position": 2, "stat_primary": "DEF%",    "stat_secondary": "DTR%", "stat_target": "-",  "notes": "High on def, 100% block with 16-32% DTR" },
-        { "slug": "elysia",     "position": 3, "stat_primary": "HP%",     "stat_secondary": "DTR%", "stat_target": "-",  "notes": "EHR 30-50%, Block 100% (inc pet) with DTR 16-32%" }
-      ]
+      "name_th": "เดลโล่",
+      "name_en": "Dello",
+      "slug": "dello",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_8.jpg"
     },
     {
-      "name": "Sun Wukong / Gelidus / Radgrid — Slow",
-      "slug": "defense-tank-wk-gelidus-slow",
-      "category": "defense_tank",
-      "speed_requirement": "Slow (spd < 150)",
-      "skill_order": "Skill: WK top → Gelidus top → WK bottom",
-      "speed_order": "Speed order: Gelidus > WK > Radgrid",
-      "strategy_notes": "Gelidus t6 is op. Avoid death",
-      "tier": "S",
-      "members": [
-        { "slug": "sun-wukong", "position": 1, "stat_primary": "WKNESS%", "stat_secondary": "DTR%",   "stat_target": "-", "notes": "High on atk, 100% block with 16% DTR" },
-        { "slug": "gelidus",    "position": 2, "stat_primary": "DEF%",    "stat_secondary": "BLOCK%", "stat_target": "-", "notes": "High on def, 100% block with 16-32% DTR" },
-        { "slug": "radgrid",    "position": 3, "stat_primary": "DEF%",    "stat_secondary": "DTR%",   "stat_target": "-", "notes": "Block 67% (+ passive to 100) with DTR 32%" }
-      ]
+      "name_th": "รีเชล",
+      "name_en": "Richel",
+      "slug": "richel",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_9.jpg"
     },
     {
-      "name": "Aragon / Pallanus / Pallanus — Flex",
-      "slug": "defense-tank-aragon-pallanus",
-      "category": "defense_tank",
-      "speed_requirement": "Fast (spd 240++) or Slow",
-      "skill_order": "Skill: Aragon top → Pallanus top → Pallanus bottom",
-      "speed_order": "",
-      "strategy_notes": "Either very fast to counter ryan/mage (Speed 240++) or slow to counter death",
-      "tier": "A",
-      "members": [
-        { "slug": "aragon",   "position": 1, "stat_primary": "DEF%",    "stat_secondary": "DTR%",        "stat_target": "-", "notes": "Block 100% with DTR 32%, MUST: Enhance passive" },
-        { "slug": "pallanus", "position": 2, "stat_primary": "C.RATE%", "stat_secondary": "ATK%",        "stat_target": "-", "notes": "Crit rate 100%. If slow, prioritize DMG" },
-        { "slug": "pallanus", "position": 3, "stat_primary": "HP%",     "stat_secondary": "DTR/BLOCK%",  "stat_target": "-", "notes": "Block 100% with DTR 32%, MUST: Enhance passive" }
-      ]
+      "name_th": "ครี",
+      "name_en": "Kree",
+      "slug": "kree",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_10.jpg"
+    },
+    {
+      "name_th": "ดอว",
+      "name_en": "Daw",
+      "slug": "daw",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_11.jpg"
+    },
+    {
+      "name_th": "เอริ",
+      "name_en": "Eri",
+      "slug": "eri-pet",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_12.jpg"
+    },
+    {
+      "name_th": "มิค",
+      "name_en": "Mik",
+      "slug": "mik",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_13.jpg"
+    },
+    {
+      "name_th": "โน้ต",
+      "name_en": "Note",
+      "slug": "note-pet",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_14.jpg"
+    },
+    {
+      "name_th": "เชริ",
+      "name_en": "Cheri",
+      "slug": "cheri",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_15.jpg"
+    },
+    {
+      "name_th": "โครอา",
+      "name_en": "Kroa",
+      "slug": "kroa",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_16.jpg"
+    },
+    {
+      "name_th": "พารากอน",
+      "name_en": "Paragon",
+      "slug": "paragon",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_17.jpg"
+    },
+    {
+      "name_th": "เฮเลพิน",
+      "name_en": "Helepin",
+      "slug": "helepin",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_18.jpg"
+    },
+    {
+      "name_th": "เฟิงน้อย",
+      "name_en": "Little Feng",
+      "slug": "little-feng",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_19.jpg"
+    },
+    {
+      "name_th": "นีน่า",
+      "name_en": "Nina",
+      "slug": "nina-pet",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_20.jpg"
+    },
+    {
+      "name_th": "นิกิ",
+      "name_en": "Niki",
+      "slug": "niki",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_21.jpg"
+    },
+    {
+      "name_th": "มิวมิว",
+      "name_en": "Mew Mew",
+      "slug": "mew-mew",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_22.jpg"
+    },
+    {
+      "name_th": "ถุ",
+      "name_en": "Thu",
+      "slug": "thu",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_23.jpg"
+    },
+    {
+      "name_th": "มีมิค",
+      "name_en": "Mimic",
+      "slug": "mimic",
+      "stars": 7,
+      "image_url": "pets/cellImage_1169396821_24.jpg"
+    }
+  ],
+  "rings": [
+    {
+      "name_en": "Ring 01",
+      "name_th": null,
+      "slug": "ring-01",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_25.jpg"
+    },
+    {
+      "name_en": "Ring 02",
+      "name_th": null,
+      "slug": "ring-02",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_26.jpg"
+    },
+    {
+      "name_en": "Ring 03",
+      "name_th": null,
+      "slug": "ring-03",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_27.jpg"
+    },
+    {
+      "name_en": "Ring 04",
+      "name_th": null,
+      "slug": "ring-04",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_28.jpg"
+    },
+    {
+      "name_en": "Ring 05",
+      "name_th": null,
+      "slug": "ring-05",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_29.jpg"
+    },
+    {
+      "name_en": "Ring 06",
+      "name_th": null,
+      "slug": "ring-06",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_30.jpg"
+    },
+    {
+      "name_en": "Ring 07",
+      "name_th": null,
+      "slug": "ring-07",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_31.jpg"
+    },
+    {
+      "name_en": "Ring 08",
+      "name_th": null,
+      "slug": "ring-08",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_32.jpg"
+    },
+    {
+      "name_en": "Ring 09",
+      "name_th": null,
+      "slug": "ring-09",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_33.jpg"
+    },
+    {
+      "name_en": "Ring 10",
+      "name_th": null,
+      "slug": "ring-10",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_34.jpg"
+    },
+    {
+      "name_en": "Ring 11",
+      "name_th": null,
+      "slug": "ring-11",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_35.jpg"
+    },
+    {
+      "name_en": "Ring 12",
+      "name_th": null,
+      "slug": "ring-12",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_36.jpg"
+    },
+    {
+      "name_en": "Ring 13",
+      "name_th": null,
+      "slug": "ring-13",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_37.jpg"
+    },
+    {
+      "name_en": "Ring 14",
+      "name_th": null,
+      "slug": "ring-14",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_38.jpg"
+    },
+    {
+      "name_en": "Ring 15",
+      "name_th": null,
+      "slug": "ring-15",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_39.jpg"
+    },
+    {
+      "name_en": "Ring 16",
+      "name_th": null,
+      "slug": "ring-16",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_40.jpg"
+    },
+    {
+      "name_en": "Ring 17",
+      "name_th": null,
+      "slug": "ring-17",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_41.jpg"
+    },
+    {
+      "name_en": "Ring 18",
+      "name_th": null,
+      "slug": "ring-18",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_42.jpg"
+    },
+    {
+      "name_en": "Ring 19",
+      "name_th": null,
+      "slug": "ring-19",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_43.jpg"
+    },
+    {
+      "name_en": "Ring 20",
+      "name_th": null,
+      "slug": "ring-20",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_44.jpg"
+    },
+    {
+      "name_en": "Ring 21",
+      "name_th": null,
+      "slug": "ring-21",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_45.jpg"
+    },
+    {
+      "name_en": "Ring 22",
+      "name_th": null,
+      "slug": "ring-22",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_46.jpg"
+    },
+    {
+      "name_en": "Ring 23",
+      "name_th": null,
+      "slug": "ring-23",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_47.jpg"
+    },
+    {
+      "name_en": "Ring 24",
+      "name_th": null,
+      "slug": "ring-24",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_48.jpg"
+    },
+    {
+      "name_en": "Ring 25",
+      "name_th": null,
+      "slug": "ring-25",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_49.jpg"
+    },
+    {
+      "name_en": "Ring 26",
+      "name_th": null,
+      "slug": "ring-26",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_50.jpg"
+    },
+    {
+      "name_en": "Ring 27",
+      "name_th": null,
+      "slug": "ring-27",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_51.jpg"
+    },
+    {
+      "name_en": "Ring 28",
+      "name_th": null,
+      "slug": "ring-28",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_52.jpg"
+    },
+    {
+      "name_en": "Ring 29",
+      "name_th": null,
+      "slug": "ring-29",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_53.jpg"
+    },
+    {
+      "name_en": "Ring 30",
+      "name_th": null,
+      "slug": "ring-30",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_54.jpg"
+    },
+    {
+      "name_en": "Ring 31",
+      "name_th": null,
+      "slug": "ring-31",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_55.jpg"
+    },
+    {
+      "name_en": "Ring 32",
+      "name_th": null,
+      "slug": "ring-32",
+      "stars": 7,
+      "image_url": "rings/cellImage_1169396821_56.jpg"
+    }
+  ],
+  "equipment_sets": [
+    {
+      "name_en": "Sword Set",
+      "name_th": "เซตดาบ",
+      "slug": "sword-set",
+      "description": "Attack-oriented equipment set"
+    },
+    {
+      "name_en": "Shield Set",
+      "name_th": "เซตโล่",
+      "slug": "shield-set",
+      "description": "Defense-oriented equipment set"
+    },
+    {
+      "name_en": "Target Set",
+      "name_th": "เซตเป้า",
+      "slug": "target-set",
+      "description": "Accuracy-oriented equipment set"
+    },
+    {
+      "name_en": "Heart Set",
+      "name_th": "เซตหัวใจ",
+      "slug": "heart-set",
+      "description": "HP-oriented equipment set"
+    },
+    {
+      "name_en": "Star Set",
+      "name_th": "เซตดาว",
+      "slug": "star-set",
+      "description": "Critical-oriented equipment set"
+    },
+    {
+      "name_en": "Music Set",
+      "name_th": "เซตโน้ต",
+      "slug": "music-set",
+      "description": "Speed-oriented equipment set"
+    },
+    {
+      "name_en": "Wing Set",
+      "name_th": "เซตปีก",
+      "slug": "wing-set",
+      "description": "Evasion-oriented equipment set"
+    },
+    {
+      "name_en": "Crown Set",
+      "name_th": "เซตมงกุฎ",
+      "slug": "crown-set",
+      "description": "Special equipment set"
+    },
+    {
+      "name_en": "Chalice Set",
+      "name_th": "เซตถ้วย",
+      "slug": "chalice-set",
+      "description": "Recovery-oriented equipment set"
+    }
+  ],
+  "equipment_items": [
+    {
+      "name_en": "Dragon Orb (Sword)",
+      "name_th": "ลูกแก้วมังกร",
+      "slug": "dragon-orb-sword",
+      "set_slug": "sword-set",
+      "slot": "weapon",
+      "image_url": "equipment/cellImage_1169396821_57.jpg"
+    },
+    {
+      "name_en": "Spiked Flail (Sword)",
+      "name_th": "กระบอง",
+      "slug": "spiked-flail-sword",
+      "set_slug": "sword-set",
+      "slot": "weapon",
+      "image_url": "equipment/cellImage_1169396821_59.jpg"
+    },
+    {
+      "name_en": "Spiked Flail (Shield)",
+      "name_th": "กระบอง",
+      "slug": "spiked-flail-shield",
+      "set_slug": "shield-set",
+      "slot": "weapon",
+      "image_url": "equipment/cellImage_1169396821_60.jpg"
+    },
+    {
+      "name_en": "Grimoire (Shield)",
+      "name_th": "หนังสือ",
+      "slug": "grimoire-shield",
+      "set_slug": "shield-set",
+      "slot": "armor",
+      "image_url": "equipment/cellImage_1169396821_62.jpg"
+    },
+    {
+      "name_en": "Dragon Armor (Shield)",
+      "name_th": "เกราะมังกร",
+      "slug": "dragon-armor-shield",
+      "set_slug": "shield-set",
+      "slot": "armor",
+      "image_url": "equipment/cellImage_1169396821_63.jpg"
+    },
+    {
+      "name_en": "Dragon Orb (Target)",
+      "name_th": "ลูกแก้วมังกร",
+      "slug": "dragon-orb-target",
+      "set_slug": "target-set",
+      "slot": "weapon",
+      "image_url": "equipment/cellImage_1169396821_65.jpg"
+    },
+    {
+      "name_en": "Dragon Orb (Heart)",
+      "name_th": "ลูกแก้วมังกร",
+      "slug": "dragon-orb-heart",
+      "set_slug": "heart-set",
+      "slot": "weapon",
+      "image_url": "equipment/cellImage_1169396821_66.jpg"
+    },
+    {
+      "name_en": "Spiked Flail (Heart)",
+      "name_th": "กระบอง",
+      "slug": "spiked-flail-heart",
+      "set_slug": "heart-set",
+      "slot": "weapon",
+      "image_url": "equipment/cellImage_1169396821_68.jpg"
+    },
+    {
+      "name_en": "Spiked Flail (Star)",
+      "name_th": "กระบอง",
+      "slug": "spiked-flail-star",
+      "set_slug": "star-set",
+      "slot": "weapon",
+      "image_url": "equipment/cellImage_1169396821_69.jpg"
+    },
+    {
+      "name_en": "Grimoire (Star)",
+      "name_th": "หนังสือ",
+      "slug": "grimoire-star",
+      "set_slug": "star-set",
+      "slot": "armor",
+      "image_url": "equipment/cellImage_1169396821_71.jpg"
+    },
+    {
+      "name_en": "Spiked Flail (Music)",
+      "name_th": "กระบอง",
+      "slug": "spiked-flail-music",
+      "set_slug": "music-set",
+      "slot": "weapon",
+      "image_url": "equipment/cellImage_1169396821_72.jpg"
+    },
+    {
+      "name_en": "Grimoire (Music)",
+      "name_th": "หนังสือ",
+      "slug": "grimoire-music",
+      "set_slug": "music-set",
+      "slot": "armor",
+      "image_url": "equipment/cellImage_1169396821_74.jpg"
+    },
+    {
+      "name_en": "Ice Dragon (Wing)",
+      "name_th": "มังกรน้ำแข็ง",
+      "slug": "ice-dragon-wing",
+      "set_slug": "wing-set",
+      "slot": "accessory",
+      "image_url": "equipment/cellImage_1169396821_75.jpg"
+    },
+    {
+      "name_en": "Fire Dragon (Wing)",
+      "name_th": "มังกรไฟ",
+      "slug": "fire-dragon-wing",
+      "set_slug": "wing-set",
+      "slot": "accessory",
+      "image_url": "equipment/cellImage_1169396821_77.jpg"
+    },
+    {
+      "name_en": "Ice Dragon (Crown)",
+      "name_th": "มังกรน้ำแข็ง",
+      "slug": "ice-dragon-crown",
+      "set_slug": "crown-set",
+      "slot": "accessory",
+      "image_url": "equipment/cellImage_1169396821_78.jpg"
+    },
+    {
+      "name_en": "Fire Dragon (Crown)",
+      "name_th": "มังกรไฟ",
+      "slug": "fire-dragon-crown",
+      "set_slug": "crown-set",
+      "slot": "accessory",
+      "image_url": "equipment/cellImage_1169396821_80.jpg"
+    },
+    {
+      "name_en": "Ice Dragon (Chalice)",
+      "name_th": "มังกรน้ำแข็ง",
+      "slug": "ice-dragon-chalice",
+      "set_slug": "chalice-set",
+      "slot": "accessory",
+      "image_url": "equipment/cellImage_1169396821_81.jpg"
+    },
+    {
+      "name_en": "Fire Dragon (Chalice)",
+      "name_th": "มังกรไฟ",
+      "slug": "fire-dragon-chalice",
+      "set_slug": "chalice-set",
+      "slot": "accessory",
+      "image_url": "equipment/cellImage_1169396821_83.jpg"
+    },
+    {
+      "name_en": "Golden Beast (Chalice)",
+      "name_th": "สัตว์ทอง",
+      "slug": "golden-beast-chalice",
+      "set_slug": "chalice-set",
+      "slot": "accessory",
+      "image_url": "equipment/cellImage_1169396821_84.jpg"
     }
   ]
 }

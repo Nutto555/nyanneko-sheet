@@ -8,14 +8,13 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "seed": "npx tsx scripts/seed.ts",
-    "seed:images": "npx tsx scripts/seed.ts --upload-images",
-    "map-images": "python3 scripts/map-images.py"
+    "seed": "npx tsx scripts/seed.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.101.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-router": "^7.14.0",
     "react-router-dom": "^7.14.0"
   },
   "devDependencies": {

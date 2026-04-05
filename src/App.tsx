@@ -5,6 +5,9 @@ import Characters from './pages/Characters';
 import CharacterDetail from './pages/CharacterDetail';
 import GvgMode from './pages/GvgMode';
 import Equip from './pages/Equip';
+import Pets from './pages/Pets';
+import Rings from './pages/Rings';
+import EquipmentSets from './pages/EquipmentSets';
 import About from './pages/About';
 
 function App() {
@@ -20,14 +23,15 @@ function App() {
           <Route path="defense/mage" element={<GvgMode mode="defense-mage" />} />
           <Route path="defense/tank" element={<GvgMode mode="defense-tank" />} />
 
-          {/* Equipment legend */}
-          <Route path="equip" element={<Equip />} />
-
-          {/* Characters */}
+          {/* Database pages */}
           <Route path="characters" element={<Characters />} />
           <Route path="characters/:slug" element={<CharacterDetail />} />
+          <Route path="pets" element={<Pets />} />
+          <Route path="rings" element={<Rings />} />
+          <Route path="equipment" element={<EquipmentSets />} />
+          <Route path="equip" element={<Equip />} />
 
-          {/* Misc */}
+          {/* Info */}
           <Route path="about" element={<About />} />
         </Route>
       </Routes>

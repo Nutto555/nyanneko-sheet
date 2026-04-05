@@ -4,12 +4,19 @@ import Card from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
 import Button from '../components/ui/Button';
 import { getImageUrl } from '../lib/supabase';
+import { ROLE_INFO, type CharacterRole } from '../types/database';
 
 const roleColors: Record<string, 'primary' | 'secondary' | 'accent' | 'neutral'> = {
-  attack: 'accent',
-  defense: 'primary',
-  support: 'secondary',
-  tank: 'neutral',
+  commander: 'secondary',
+  hunter: 'accent',
+  holy_knight: 'primary',
+  goalkeeper: 'primary',
+  guardian: 'primary',
+  assassin: 'accent',
+  avenger: 'accent',
+  shaman: 'secondary',
+  balancer: 'secondary',
+  all: 'neutral',
 };
 
 export default function CharacterDetail() {
@@ -86,7 +93,7 @@ export default function CharacterDetail() {
           <div className="flex flex-wrap gap-3 mb-8">
             {character.role && (
               <Badge
-                label={character.role}
+                label={ROLE_INFO[character.role as CharacterRole]?.name_en || character.role}
                 variant={roleColors[character.role] || 'neutral'}
               />
             )}

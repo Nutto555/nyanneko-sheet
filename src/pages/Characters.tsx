@@ -5,30 +5,38 @@ import Card from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
 import Button from '../components/ui/Button';
 import { getImageUrl } from '../lib/supabase';
-
-const roles = ['All', 'Attack', 'Defense', 'Support', 'Tank'];
+import { ROLE_INFO, type CharacterRole } from '../types/database';
 
 const roleColors: Record<string, 'primary' | 'secondary' | 'accent' | 'neutral'> = {
-  Attack: 'accent',
-  Defense: 'primary',
-  Support: 'secondary',
-  Tank: 'neutral',
+  commander: 'secondary',
+  hunter: 'accent',
+  holy_knight: 'primary',
+  goalkeeper: 'primary',
+  guardian: 'primary',
+  assassin: 'accent',
+  avenger: 'accent',
+  shaman: 'secondary',
+  balancer: 'secondary',
+  all: 'neutral',
 };
+
+const roleOrder: CharacterRole[] = [
+  'commander', 'hunter', 'holy_knight', 'goalkeeper', 'guardian',
+  'assassin', 'avenger', 'shaman', 'balancer', 'all',
+];
 
 export default function Characters() {
   const { characters, loading, error } = useCharacters();
-  const [selectedRole, setSelectedRole] = useState('All');
+  const [selectedRole, setSelectedRole] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState('');
 
   const filteredCharacters = useMemo(() => {
     let filtered = characters;
 
-    // Filter by role
     if (selectedRole !== 'All') {
       filtered = filtered.filter((char) => char.role === selectedRole);
     }
 
-    // Filter by search query
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
       filtered = filtered.filter(
@@ -69,7 +77,7 @@ export default function Characters() {
         <p className="mt-3 text-gray-400">Browse all Seven Knights characters and their skills</p>
       </div>
 
-      {/* Search Input */}
+      {/* Search */}
       <div className="mb-8">
         <input
           type="text"
@@ -80,21 +88,34 @@ export default function Characters() {
         />
       </div>
 
-      {/* Role Filter Buttons */}
-      <div className="mb-10 flex flex-wrap gap-3">
-        {roles.map((role) => (
-          <Button
-            key={role}
-            variant={selectedRole === role ? 'primary' : 'secondary'}
-            size="sm"
-            onClick={() => setSelectedRole(role)}
-          >
-            {role}
-          </Button>
-        ))}
+      {/* Role Filters — 10 classes */}
+      <div className="mb-10 flex flex-wrap gap-2">
+        <Button
+          variant={selectedRole === 'All' ? 'primary' : 'secondary'}
+          size="sm"
+          onClick={() => setSelectedRole('All')}
+        >
+          All
+        </Button>
+        {roleOrder.map((role) => {
+          const info = ROLE_INFO[role];
+          const count = characters.filter((c) => c.role === role).length;
+          if (count === 0) return null;
+          return (
+            <Button
+              key={role}
+              variant={selectedRole === role ? 'primary' : 'secondary'}
+              size="sm"
+              onClick={() => setSelectedRole(role)}
+            >
+              {info.name_en}
+              <span className="ml-1 text-xs opacity-60">({count})</span>
+            </Button>
+          );
+        })}
       </div>
 
-      {/* Character Count */}
+      {/* Count */}
       <div className="mb-6 text-gray-400 text-sm">
         Showing {filteredCharacters.length} of {characters.length} characters
       </div>
@@ -126,15 +147,13 @@ export default function Characters() {
                   <div className="mt-3 flex gap-2 flex-wrap">
                     {character.role && (
                       <Badge
-                        label={character.role}
+                        label={ROLE_INFO[character.role as CharacterRole]?.name_en || character.role}
                         variant={roleColors[character.role] || 'neutral'}
                       />
                     )}
-                    {character.type && <Badge label={character.type} variant="neutral" />}
                   </div>
                 </div>
 
-                {/* View Details Button */}
                 <Button variant="secondary" size="sm" className="w-full mt-4">
                   View Details
                 </Button>

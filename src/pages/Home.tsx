@@ -41,16 +41,13 @@ const modes = [
     accentBorder: 'rgba(16,185,129,.25)',
     accentText: '#6ee7b7',
   },
-  {
-    icon: '📖',
-    title_en: 'Equipment Guide',
-    title_th: 'คู่มืออุปกรณ์',
-    description: 'Per-character equipment stat priorities for each skill slot.',
-    path: '/equip',
-    accent: 'rgba(240,160,48,.15)',
-    accentBorder: 'rgba(240,160,48,.25)',
-    accentText: '#f8c060',
-  },
+];
+
+const databases = [
+  { icon: '👤', title: 'Characters', count: '90+', path: '/characters', color: '#a78bfa' },
+  { icon: '🐾', title: 'Pets', count: '25', path: '/pets', color: '#f59e0b' },
+  { icon: '💍', title: 'Rings', count: '32', path: '/rings', color: '#ec4899' },
+  { icon: '🗡️', title: 'Equipment', count: '9 Sets', path: '/equipment', color: '#10b981' },
 ];
 
 export default function Home() {
@@ -80,12 +77,33 @@ export default function Home() {
         <div className="mt-4 mx-auto w-24 h-px" style={{ background: 'linear-gradient(to right, transparent, var(--color-gold-dim), transparent)' }} />
       </section>
 
+      {/* Database Quick Links */}
+      <section className="mb-14">
+        <h2 className="text-xs font-semibold uppercase tracking-widest mb-5 opacity-40">
+          Database / ฐานข้อมูล
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {databases.map((db) => (
+            <Link
+              key={db.path}
+              to={db.path}
+              className="group rounded-xl p-4 text-center transition-all duration-200 hover:scale-[1.02]"
+              style={{
+                background: 'var(--color-surface)',
+                border: '1px solid var(--color-border)',
+              }}
+            >
+              <div className="text-2xl mb-2">{db.icon}</div>
+              <div className="text-sm font-semibold text-white">{db.title}</div>
+              <div className="text-lg font-bold mt-1" style={{ color: db.color }}>{db.count}</div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Mode cards */}
       <section>
-        <h2
-          className="text-xs font-semibold uppercase tracking-widest mb-5 opacity-40"
-          style={{ fontFamily: 'var(--font-display)' }}
-        >
+        <h2 className="text-xs font-semibold uppercase tracking-widest mb-5 opacity-40">
           Game Modes / โหมดเกม
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -96,7 +114,7 @@ export default function Home() {
               className="group rounded-xl p-5 flex gap-4 items-start transition-all duration-200 hover:scale-[1.01]"
               style={{
                 background: 'var(--color-surface)',
-                border: `1px solid var(--color-border)`,
+                border: '1px solid var(--color-border)',
               }}
               onMouseEnter={(e) => {
                 (e.currentTarget as HTMLElement).style.borderColor = m.accentBorder;
@@ -107,47 +125,48 @@ export default function Home() {
                 (e.currentTarget as HTMLElement).style.boxShadow = 'none';
               }}
             >
-              {/* Icon */}
               <div
                 className="text-2xl w-12 h-12 rounded-lg flex items-center justify-center shrink-0"
                 style={{ background: m.accent, border: `1px solid ${m.accentBorder}` }}
               >
                 {m.icon}
               </div>
-
-              {/* Text */}
               <div className="min-w-0">
                 <div className="flex items-baseline gap-2 flex-wrap">
-                  <span
-                    className="font-bold text-white text-sm"
-                    style={{ fontFamily: 'var(--font-display)' }}
-                  >
-                    {m.title_en}
-                  </span>
-                  <span className="text-xs opacity-40" style={{ fontFamily: 'var(--font-body)' }}>
-                    {m.title_th}
-                  </span>
+                  <span className="font-semibold text-white text-sm">{m.title_en}</span>
+                  <span className="text-xs opacity-50">{m.title_th}</span>
                 </div>
                 <p className="text-xs text-slate-400 mt-1 leading-relaxed">{m.description}</p>
               </div>
-
-              {/* Arrow */}
-              <span
-                className="shrink-0 text-lg opacity-0 group-hover:opacity-60 transition-opacity mt-1"
-                style={{ color: m.accentText }}
-              >
-                →
-              </span>
             </Link>
           ))}
         </div>
       </section>
 
-      {/* Quick reference footer note */}
-      <section className="mt-10 text-center">
-        <p className="text-xs opacity-30">
-          ข้อมูลจาก gvg-nyanneko.xlsx · อัพเดทตามเมต้าเกม
-        </p>
+      {/* Gear Guide Link */}
+      <section className="mt-8">
+        <Link
+          to="/equip"
+          className="block rounded-xl p-5 transition-all duration-200 hover:scale-[1.01]"
+          style={{
+            background: 'var(--color-surface)',
+            border: '1px solid var(--color-border)',
+          }}
+        >
+          <div className="flex gap-4 items-center">
+            <div
+              className="text-2xl w-12 h-12 rounded-lg flex items-center justify-center shrink-0"
+              style={{ background: 'rgba(240,160,48,.15)', border: '1px solid rgba(240,160,48,.25)' }}
+            >
+              📖
+            </div>
+            <div>
+              <span className="font-semibold text-white text-sm">Equipment Guide</span>
+              <span className="text-xs opacity-50 ml-2">คู่มืออุปกรณ์</span>
+              <p className="text-xs text-slate-400 mt-1">Per-character equipment stat priorities for each skill slot.</p>
+            </div>
+          </div>
+        </Link>
       </section>
     </div>
   );

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import TeamCard from '../components/team-card/TeamCard';
 import type { TeamCardData } from '../components/team-card/TeamCard';
 import type { TeamWithMembers } from '../types/database';
-import { getTeamsWithMembersByCategory } from '../services/teams';
+import { getTeamsByCategory } from '../services/teams';
 import { getCharacters } from '../services/characters';
 import type { Character } from '../types/database';
 
@@ -144,13 +144,13 @@ export default function GvgMode({ mode }: GvgModeProps) {
     async function load() {
       try {
         const [rawTeams, chars] = await Promise.all([
-          getTeamsWithMembersByCategory(config!.category),
+          getTeamsByCategory(config!.category),
           getCharacters(),
         ]);
         if (cancelled) return;
 
-        const charMap = new Map(chars.map((c) => [c.id, c]));
-        setTeams(buildTeamCards(rawTeams, charMap));
+        const charMap = new Map(chars.map((c: Character) => [c.id, c])) as Map<string, Character>;
+        setTeams(buildTeamCards(rawTeams as unknown as TeamWithMembers[], charMap));
       } catch {
         if (!cancelled) setError('Failed to load team data. Please try again.');
       } finally {

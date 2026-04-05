@@ -3,106 +3,50 @@
 
 @theme {
   /* Core palette — dark game HUD */
-  --color-bg:            #080b10;
-  --color-surface:       #0f1520;
-  --color-surface-raised:#131c2c;
-  --color-border:        #1a2535;
-  --color-border-bright: #2a3a55;
+  --color-bg:             #080b10;
+  --color-surface:        #0f1520;
+  --color-surface-raised: #131c2c;
+  --color-border:         rgba(255,255,255,.06);
 
-  /* Accent — Seven Knights gold */
-  --color-gold:          #f0a030;
-  --color-gold-light:    #f8c060;
-  --color-gold-dim:      #a06810;
+  --color-primary:        #7c3aed;
+  --color-primary-light:  #a78bfa;
+  --color-primary-dark:   #5b21b6;
+  --color-secondary:      #f59e0b;
+  --color-accent:         #ef4444;
 
-  /* Legacy aliases used by existing components */
-  --color-primary:       #f0a030;
-  --color-primary-light: #f8c060;
-  --color-primary-dark:  #a06810;
-  --color-secondary:     #f59e0b;
-  --color-secondary-light:#fbbf24;
-  --color-accent:        #ef4444;
-  --color-dark:          #080b10;
-  --color-dark-lighter:  #0f1520;
-  --color-dark-card:     #0f1520;
+  --color-gold:           #f0a030;
+  --color-gold-dim:       rgba(240,160,48,.3);
 
-  /* Stat type colours */
-  --color-stat-atk:      #ef4444;
-  --color-stat-def:      #3b82f6;
-  --color-stat-block:    #8b5cf6;
-  --color-stat-crit:     #f59e0b;
-  --color-stat-spd:      #10b981;
-  --color-stat-hp:       #3b82f6;
-  --color-stat-wkness:   #ef4444;
-  --color-stat-dtr:      #8b5cf6;
+  --color-dark:           #1e1b2e;
+  --color-dark-lighter:   #2d2a3e;
+  --color-dark-card:      #252238;
 
-  /* Speed tier colours */
-  --color-speed-fast:    #f0a030;
-  --color-speed-slow:    #3b82f6;
-
-  /* Typography */
-  --font-display: 'Cinzel', serif;
-  --font-body:    'Sarabun', sans-serif;
+  --font-display:         'Cinzel', serif;
+  --font-body:            'Sarabun', sans-serif;
 }
-
-/* ─── Base ─────────────────────────────────────────────── */
-*, *::before, *::after { box-sizing: border-box; }
-
-html { scroll-behavior: smooth; }
 
 body {
-  font-family: var(--font-body), sans-serif;
-  background-color: var(--color-bg);
+  font-family: var(--font-body);
+  background: var(--color-bg);
   color: #cbd5e1;
   -webkit-font-smoothing: antialiased;
-  min-height: 100vh;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Subtle grid texture on body */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(240,160,48,.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(240,160,48,.03) 1px, transparent 1px);
-  background-size: 40px 40px;
-  pointer-events: none;
-  z-index: 0;
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
 }
 
-#root { position: relative; z-index: 1; }
-
-/* Display headings use Cinzel */
-h1, h2, h3 {
-  font-family: var(--font-display), serif;
-  letter-spacing: 0.02em;
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
 }
 
-/* ─── Scrollbar ─────────────────────────────────────────── */
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: var(--color-bg); }
-::-webkit-scrollbar-thumb { background: var(--color-border-bright); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--color-gold-dim); }
-
-/* ─── Team card glow on hover ───────────────────────────── */
-.team-card {
-  border-top: 1px solid var(--color-border);
-  transition: border-color 200ms, box-shadow 200ms;
-}
-.team-card:hover {
-  border-top-color: var(--color-gold);
-  box-shadow: 0 0 24px rgba(240,160,48,.08), 0 4px 20px rgba(0,0,0,.4);
+::-webkit-scrollbar-thumb {
+  background: rgba(124, 58, 237, 0.3);
+  border-radius: 3px;
 }
 
-/* ─── Stat badge base ───────────────────────────────────── */
-.stat-badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 1px 6px;
-  border-radius: 4px;
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  border: 1px solid transparent;
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 58, 237, 0.5);
 }
