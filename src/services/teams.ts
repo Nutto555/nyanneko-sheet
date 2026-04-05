@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabase';
-import type { TeamComposition, TeamWithMembers, Character } from '../types/database';
+import type { TeamWithMembers, Character } from '../types/database';
 import seedData from '../../scripts/seed-data.json';
 
 const isSupabaseConfigured = () => {

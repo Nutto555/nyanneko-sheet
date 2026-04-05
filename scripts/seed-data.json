@@ -6,7 +6,7 @@
       "slug": "guan-yu",
       "role": "guardian",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_279.jpg",
+      "image_url": "/images/characters/image284.png",
       "notes": "",
       "skills": [
         {
@@ -14,21 +14,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_280.jpg"
+          "icon_url": "/images/characters/image275.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_281.jpg"
+          "icon_url": "/images/characters/image312.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_282.jpg"
+          "icon_url": "/images/characters/image272.png"
         }
       ]
     },
@@ -38,7 +38,7 @@
       "slug": "kris",
       "role": "hunter",
       "type": "เบ็ดเสร็จ",
-      "image_url": "/images/characters/cellImage_333587538_309.jpg",
+      "image_url": "/images/characters/image321.png",
       "notes": "จุดอ่อน / ป้องกัน / HP",
       "skills": [
         {
@@ -46,21 +46,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_310.jpg"
+          "icon_url": "/images/characters/image303.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_311.jpg"
+          "icon_url": "/images/characters/image315.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_312.jpg"
+          "icon_url": "/images/characters/image301.png"
         }
       ]
     },
@@ -70,7 +70,7 @@
       "slug": "cleo",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_139.jpg",
+      "image_url": "/images/characters/image140.png",
       "notes": "",
       "skills": [
         {
@@ -78,21 +78,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_140.jpg"
+          "icon_url": "/images/characters/image139.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_141.jpg"
+          "icon_url": "/images/characters/image133.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_142.jpg"
+          "icon_url": "/images/characters/image147.png"
         }
       ]
     },
@@ -102,7 +102,7 @@
       "slug": "kagura",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_46.jpg",
+      "image_url": "/images/characters/image51.png",
       "notes": "",
       "skills": [
         {
@@ -110,21 +110,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_47.jpg"
+          "icon_url": "/images/characters/image59.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_48.jpg"
+          "icon_url": "/images/characters/image28.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_49.jpg"
+          "icon_url": "/images/characters/image43.png"
         }
       ]
     },
@@ -134,7 +134,7 @@
       "slug": "charon",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_372.jpg",
+      "image_url": "/images/characters/image368.png",
       "notes": "",
       "skills": [
         {
@@ -142,21 +142,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_373.jpg"
+          "icon_url": "/images/characters/image362.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_374.jpg"
+          "icon_url": "/images/characters/image382.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_375.jpg"
+          "icon_url": "/images/characters/image372.png"
         }
       ]
     },
@@ -166,7 +166,7 @@
       "slug": "karin",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_364.jpg",
+      "image_url": "/images/characters/image371.png",
       "notes": "",
       "skills": [
         {
@@ -174,21 +174,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_365.jpg"
+          "icon_url": "/images/characters/image375.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_366.jpg"
+          "icon_url": "/images/characters/image359.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_367.jpg"
+          "icon_url": "/images/characters/image355.png"
         }
       ]
     },
@@ -198,7 +198,7 @@
       "slug": "karma",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_289.jpg",
+      "image_url": "/images/characters/image282.png",
       "notes": "",
       "skills": [
         {
@@ -206,21 +206,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_290.jpg"
+          "icon_url": "/images/characters/image279.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_291.jpg"
+          "icon_url": "/images/characters/image280.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_292.jpg"
+          "icon_url": "/images/characters/image310.png"
         }
       ]
     },
@@ -230,7 +230,7 @@
       "slug": "kiriel",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_167.jpg",
+      "image_url": "/images/characters/image170.png",
       "notes": "",
       "skills": [
         {
@@ -238,21 +238,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_168.jpg"
+          "icon_url": "/images/characters/image158.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_169.jpg"
+          "icon_url": "/images/characters/image159.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_170.jpg"
+          "icon_url": "/images/characters/image163.png"
         }
       ]
     },
@@ -262,7 +262,7 @@
       "slug": "jin",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_12.jpg",
+      "image_url": "/images/characters/image20.png",
       "notes": "",
       "skills": [
         {
@@ -270,21 +270,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_13.jpg"
+          "icon_url": "/images/characters/image21.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_14.jpg"
+          "icon_url": "/images/characters/image8.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_15.jpg"
+          "icon_url": "/images/characters/image18.png"
         }
       ]
     },
@@ -294,7 +294,7 @@
       "slug": "jupy",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_70.jpg",
+      "image_url": "/images/characters/image68.png",
       "notes": "",
       "skills": [
         {
@@ -302,21 +302,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_71.jpg"
+          "icon_url": "/images/characters/image65.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_72.jpg"
+          "icon_url": "/images/characters/image73.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_73.jpg"
+          "icon_url": "/images/characters/image67.png"
         }
       ]
     },
@@ -326,29 +326,29 @@
       "slug": "juri",
       "role": "avenger",
       "type": "ทีมสปีด ดับสูญ (เกมเร็ว)",
-      "image_url": "/images/characters/cellImage_333587538_127.jpg",
+      "image_url": "/images/characters/image148.png",
       "notes": "",
       "skills": [
         {
           "name": "Skill 1",
           "name_th": "สกิล 1",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_128.jpg"
+          "icon_url": "/images/characters/image134.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_129.jpg"
+          "icon_url": "/images/characters/image120.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_130.jpg"
+          "icon_url": "/images/characters/image135.png"
         }
       ]
     },
@@ -358,7 +358,7 @@
       "slug": "zhao-yun",
       "role": "avenger",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_41.jpg",
+      "image_url": "/images/characters/image76.png",
       "notes": "",
       "skills": [
         {
@@ -366,21 +366,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_42.jpg"
+          "icon_url": "/images/characters/image60.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_43.jpg"
+          "icon_url": "/images/characters/image56.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_44.jpg"
+          "icon_url": "/images/characters/image47.png"
         }
       ]
     },
@@ -390,7 +390,7 @@
       "slug": "chancellor",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_251.jpg",
+      "image_url": "/images/characters/image255.png",
       "notes": "",
       "skills": [
         {
@@ -398,21 +398,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_252.jpg"
+          "icon_url": "/images/characters/image246.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_253.jpg"
+          "icon_url": "/images/characters/image253.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_254.jpg"
+          "icon_url": "/images/characters/image251.png"
         }
       ]
     },
@@ -422,7 +422,7 @@
       "slug": "sarah",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_404.jpg",
+      "image_url": "/images/characters/image403.png",
       "notes": "",
       "skills": [
         {
@@ -430,21 +430,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_405.jpg"
+          "icon_url": "/images/characters/image396.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_406.jpg"
+          "icon_url": "/images/characters/image400.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_407.jpg"
+          "icon_url": "/images/characters/image397.png"
         }
       ]
     },
@@ -454,7 +454,7 @@
       "slug": "silvesta",
       "role": "assassin",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_215.jpg",
+      "image_url": "/images/characters/image219.png",
       "notes": "อัตราคริ 75%-100%, จุดอ่อน 50%-75%, ความเร็ว เท่าที่ได้",
       "skills": [
         {
@@ -462,21 +462,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_216.jpg"
+          "icon_url": "/images/characters/image207.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_217.jpg"
+          "icon_url": "/images/characters/image215.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_218.jpg"
+          "icon_url": "/images/characters/image208.png"
         }
       ]
     },
@@ -486,7 +486,7 @@
       "slug": "sylvia",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_151.jpg",
+      "image_url": "/images/characters/image155.png",
       "notes": "",
       "skills": [
         {
@@ -494,21 +494,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_152.jpg"
+          "icon_url": "/images/characters/image141.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_153.jpg"
+          "icon_url": "/images/characters/image144.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_154.jpg"
+          "icon_url": "/images/characters/image149.png"
         }
       ]
     },
@@ -518,7 +518,7 @@
       "slug": "sieg",
       "role": "guardian",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_263.jpg",
+      "image_url": "/images/characters/image270.png",
       "notes": "",
       "skills": [
         {
@@ -526,21 +526,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_264.jpg"
+          "icon_url": "/images/characters/image266.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_265.jpg"
+          "icon_url": "/images/characters/image273.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_266.jpg"
+          "icon_url": "/images/characters/image259.png"
         }
       ]
     },
@@ -550,7 +550,7 @@
       "slug": "sun-wukong",
       "role": "hunter",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_271.jpg",
+      "image_url": "/images/characters/image268.png",
       "notes": "จุดอ่อน 91%-100%, บล็อค 100%, ลดดาเมจ 10%-26%, โจมตี เท่าที่ได้",
       "skills": [
         {
@@ -558,21 +558,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_272.jpg"
+          "icon_url": "/images/characters/image256.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_273.jpg"
+          "icon_url": "/images/characters/image293.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_274.jpg"
+          "icon_url": "/images/characters/image274.png"
         }
       ]
     },
@@ -582,7 +582,7 @@
       "slug": "taka",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_4.jpg",
+      "image_url": "/images/characters/image7.png",
       "notes": "",
       "skills": [
         {
@@ -590,21 +590,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_5.jpg"
+          "icon_url": "/images/characters/image19.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_6.jpg"
+          "icon_url": "/images/characters/image2.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_7.jpg"
+          "icon_url": "/images/characters/image23.png"
         }
       ]
     },
@@ -614,7 +614,7 @@
       "slug": "thrud",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_285.jpg",
+      "image_url": "/images/characters/image291.png",
       "notes": "",
       "skills": [
         {
@@ -622,21 +622,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_286.jpg"
+          "icon_url": "/images/characters/image290.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_287.jpg"
+          "icon_url": "/images/characters/image277.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_288.jpg"
+          "icon_url": "/images/characters/image281.png"
         }
       ]
     },
@@ -646,7 +646,7 @@
       "slug": "knox",
       "role": "guardian",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_348.jpg",
+      "image_url": "/images/characters/image346.png",
       "notes": "",
       "skills": [
         {
@@ -654,21 +654,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_349.jpg"
+          "icon_url": "/images/characters/image350.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_350.jpg"
+          "icon_url": "/images/characters/image343.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_351.jpg"
+          "icon_url": "/images/characters/image342.png"
         }
       ]
     },
@@ -678,7 +678,7 @@
       "slug": "ballista",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_31.jpg",
+      "image_url": "/images/characters/image34.png",
       "notes": "",
       "skills": [
         {
@@ -686,21 +686,14 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_32.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_33.jpg"
+          "icon_url": "/images/characters/image38.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_34.jpg"
+          "skill_order": 1,
+          "icon_url": "/images/characters/image33.png"
         }
       ]
     },
@@ -710,7 +703,7 @@
       "slug": "biscuit",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_376.jpg",
+      "image_url": "/images/characters/image367.png",
       "notes": "",
       "skills": [
         {
@@ -718,21 +711,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_377.jpg"
+          "icon_url": "/images/characters/image365.jpg"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_378.jpg"
+          "icon_url": "/images/characters/image363.jpg"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_379.jpg"
+          "icon_url": "/images/characters/image378.jpg"
         }
       ]
     },
@@ -742,7 +735,7 @@
       "slug": "pascal",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_183.jpg",
+      "image_url": "/images/characters/image190.png",
       "notes": "",
       "skills": [
         {
@@ -750,21 +743,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_184.jpg"
+          "icon_url": "/images/characters/image186.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_185.jpg"
+          "icon_url": "/images/characters/image180.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_186.jpg"
+          "icon_url": "/images/characters/image175.png"
         }
       ]
     },
@@ -774,7 +767,7 @@
       "slug": "byakko",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_91.jpg",
+      "image_url": "/images/characters/image94.png",
       "notes": "",
       "skills": [
         {
@@ -782,21 +775,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_92.jpg"
+          "icon_url": "/images/characters/image83.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_93.jpg"
+          "icon_url": "/images/characters/image99.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_94.jpg"
+          "icon_url": "/images/characters/image81.png"
         }
       ]
     },
@@ -806,29 +799,29 @@
       "slug": "pallanus",
       "role": "holy_knight",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_259.jpg",
+      "image_url": "/images/characters/image263.png",
       "notes": "โจมตี 2700, อัตราคริ 78%-100%, บล็อค เท่าที่ได้, ลดดาเมจ 42%",
       "skills": [
         {
           "name": "Skill 1",
           "name_th": "สกิล 1",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_260.jpg"
+          "icon_url": "/images/characters/image243.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_261.jpg"
+          "icon_url": "/images/characters/image257.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_262.jpg"
+          "icon_url": "/images/characters/image252.png"
         }
       ]
     },
@@ -838,7 +831,7 @@
       "slug": "bidam",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_50.jpg",
+      "image_url": "/images/characters/image66.png",
       "notes": "",
       "skills": [
         {
@@ -846,21 +839,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_51.jpg"
+          "icon_url": "/images/characters/image46.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_52.jpg"
+          "icon_url": "/images/characters/image50.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_53.jpg"
+          "icon_url": "/images/characters/image42.png"
         }
       ]
     },
@@ -870,7 +863,7 @@
       "slug": "milia",
       "role": "assassin",
       "type": "ทีมเวทดาเมจ / ทีมเวทโควิด (ดันสปีด)",
-      "image_url": "/images/characters/cellImage_333587538_143.jpg",
+      "image_url": "/images/characters/image143.png",
       "notes": "ป้องกัน / HP",
       "skills": [
         {
@@ -878,21 +871,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_144.jpg"
+          "icon_url": "/images/characters/image174.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_145.jpg"
+          "icon_url": "/images/characters/image154.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_146.jpg"
+          "icon_url": "/images/characters/image129.png"
         }
       ]
     },
@@ -902,7 +895,7 @@
       "slug": "miho",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_207.jpg",
+      "image_url": "/images/characters/image216.png",
       "notes": "",
       "skills": [
         {
@@ -910,21 +903,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_208.jpg"
+          "icon_url": "/images/characters/image222.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_209.jpg"
+          "icon_url": "/images/characters/image236.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_210.jpg"
+          "icon_url": "/images/characters/image193.png"
         }
       ]
     },
@@ -934,7 +927,7 @@
       "slug": "yeonhee",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_191.jpg",
+      "image_url": "/images/characters/image192.png",
       "notes": "",
       "skills": [
         {
@@ -942,21 +935,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_192.jpg"
+          "icon_url": "/images/characters/image187.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_193.jpg"
+          "icon_url": "/images/characters/image199.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_194.jpg"
+          "icon_url": "/images/characters/image195.png"
         }
       ]
     },
@@ -966,7 +959,7 @@
       "slug": "yushin",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_171.jpg",
+      "image_url": "/images/characters/image173.png",
       "notes": "",
       "skills": [
         {
@@ -974,21 +967,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_172.jpg"
+          "icon_url": "/images/characters/image168.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_173.jpg"
+          "icon_url": "/images/characters/image188.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_174.jpg"
+          "icon_url": "/images/characters/image165.png"
         }
       ]
     },
@@ -998,7 +991,7 @@
       "slug": "yuri",
       "role": "commander",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_199.jpg",
+      "image_url": "/images/characters/image183.png",
       "notes": "",
       "skills": [
         {
@@ -1006,21 +999,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_200.jpg"
+          "icon_url": "/images/characters/image214.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_201.jpg"
+          "icon_url": "/images/characters/image196.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_202.jpg"
+          "icon_url": "/images/characters/image202.png"
         }
       ]
     },
@@ -1030,7 +1023,7 @@
       "slug": "yui",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_388.jpg",
+      "image_url": "/images/characters/image385.png",
       "notes": "",
       "skills": [
         {
@@ -1038,21 +1031,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_389.jpg"
+          "icon_url": "/images/characters/image379.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_390.jpg"
+          "icon_url": "/images/characters/image386.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_391.jpg"
+          "icon_url": "/images/characters/image399.png"
         }
       ]
     },
@@ -1062,29 +1055,29 @@
       "slug": "rachel",
       "role": "hunter",
       "type": "ตีบอส",
-      "image_url": "/images/characters/cellImage_333587538_297.jpg",
+      "image_url": "/images/characters/image296.png",
       "notes": "อัตราคริ 75%-100%, จุดอ่อน เท่าที่ได้",
       "skills": [
         {
           "name": "Skill 1",
           "name_th": "สกิล 1",
-          "cooldown": "★6",
+          "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_298.jpg"
+          "icon_url": "/images/characters/image307.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_299.jpg"
+          "icon_url": "/images/characters/image300.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_300.jpg"
+          "icon_url": "/images/characters/image298.png"
         }
       ]
     },
@@ -1094,7 +1087,7 @@
       "slug": "rin",
       "role": "avenger",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_179.jpg",
+      "image_url": "/images/characters/image181.png",
       "notes": "อัตราคริ 67%, จุดอ่อน 75%-100%, โจมตี 3850, ความเร็ว เท่าที่ได้",
       "skills": [
         {
@@ -1102,21 +1095,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_180.jpg"
+          "icon_url": "/images/characters/image177.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_181.jpg"
+          "icon_url": "/images/characters/image182.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_182.jpg"
+          "icon_url": "/images/characters/image212.png"
         }
       ]
     },
@@ -1126,7 +1119,7 @@
       "slug": "reina",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_392.jpg",
+      "image_url": "/images/characters/image404.png",
       "notes": "",
       "skills": [
         {
@@ -1134,21 +1127,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_393.jpg"
+          "icon_url": "/images/characters/image402.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_394.jpg"
+          "icon_url": "/images/characters/image381.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_395.jpg"
+          "icon_url": "/images/characters/image383.png"
         }
       ]
     },
@@ -1158,7 +1151,7 @@
       "slug": "lania",
       "role": "commander",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_267.jpg",
+      "image_url": "/images/characters/image265.png",
       "notes": "",
       "skills": [
         {
@@ -1166,21 +1159,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_268.jpg"
+          "icon_url": "/images/characters/image261.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_269.jpg"
+          "icon_url": "/images/characters/image294.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_270.jpg"
+          "icon_url": "/images/characters/image262.png"
         }
       ]
     },
@@ -1190,7 +1183,7 @@
       "slug": "lu-bu",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_62.jpg",
+      "image_url": "/images/characters/image70.png",
       "notes": "",
       "skills": [
         {
@@ -1198,21 +1191,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_63.jpg"
+          "icon_url": "/images/characters/image84.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_64.jpg"
+          "icon_url": "/images/characters/image100.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_65.jpg"
+          "icon_url": "/images/characters/image54.png"
         }
       ]
     },
@@ -1222,7 +1215,7 @@
       "slug": "lee",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_352.jpg",
+      "image_url": "/images/characters/image360.png",
       "notes": "",
       "skills": [
         {
@@ -1230,21 +1223,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_353.jpg"
+          "icon_url": "/images/characters/image348.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_354.jpg"
+          "icon_url": "/images/characters/image331.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_355.jpg"
+          "icon_url": "/images/characters/image344.png"
         }
       ]
     },
@@ -1254,7 +1247,7 @@
       "slug": "leo",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_58.jpg",
+      "image_url": "/images/characters/image58.png",
       "notes": "",
       "skills": [
         {
@@ -1262,21 +1255,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_59.jpg"
+          "icon_url": "/images/characters/image57.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_60.jpg"
+          "icon_url": "/images/characters/image44.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_61.jpg"
+          "icon_url": "/images/characters/image90.png"
         }
       ]
     },
@@ -1286,7 +1279,7 @@
       "slug": "luc",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_336.jpg",
+      "image_url": "/images/characters/image341.png",
       "notes": "",
       "skills": [
         {
@@ -1294,21 +1287,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_337.jpg"
+          "icon_url": "/images/characters/image338.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_338.jpg"
+          "icon_url": "/images/characters/image328.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_339.jpg"
+          "icon_url": "/images/characters/image329.png"
         }
       ]
     },
@@ -1318,7 +1311,7 @@
       "slug": "lucy",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_380.jpg",
+      "image_url": "/images/characters/image366.png",
       "notes": "",
       "skills": [
         {
@@ -1326,21 +1319,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_381.jpg"
+          "icon_url": "/images/characters/image373.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_382.jpg"
+          "icon_url": "/images/characters/image374.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_383.jpg"
+          "icon_url": "/images/characters/image369.png"
         }
       ]
     },
@@ -1350,29 +1343,29 @@
       "slug": "rudy",
       "role": "guardian",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_317.jpg",
+      "image_url": "/images/characters/image311.png",
       "notes": "ลดดาเมจ 26%-42%, ต้านทานผล 50%-100%, บล็อค มากสุดเท่าที่ได้",
       "skills": [
         {
           "name": "Skill 1",
           "name_th": "สกิล 1",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_318.jpg"
+          "icon_url": "/images/characters/image304.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_319.jpg"
+          "icon_url": "/images/characters/image313.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_320.jpg"
+          "icon_url": "/images/characters/image327.png"
         }
       ]
     },
@@ -1382,7 +1375,7 @@
       "slug": "lully",
       "role": "commander",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_147.jpg",
+      "image_url": "/images/characters/image136.png",
       "notes": "",
       "skills": [
         {
@@ -1390,21 +1383,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_148.jpg"
+          "icon_url": "/images/characters/image150.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_149.jpg"
+          "icon_url": "/images/characters/image146.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_150.jpg"
+          "icon_url": "/images/characters/image145.png"
         }
       ]
     },
@@ -1414,7 +1407,7 @@
       "slug": "vanessa",
       "role": "hunter",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_227.jpg",
+      "image_url": "/images/characters/image244.png",
       "notes": "",
       "skills": [
         {
@@ -1422,21 +1415,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_228.jpg"
+          "icon_url": "/images/characters/image221.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_229.jpg"
+          "icon_url": "/images/characters/image232.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_230.jpg"
+          "icon_url": "/images/characters/image223.png"
         }
       ]
     },
@@ -1446,7 +1439,7 @@
       "slug": "victoria",
       "role": "goalkeeper",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_243.jpg",
+      "image_url": "/images/characters/image240.png",
       "notes": "",
       "skills": [
         {
@@ -1454,21 +1447,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_244.jpg"
+          "icon_url": "/images/characters/image235.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_245.jpg"
+          "icon_url": "/images/characters/image238.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_246.jpg"
+          "icon_url": "/images/characters/image278.png"
         }
       ]
     },
@@ -1478,7 +1471,7 @@
       "slug": "snipper",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_54.jpg",
+      "image_url": "/images/characters/image48.png",
       "notes": "",
       "skills": [
         {
@@ -1486,21 +1479,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_55.jpg"
+          "icon_url": "/images/characters/image53.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_56.jpg"
+          "icon_url": "/images/characters/image36.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_57.jpg"
+          "icon_url": "/images/characters/image55.png"
         }
       ]
     },
@@ -1510,7 +1503,7 @@
       "slug": "spike",
       "role": "goalkeeper",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_301.jpg",
+      "image_url": "/images/characters/image306.png",
       "notes": "ลดดาเมจ 42%, ต้านทานผล 50%-100%, HP เท่าที่ได้, บล็อค มากสุดเท่าที่ได้",
       "skills": [
         {
@@ -1518,21 +1511,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_302.jpg"
+          "icon_url": "/images/characters/image295.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_303.jpg"
+          "icon_url": "/images/characters/image288.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_304.jpg"
+          "icon_url": "/images/characters/image297.png"
         }
       ]
     },
@@ -1542,7 +1535,7 @@
       "slug": "ling-ling",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_187.jpg",
+      "image_url": "/images/characters/image191.png",
       "notes": "",
       "skills": [
         {
@@ -1550,21 +1543,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_188.jpg"
+          "icon_url": "/images/characters/image178.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_189.jpg"
+          "icon_url": "/images/characters/image179.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_190.jpg"
+          "icon_url": "/images/characters/image189.png"
         }
       ]
     },
@@ -1574,7 +1567,7 @@
       "slug": "alice",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_384.jpg",
+      "image_url": "/images/characters/image389.png",
       "notes": "",
       "skills": [
         {
@@ -1582,21 +1575,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_385.jpg"
+          "icon_url": "/images/characters/image388.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_386.jpg"
+          "icon_url": "/images/characters/image370.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_387.jpg"
+          "icon_url": "/images/characters/image380.png"
         }
       ]
     },
@@ -1606,7 +1599,7 @@
       "slug": "asura",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_255.jpg",
+      "image_url": "/images/characters/image254.png",
       "notes": "",
       "skills": [
         {
@@ -1614,21 +1607,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_256.jpg"
+          "icon_url": "/images/characters/image247.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_257.jpg"
+          "icon_url": "/images/characters/image260.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_258.jpg"
+          "icon_url": "/images/characters/image267.png"
         }
       ]
     },
@@ -1638,7 +1631,7 @@
       "slug": "orly",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_400.jpg",
+      "image_url": "/images/characters/image395.png",
       "notes": "",
       "skills": [
         {
@@ -1646,21 +1639,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_401.jpg"
+          "icon_url": "/images/characters/image390.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_402.jpg"
+          "icon_url": "/images/characters/image405.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_403.jpg"
+          "icon_url": "/images/characters/image392.png"
         }
       ]
     },
@@ -1670,7 +1663,7 @@
       "slug": "aquila",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_332.jpg",
+      "image_url": "/images/characters/image318.png",
       "notes": "",
       "skills": [
         {
@@ -1678,21 +1671,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_333.jpg"
+          "icon_url": "/images/characters/image334.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_334.jpg"
+          "icon_url": "/images/characters/image330.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_335.jpg"
+          "icon_url": "/images/characters/image347.png"
         }
       ]
     },
@@ -1702,7 +1695,7 @@
       "slug": "aragon",
       "role": "goalkeeper",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_322.jpg",
+      "image_url": "/images/characters/image317.png",
       "notes": "",
       "skills": [
         {
@@ -1710,21 +1703,14 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_323.jpg"
-        },
-        {
-          "name": "Skill 2",
-          "name_th": "สกิล 2",
-          "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_324.jpg"
+          "icon_url": "/images/characters/image345.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
-          "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_325.jpg"
+          "skill_order": 1,
+          "icon_url": "/images/characters/image335.png"
         }
       ]
     },
@@ -1734,7 +1720,7 @@
       "slug": "evan",
       "role": "guardian",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_340.jpg",
+      "image_url": "/images/characters/image333.png",
       "notes": "",
       "skills": [
         {
@@ -1742,21 +1728,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_341.jpg"
+          "icon_url": "/images/characters/image337.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_342.jpg"
+          "icon_url": "/images/characters/image336.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_343.jpg"
+          "icon_url": "/images/characters/image332.png"
         }
       ]
     },
@@ -1766,7 +1752,7 @@
       "slug": "gelidus",
       "role": "goalkeeper",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_235.jpg",
+      "image_url": "/images/characters/image229.png",
       "notes": "ป้องกัน 1650, บล็อค 67%, ลดดาเมจ 26%-42%, ต้านทานผล เท่าที่ได้",
       "skills": [
         {
@@ -1774,21 +1760,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_236.jpg"
+          "icon_url": "/images/characters/image237.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_237.jpg"
+          "icon_url": "/images/characters/image230.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_238.jpg"
+          "icon_url": "/images/characters/image228.png"
         }
       ]
     },
@@ -1798,7 +1784,7 @@
       "slug": "jane",
       "role": "goalkeeper",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_99.jpg",
+      "image_url": "/images/characters/image92.png",
       "notes": "",
       "skills": [
         {
@@ -1806,21 +1792,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_100.jpg"
+          "icon_url": "/images/characters/image109.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_101.jpg"
+          "icon_url": "/images/characters/image95.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_102.jpg"
+          "icon_url": "/images/characters/image31.png"
         }
       ]
     },
@@ -1830,29 +1816,29 @@
       "slug": "jave",
       "role": "avenger",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_305.jpg",
+      "image_url": "/images/characters/image305.png",
       "notes": "โจมตี 3300, ลดดาเมจ 32%, บล็อค มากสุดเท่าที่ได้",
       "skills": [
         {
           "name": "Skill 1",
           "name_th": "สกิล 1",
-          "cooldown": "⛔",
+          "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_306.jpg"
+          "icon_url": "/images/characters/image320.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_307.jpg"
+          "icon_url": "/images/characters/image292.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_308.jpg"
+          "icon_url": "/images/characters/image299.png"
         }
       ]
     },
@@ -1862,7 +1848,7 @@
       "slug": "sera",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_163.jpg",
+      "image_url": "/images/characters/image164.png",
       "notes": "",
       "skills": [
         {
@@ -1870,21 +1856,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_164.jpg"
+          "icon_url": "/images/characters/image166.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_165.jpg"
+          "icon_url": "/images/characters/image169.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_166.jpg"
+          "icon_url": "/images/characters/image161.png"
         }
       ]
     },
@@ -1894,7 +1880,7 @@
       "slug": "shane",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_19.jpg",
+      "image_url": "/images/characters/image26.png",
       "notes": "",
       "skills": [
         {
@@ -1902,14 +1888,14 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_20.jpg"
+          "icon_url": "/images/characters/image14.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_21.jpg"
+          "icon_url": "/images/characters/image9.png"
         }
       ]
     },
@@ -1919,7 +1905,7 @@
       "slug": "daisy",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_195.jpg",
+      "image_url": "/images/characters/image200.png",
       "notes": "",
       "skills": [
         {
@@ -1927,21 +1913,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_196.jpg"
+          "icon_url": "/images/characters/image201.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_197.jpg"
+          "icon_url": "/images/characters/image185.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_198.jpg"
+          "icon_url": "/images/characters/image197.png"
         }
       ]
     },
@@ -1951,29 +1937,29 @@
       "slug": "dellons",
       "role": "shaman",
       "type": "แบกสปีดทีม",
-      "image_url": "/images/characters/cellImage_333587538_119.jpg",
+      "image_url": "/images/characters/image122.png",
       "notes": "",
       "skills": [
         {
           "name": "Skill 1",
           "name_th": "สกิล 1",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_120.jpg"
+          "icon_url": "/images/characters/image131.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_121.jpg"
+          "icon_url": "/images/characters/image123.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_122.jpg"
+          "icon_url": "/images/characters/image125.png"
         }
       ]
     },
@@ -1983,29 +1969,29 @@
       "slug": "diaochan",
       "role": "avenger",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_360.jpg",
+      "image_url": "/images/characters/image361.png",
       "notes": "",
       "skills": [
         {
           "name": "Skill 1",
           "name_th": "สกิล 1",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_361.jpg"
+          "icon_url": "/images/characters/image377.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_362.jpg"
+          "icon_url": "/images/characters/image357.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_363.jpg"
+          "icon_url": "/images/characters/image353.png"
         }
       ]
     },
@@ -2015,7 +2001,7 @@
       "slug": "nia",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_239.jpg",
+      "image_url": "/images/characters/image233.png",
       "notes": "",
       "skills": [
         {
@@ -2023,21 +2009,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_240.jpg"
+          "icon_url": "/images/characters/image227.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_241.jpg"
+          "icon_url": "/images/characters/image285.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_242.jpg"
+          "icon_url": "/images/characters/image258.png"
         }
       ]
     },
@@ -2047,7 +2033,7 @@
       "slug": "ben",
       "role": "goalkeeper",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_211.jpg",
+      "image_url": "/images/characters/image226.png",
       "notes": "",
       "skills": [
         {
@@ -2055,21 +2041,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_212.jpg"
+          "icon_url": "/images/characters/image204.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_213.jpg"
+          "icon_url": "/images/characters/image203.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_214.jpg"
+          "icon_url": "/images/characters/image206.png"
         }
       ]
     },
@@ -2079,7 +2065,7 @@
       "slug": "bellika",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_131.jpg",
+      "image_url": "/images/characters/image138.png",
       "notes": "",
       "skills": [
         {
@@ -2087,21 +2073,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_132.jpg"
+          "icon_url": "/images/characters/image162.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_133.jpg"
+          "icon_url": "/images/characters/image117.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_134.jpg"
+          "icon_url": "/images/characters/image124.png"
         }
       ]
     },
@@ -2111,7 +2097,7 @@
       "slug": "platin",
       "role": "hunter",
       "type": "ทีมกาย / ทีมเวท",
-      "image_url": "/images/characters/cellImage_333587538_368.jpg",
+      "image_url": "/images/characters/image364.png",
       "notes": "อัตราคริ 50%-100%, จุดอ่อน 75%-100%, โจมตี มากสุดเท่าที่ได้",
       "skills": [
         {
@@ -2119,21 +2105,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_369.jpg"
+          "icon_url": "/images/characters/image358.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_370.jpg"
+          "icon_url": "/images/characters/image356.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_371.jpg"
+          "icon_url": "/images/characters/image391.png"
         }
       ]
     },
@@ -2143,29 +2129,29 @@
       "slug": "freyja",
       "role": "hunter",
       "type": "ทั่วไป",
-      "image_url": "/images/characters/cellImage_333587538_155.jpg",
+      "image_url": "/images/characters/image167.png",
       "notes": "จุดอ่อน 100%, บล็อค 0%-40%, ลดดาเมจ 16%-32%",
       "skills": [
         {
           "name": "Skill 1",
           "name_th": "สกิล 1",
-          "cooldown": "★6",
+          "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_156.jpg"
+          "icon_url": "/images/characters/image151.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_157.jpg"
+          "icon_url": "/images/characters/image160.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_158.jpg"
+          "icon_url": "/images/characters/image156.png"
         }
       ]
     },
@@ -2175,7 +2161,7 @@
       "slug": "feng-yan",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_22.jpg",
+      "image_url": "/images/characters/image4.png",
       "notes": "",
       "skills": [
         {
@@ -2183,14 +2169,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_23.jpg"
+          "icon_url": "/images/characters/image25.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image15.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
-          "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_24.jpg"
+          "skill_order": 2,
+          "icon_url": "/images/characters/image24.png"
         }
       ]
     },
@@ -2200,7 +2193,7 @@
       "slug": "may",
       "role": "commander",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_107.jpg",
+      "image_url": "/images/characters/image101.png",
       "notes": "",
       "skills": [
         {
@@ -2208,21 +2201,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_108.jpg"
+          "icon_url": "/images/characters/image102.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_109.jpg"
+          "icon_url": "/images/characters/image103.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_110.jpg"
+          "icon_url": "/images/characters/image110.png"
         }
       ]
     },
@@ -2232,7 +2225,7 @@
       "slug": "mercure",
       "role": "assassin",
       "type": "สายเร็ว",
-      "image_url": "/images/characters/cellImage_333587538_203.jpg",
+      "image_url": "/images/characters/image234.png",
       "notes": "โจมตี",
       "skills": [
         {
@@ -2240,21 +2233,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_204.jpg"
+          "icon_url": "/images/characters/image213.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_205.jpg"
+          "icon_url": "/images/characters/image205.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_206.jpg"
+          "icon_url": "/images/characters/image198.png"
         }
       ]
     },
@@ -2264,7 +2257,7 @@
       "slug": "reginleif",
       "role": "avenger",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_231.jpg",
+      "image_url": "/images/characters/image231.png",
       "notes": "",
       "skills": [
         {
@@ -2272,21 +2265,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_232.jpg"
+          "icon_url": "/images/characters/image241.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_233.jpg"
+          "icon_url": "/images/characters/image245.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_234.jpg"
+          "icon_url": "/images/characters/image250.png"
         }
       ]
     },
@@ -2296,7 +2289,7 @@
       "slug": "ray",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_25.jpg",
+      "image_url": "/images/characters/image49.png",
       "notes": "",
       "skills": [
         {
@@ -2304,21 +2297,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_26.jpg"
+          "icon_url": "/images/characters/image22.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_27.jpg"
+          "icon_url": "/images/characters/image37.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_28.jpg"
+          "icon_url": "/images/characters/image31.png"
         }
       ]
     },
@@ -2328,7 +2321,7 @@
       "slug": "xiao",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_86.jpg",
+      "image_url": "/images/characters/image121.png",
       "notes": "",
       "skills": [
         {
@@ -2336,21 +2329,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_87.jpg"
+          "icon_url": "/images/characters/image79.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_88.jpg"
+          "icon_url": "/images/characters/image82.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_89.jpg"
+          "icon_url": "/images/characters/image75.png"
         }
       ]
     },
@@ -2360,7 +2353,7 @@
       "slug": "xiao-qiao",
       "role": "commander",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_219.jpg",
+      "image_url": "/images/characters/image224.png",
       "notes": "",
       "skills": [
         {
@@ -2368,21 +2361,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_220.jpg"
+          "icon_url": "/images/characters/image211.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_221.jpg"
+          "icon_url": "/images/characters/image209.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_222.jpg"
+          "icon_url": "/images/characters/image217.png"
         }
       ]
     },
@@ -2392,7 +2385,7 @@
       "slug": "ace",
       "role": "commander",
       "type": "ซัพพอร์ต",
-      "image_url": "/images/characters/cellImage_333587538_313.jpg",
+      "image_url": "/images/characters/image309.png",
       "notes": "ลดดาเมจ 0%-32%, บล็อค เท่าที่ได้, โจมตี เท่าที่ได้",
       "skills": [
         {
@@ -2400,21 +2393,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_314.jpg"
+          "icon_url": "/images/characters/image323.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_315.jpg"
+          "icon_url": "/images/characters/image325.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_316.jpg"
+          "icon_url": "/images/characters/image302.png"
         }
       ]
     },
@@ -2424,7 +2417,7 @@
       "slug": "emilia",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_66.jpg",
+      "image_url": "/images/characters/image64.png",
       "notes": "",
       "skills": [
         {
@@ -2432,21 +2425,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_67.jpg"
+          "icon_url": "/images/characters/image62.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_68.jpg"
+          "icon_url": "/images/characters/image63.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_69.jpg"
+          "icon_url": "/images/characters/image61.png"
         }
       ]
     },
@@ -2456,7 +2449,7 @@
       "slug": "elisia",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_247.jpg",
+      "image_url": "/images/characters/image248.png",
       "notes": "",
       "skills": [
         {
@@ -2464,21 +2457,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_248.jpg"
+          "icon_url": "/images/characters/image249.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_249.jpg"
+          "icon_url": "/images/characters/image239.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_250.jpg"
+          "icon_url": "/images/characters/image242.png"
         }
       ]
     },
@@ -2488,7 +2481,7 @@
       "slug": "espada",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_159.jpg",
+      "image_url": "/images/characters/image194.png",
       "notes": "",
       "skills": [
         {
@@ -2496,21 +2489,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_160.jpg"
+          "icon_url": "/images/characters/image157.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_161.jpg"
+          "icon_url": "/images/characters/image152.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_162.jpg"
+          "icon_url": "/images/characters/image153.png"
         }
       ]
     },
@@ -2520,7 +2513,7 @@
       "slug": "ariel",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_135.jpg",
+      "image_url": "/images/characters/image126.png",
       "notes": "",
       "skills": [
         {
@@ -2528,21 +2521,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_136.jpg"
+          "icon_url": "/images/characters/image137.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_137.jpg"
+          "icon_url": "/images/characters/image142.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_138.jpg"
+          "icon_url": "/images/characters/image130.png"
         }
       ]
     },
@@ -2552,7 +2545,7 @@
       "slug": "heavenia",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_8.jpg",
+      "image_url": "/images/characters/image12.png",
       "notes": "",
       "skills": [
         {
@@ -2560,21 +2553,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_9.jpg"
+          "icon_url": "/images/characters/image10.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_10.jpg"
+          "icon_url": "/images/characters/image40.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_11.jpg"
+          "icon_url": "/images/characters/image5.png"
         }
       ]
     },
@@ -2584,7 +2577,7 @@
       "slug": "hellenia",
       "role": "guardian",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_327.jpg",
+      "image_url": "/images/characters/image308.png",
       "notes": "",
       "skills": [
         {
@@ -2592,21 +2585,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_328.jpg"
+          "icon_url": "/images/characters/image322.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_329.jpg"
+          "icon_url": "/images/characters/image401.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_330.jpg"
+          "icon_url": "/images/characters/image314.png"
         }
       ]
     },
@@ -2616,7 +2609,7 @@
       "slug": "catty",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_123.jpg",
+      "image_url": "/images/characters/image132.png",
       "notes": "",
       "skills": [
         {
@@ -2624,21 +2617,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_124.jpg"
+          "icon_url": "/images/characters/image127.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_125.jpg"
+          "icon_url": "/images/characters/image119.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_126.jpg"
+          "icon_url": "/images/characters/image128.png"
         }
       ]
     },
@@ -2648,7 +2641,7 @@
       "slug": "teo",
       "role": "avenger",
       "type": "C6 ทีมสปีด",
-      "image_url": "/images/characters/cellImage_333587538_111.jpg",
+      "image_url": "/images/characters/image118.png",
       "notes": "โจมตี มากสุดเท่าที่ได้",
       "skills": [
         {
@@ -2656,21 +2649,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_112.jpg"
+          "icon_url": "/images/characters/image107.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_113.jpg"
+          "icon_url": "/images/characters/image106.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_114.jpg"
+          "icon_url": "/images/characters/image113.png"
         }
       ]
     },
@@ -2680,7 +2673,7 @@
       "slug": "black-rose",
       "role": "hunter",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_115.jpg",
+      "image_url": "/images/characters/image112.png",
       "notes": "",
       "skills": [
         {
@@ -2688,21 +2681,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_116.jpg"
+          "icon_url": "/images/characters/image115.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_117.jpg"
+          "icon_url": "/images/characters/image104.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_118.jpg"
+          "icon_url": "/images/characters/image111.png"
         }
       ]
     },
@@ -2712,7 +2705,7 @@
       "slug": "randgrid",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_95.jpg",
+      "image_url": "/images/characters/image89.png",
       "notes": "",
       "skills": [
         {
@@ -2720,21 +2713,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_96.jpg"
+          "icon_url": "/images/characters/image108.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_97.jpg"
+          "icon_url": "/images/characters/image105.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_98.jpg"
+          "icon_url": "/images/characters/image96.png"
         }
       ]
     },
@@ -2744,7 +2737,7 @@
       "slug": "redgrid",
       "role": "balancer",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_344.jpg",
+      "image_url": "/images/characters/image340.png",
       "notes": "",
       "skills": [
         {
@@ -2752,21 +2745,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_345.jpg"
+          "icon_url": "/images/characters/image354.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_346.jpg"
+          "icon_url": "/images/characters/image376.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_347.jpg"
+          "icon_url": "/images/characters/image339.png"
         }
       ]
     },
@@ -2776,7 +2769,7 @@
       "slug": "colt",
       "role": "hunter",
       "type": "ทีมสปีด",
-      "image_url": "/images/characters/cellImage_333587538_103.jpg",
+      "image_url": "/images/characters/image98.png",
       "notes": "โจมตี",
       "skills": [
         {
@@ -2784,21 +2777,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_104.jpg"
+          "icon_url": "/images/characters/image114.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
-          "cooldown": "⏳",
+          "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_105.jpg"
+          "icon_url": "/images/characters/image97.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_106.jpg"
+          "icon_url": "/images/characters/image116.png"
         }
       ]
     },
@@ -2808,7 +2801,7 @@
       "slug": "chloe",
       "role": "shaman",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_396.jpg",
+      "image_url": "/images/characters/image398.png",
       "notes": "",
       "skills": [
         {
@@ -2816,21 +2809,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_397.jpg"
+          "icon_url": "/images/characters/image393.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_398.jpg"
+          "icon_url": "/images/characters/image387.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_399.jpg"
+          "icon_url": "/images/characters/image394.png"
         }
       ]
     },
@@ -2840,7 +2833,7 @@
       "slug": "joker",
       "role": "assassin",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_223.jpg",
+      "image_url": "/images/characters/image220.png",
       "notes": "",
       "skills": [
         {
@@ -2848,21 +2841,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_224.jpg"
+          "icon_url": "/images/characters/image218.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_225.jpg"
+          "icon_url": "/images/characters/image210.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_226.jpg"
+          "icon_url": "/images/characters/image225.png"
         }
       ]
     },
@@ -2872,7 +2865,7 @@
       "slug": "zoe",
       "role": "commander",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_36.jpg",
+      "image_url": "/images/characters/image45.png",
       "notes": "",
       "skills": [
         {
@@ -2880,21 +2873,21 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_37.jpg"
+          "icon_url": "/images/characters/image41.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_38.jpg"
+          "icon_url": "/images/characters/image30.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_39.jpg"
+          "icon_url": "/images/characters/image39.png"
         }
       ]
     },
@@ -2904,7 +2897,7 @@
       "slug": "noho",
       "role": "commander",
       "type": "",
-      "image_url": "/images/characters/cellImage_333587538_175.jpg",
+      "image_url": "/images/characters/image176.png",
       "notes": "",
       "skills": [
         {
@@ -2912,21 +2905,309 @@
           "name_th": "สกิล 1",
           "cooldown": "",
           "skill_order": 0,
-          "icon_url": "/images/characters/cellImage_333587538_176.jpg"
+          "icon_url": "/images/characters/image172.png"
         },
         {
           "name": "Skill 2",
           "name_th": "สกิล 2",
           "cooldown": "",
           "skill_order": 1,
-          "icon_url": "/images/characters/cellImage_333587538_177.jpg"
+          "icon_url": "/images/characters/image171.png"
         },
         {
           "name": "Passive",
           "name_th": "แพสซีฟ",
           "cooldown": "",
           "skill_order": 2,
-          "icon_url": "/images/characters/cellImage_333587538_178.jpg"
+          "icon_url": "/images/characters/image184.png"
+        }
+      ]
+    },
+    {
+      "name_en": "Fai",
+      "name_th": "ไพร์",
+      "slug": "fai",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image16.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image1.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image17.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image27.png"
+        }
+      ]
+    },
+    {
+      "name_en": "Kyle",
+      "name_th": "ไคล์",
+      "slug": "kyle",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image11.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image13.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image6.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image3.png"
+        }
+      ]
+    },
+    {
+      "name_en": "Hokin",
+      "name_th": "โฮกิ้น",
+      "slug": "hokin",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image71.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image72.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image86.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image69.png"
+        }
+      ]
+    },
+    {
+      "name_en": "Ryan",
+      "name_th": "ไรอัน",
+      "slug": "ryan",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image91.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image93.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image77.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image74.png"
+        }
+      ]
+    },
+    {
+      "name_en": "Bailong",
+      "name_th": "ไป๋หลง",
+      "slug": "bailong",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image85.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image88.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image78.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image87.png"
+        }
+      ]
+    },
+    {
+      "name_en": "Baijiao",
+      "name_th": "ไป๋เจียว",
+      "slug": "baijiao",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image269.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image271.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image264.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image276.png"
+        }
+      ]
+    },
+    {
+      "name_en": "Eileen",
+      "name_th": "ไอลีน",
+      "slug": "eileen",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image287.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image289.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image283.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image286.png"
+        }
+      ]
+    },
+    {
+      "name_en": "Rosie",
+      "name_th": "โรซี่",
+      "slug": "rosie",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image352.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image351.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image349.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image384.png"
+        }
+      ]
+    },
+    {
+      "name_en": "BnB",
+      "name_th": "บรันซ์ & บรันเซล",
+      "slug": "bnb",
+      "role": "",
+      "type": "",
+      "image_url": "/images/characters/image29.png",
+      "notes": "",
+      "skills": [
+        {
+          "name": "Skill 1",
+          "name_th": "สกิล 1",
+          "cooldown": "",
+          "skill_order": 0,
+          "icon_url": "/images/characters/image52.png"
+        },
+        {
+          "name": "Skill 2",
+          "name_th": "สกิล 2",
+          "cooldown": "",
+          "skill_order": 1,
+          "icon_url": "/images/characters/image32.png"
+        },
+        {
+          "name": "Passive",
+          "name_th": "แพสซีฟ",
+          "cooldown": "",
+          "skill_order": 2,
+          "icon_url": "/images/characters/image35.png"
         }
       ]
     }

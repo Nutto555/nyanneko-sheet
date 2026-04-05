@@ -127,11 +127,11 @@ export default function Characters() {
             <Link key={character.id} to={`/characters/${character.slug}`}>
               <Card className="h-full flex flex-col">
                 {/* Character Image */}
-                <div className="mb-4 -mx-6 -mt-6 h-48 bg-gradient-to-b from-primary/5 to-transparent rounded-t-xl overflow-hidden">
+                <div className="mb-4 -mx-6 -mt-6 bg-gradient-to-b from-primary/5 to-transparent rounded-t-xl overflow-hidden flex justify-center">
                   <img
                     src={getImageUrl(character.image_url || '')}
                     alt={character.name_en}
-                    className="w-full h-full object-cover"
+                    className="h-48 w-auto object-contain"
                     onError={(e) => {
                       e.currentTarget.src = '/images/placeholder.png';
                     }}

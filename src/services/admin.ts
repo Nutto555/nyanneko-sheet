@@ -9,13 +9,13 @@ export async function getAllCharacters(): Promise<Character[]> {
     .select('*')
     .order('name_en');
   if (error) throw new Error(error.message);
-  return data;
+  return data as unknown as Character[];
 }
 
 export async function updateCharacter(id: string, updates: Partial<Character>) {
   const { error } = await supabase
     .from('characters')
-    .update(updates)
+    .update(updates as never)
     .eq('id', id);
   if (error) throw new Error(error.message);
 }
@@ -29,7 +29,7 @@ export async function getAllTeams(): Promise<TeamWithMembers[]> {
     .order('category')
     .order('name');
   if (error) throw new Error(error.message);
-  return data as TeamWithMembers[];
+  return data as unknown as TeamWithMembers[];
 }
 
 export async function createTeam(team: {
@@ -43,17 +43,17 @@ export async function createTeam(team: {
 }): Promise<TeamComposition> {
   const { data, error } = await supabase
     .from('team_compositions')
-    .insert(team)
+    .insert(team as never)
     .select()
     .single();
   if (error) throw new Error(error.message);
-  return data;
+  return data as unknown as TeamComposition;
 }
 
 export async function updateTeam(id: string, updates: Partial<TeamComposition>) {
   const { error } = await supabase
     .from('team_compositions')
-    .update(updates)
+    .update(updates as never)
     .eq('id', id);
   if (error) throw new Error(error.message);
 }
@@ -76,14 +76,14 @@ export async function addTeamMember(teamId: string, characterId: string, positio
       character_id: characterId,
       position,
       gear_notes: gearNotes || null,
-    });
+    } as never);
   if (error) throw new Error(error.message);
 }
 
 export async function updateTeamMember(id: string, updates: { position?: number; gear_notes?: string }) {
   const { error } = await supabase
     .from('team_members')
-    .update(updates)
+    .update(updates as never)
     .eq('id', id);
   if (error) throw new Error(error.message);
 }

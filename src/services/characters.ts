@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabase';
-import type { Character, CharacterWithSkills } from '../types/database';
+import type { Character, CharacterRole, CharacterWithSkills } from '../types/database';
 import seedData from '../../scripts/seed-data.json';
 
 const isSupabaseConfigured = () => {
@@ -12,7 +12,7 @@ const localCharacters: Character[] = seedData.characters.map((c, i) => ({
   name_en: c.name_en,
   name_th: c.name_th,
   slug: c.slug,
-  role: c.role,
+  role: c.role as CharacterRole,
   type: c.type,
   image_url: c.image_url,
   thumbnail_url: null,

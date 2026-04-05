@@ -47,7 +47,7 @@ async function seedCharacters() {
           name_en: char.name_en,
           name_th: char.name_th,
           slug: char.slug,
-          role: char.role,
+          role: char.role || null,
           type: char.type,
           image_url: char.image_url,
           notes: char.notes || null,
@@ -73,6 +73,7 @@ async function seedCharacters() {
         name_th: skill.name_th,
         cooldown: skill.cooldown || null,
         skill_order: skill.skill_order,
+        icon_url: (skill as Record<string, unknown>).icon_url as string || null,
       });
       if (skillError) console.error(`    skill error: ${skillError.message}`);
     }
