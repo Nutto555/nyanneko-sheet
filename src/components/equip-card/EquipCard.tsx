@@ -1,4 +1,4 @@
-import type { EquipEntry } from '../../pages/Equip';
+import type { EquipEntry } from '../../types/ui';
 import StatBadge from '../ui/StatBadge';
 
 /** Only allow relative paths and same-origin Supabase storage URLs as image src. */
@@ -34,11 +34,11 @@ export default function EquipCard({ entry }: EquipCardProps) {
   const { character, team_context, skill_1, basic_attack, skill_2, passive } = entry;
   void safeImageUrl(character.image_url);
 
-  const rows: { label_en: string; label_th: string; text?: string }[] = [
-    { label_en: 'Basic', label_th: 'โจมตีพื้นฐาน', text: basic_attack },
-    { label_en: 'Skill 1', label_th: 'สกิล 1', text: skill_1 },
-    { label_en: 'Skill 2', label_th: 'สกิล 2', text: skill_2 },
-    { label_en: 'Passive', label_th: 'แพสซีฟ', text: passive },
+  const rows: { label_en: string; label_th: string; text?: string; stats: string[] }[] = [
+    { label_en: 'Basic', label_th: 'โจมตีพื้นฐาน', text: basic_attack, stats: parseStats(basic_attack) },
+    { label_en: 'Skill 1', label_th: 'สกิล 1', text: skill_1, stats: parseStats(skill_1) },
+    { label_en: 'Skill 2', label_th: 'สกิล 2', text: skill_2, stats: parseStats(skill_2) },
+    { label_en: 'Passive', label_th: 'แพสซีฟ', text: passive, stats: parseStats(passive) },
   ].filter((r) => r.text);
 
   return (
@@ -56,9 +56,9 @@ export default function EquipCard({ entry }: EquipCardProps) {
           className="w-10 h-10 rounded-lg overflow-hidden shrink-0"
           style={{ background: 'var(--color-border)', border: '1px solid var(--color-border-bright)' }}
         >
-          {character.image_url ? (
+          {portraitUrl ? (
             <img
-              src={character.image_url}
+              src={portraitUrl}
               alt={character.name_en}
               loading="lazy"
               className="w-full h-full object-cover"
@@ -100,12 +100,12 @@ export default function EquipCard({ entry }: EquipCardProps) {
                 <span className="text-xs opacity-30">{row.label_th}</span>
               </div>
               <div className="flex flex-wrap gap-1">
-                {parseStats(row.text).map((stat, i) => (
-                  <StatBadge key={i} stat={stat} />
+                {row.stats.map((stat) => (
+                  <StatBadge key={stat} stat={stat} />
                 ))}
               </div>
               {/* Full text as small note if it doesn't parse well into badges */}
-              {parseStats(row.text).length === 0 && row.text && (
+              {row.stats.length === 0 && row.text && (
                 <p className="text-xs opacity-50 leading-relaxed">{row.text}</p>
               )}
             </div>

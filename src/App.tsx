@@ -9,6 +9,7 @@ import Pets from './pages/Pets';
 import Rings from './pages/Rings';
 import EquipmentSets from './pages/EquipmentSets';
 import About from './pages/About';
+import Updates from './pages/Updates';
 
 function App() {
   return (
@@ -31,7 +32,10 @@ function App() {
           <Route path="equipment" element={<EquipmentSets />} />
           <Route path="equip" element={<Equip />} />
 
-          {/* Info */}
+          {/* Updates */}
+          <Route path="updates" element={<Updates />} />
+
+          {/* Misc */}
           <Route path="about" element={<About />} />
         </Route>
       </Routes>

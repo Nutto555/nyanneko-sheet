@@ -2,15 +2,7 @@ import { useEffect, useState } from 'react';
 import EquipCard from '../components/equip-card/EquipCard';
 import { getCharacters } from '../services/characters';
 import type { Character } from '../types/database';
-
-export interface EquipEntry {
-  character: Character;
-  team_context?: string;
-  basic_attack?: string;
-  skill_1?: string;
-  skill_2?: string;
-  passive?: string;
-}
+import type { EquipEntry } from '../types/ui';
 
 // Equip notes are stored in character.notes and character.type
 function buildEquipEntries(chars: Character[]): EquipEntry[] {
@@ -51,10 +43,18 @@ export default function Equip() {
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
-    getCharacters().then((chars) => {
-      setEntries(buildEquipEntries(chars));
-      setLoading(false);
-    });
+    let cancelled = false;
+    getCharacters()
+      .then((chars) => {
+        if (!cancelled) setEntries(buildEquipEntries(chars));
+      })
+      .catch(() => {
+        // service already falls back to local data; nothing more to show
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => { cancelled = true; };
   }, []);
 
   const filtered = filter

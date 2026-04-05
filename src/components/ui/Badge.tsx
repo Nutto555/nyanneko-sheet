@@ -1,6 +1,8 @@
+import type { BadgeVariant } from '../../types/ui';
+
 interface BadgeProps {
   label: string;
-  variant?: 'primary' | 'secondary' | 'accent' | 'neutral';
+  variant?: BadgeVariant;
 }
 
 const variants = {

@@ -1,12 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 
-interface NavGroup {
-  label_th: string;
-  label_en: string;
-  path?: string;
-  children?: { label_th: string; label_en: string; path: string }[];
-}
+type NavChild = { label_th: string; label_en: string; path: string };
+
+type NavGroup =
+  | { label_th: string; label_en: string; path: string; children?: never }
+  | { label_th: string; label_en: string; path?: never; children: NavChild[] };
 
 const navGroups: NavGroup[] = [
   { label_th: 'หน้าแรก', label_en: 'Home', path: '/' },
