@@ -32,7 +32,7 @@ export async function getEnemyTemplates(): Promise<EnemyDefenseTemplateWithMembe
     if (import.meta.env.DEV) console.error('Error fetching enemy templates:', error);
     return [];
   }
-  return data as unknown as EnemyDefenseTemplateWithMembers[];
+  return (data ?? []) as EnemyDefenseTemplateWithMembers[];
 }
 
 export async function getEnemyTemplateBySlug(slug: string): Promise<EnemyDefenseTemplateWithMembers | null> {
@@ -48,7 +48,7 @@ export async function getEnemyTemplateBySlug(slug: string): Promise<EnemyDefense
     if (import.meta.env.DEV) console.error('Error fetching enemy template:', error);
     return null;
   }
-  return data as unknown as EnemyDefenseTemplateWithMembers;
+  return data as EnemyDefenseTemplateWithMembers;
 }
 
 export async function getCounterStrategies(templateId: string): Promise<CounterStrategyWithConditions[]> {
@@ -65,7 +65,7 @@ export async function getCounterStrategies(templateId: string): Promise<CounterS
     if (import.meta.env.DEV) console.error('Error fetching counter strategies:', error);
     return [];
   }
-  return data as unknown as CounterStrategyWithConditions[];
+  return (data ?? []) as CounterStrategyWithConditions[];
 }
 
 export async function getAllCounterStrategies(templateId: string): Promise<CounterStrategyWithConditions[]> {
@@ -81,7 +81,7 @@ export async function getAllCounterStrategies(templateId: string): Promise<Count
     if (import.meta.env.DEV) console.error('Error fetching all counter strategies:', error);
     return [];
   }
-  return data as unknown as CounterStrategyWithConditions[];
+  return (data ?? []) as CounterStrategyWithConditions[];
 }
 
 // ─── WRITE functions ────────────────────────────────────────────
@@ -96,7 +96,7 @@ export async function createEnemyTemplate(input: unknown): Promise<EnemyDefenseT
     .single();
 
   if (error) throw new Error(error.message);
-  return data as unknown as EnemyDefenseTemplate;
+  return data as EnemyDefenseTemplate;
 }
 
 export async function updateEnemyTemplate(id: string, input: unknown): Promise<void> {
@@ -129,7 +129,7 @@ export async function createCounterStrategy(input: unknown): Promise<CounterStra
     .single();
 
   if (error) throw new Error(error.message);
-  return data as unknown as CounterStrategy;
+  return data as CounterStrategy;
 }
 
 export async function updateCounterStrategy(id: string, input: unknown): Promise<void> {
