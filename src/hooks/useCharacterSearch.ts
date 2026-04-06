@@ -1,8 +1,8 @@
-import Fuse from 'fuse.js';
+import Fuse, { type IFuseOptions } from 'fuse.js';
 import { useMemo, useCallback } from 'react';
 import type { Character } from '../types/database';
 
-const FUSE_OPTIONS: Fuse.IFuseOptions<Character> = {
+const FUSE_OPTIONS: IFuseOptions<Character> = {
   keys: [
     { name: 'name_en', weight: 0.6 },
     { name: 'name_th', weight: 0.4 },
