@@ -19,6 +19,8 @@ Guild members can look up any enemy defense team and instantly see what counter 
 - ✓ Excel import for bulk team data — existing
 - ✓ Supabase backend with offline seed data fallback — existing
 - ✓ Character detail pages with skill information — existing
+- ✓ Counter-strategy schema (4 new tables) — Validated in Phase 1
+- ✓ TypeScript types, service layer, and strategy matcher utility — Validated in Phase 2
 
 ### Active
 
@@ -83,4 +85,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-06 after initialization*
+*Last updated: 2026-04-06 after Phase 2 completion*
