@@ -33,7 +33,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. `strategy_conditions` rows have an explicit `condition_type` column (`must_have` | `must_not_have`) — no freeform condition encoding
   4. Priority ordering is stored as an explicit integer column on `counter_strategies`, not derived from insertion order
   5. RLS policies are present on all new tables; direct unauthenticated writes are rejected
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Write migration 007_counter_strategies.sql, push schema, verify integrity
 
 ### Phase 2: Types, Service Layer, and Matcher Utility
 **Goal**: TypeScript types and service functions cover all counter-strategy reads and writes; the strategy matcher utility evaluates conditions against an enemy team with full unit test coverage
@@ -127,7 +130,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Counter Strategy Schema | 0/TBD | Not started | - |
+| 1. Counter Strategy Schema | 0/1 | Not started | - |
 | 2. Types, Service Layer, and Matcher Utility | 0/TBD | Not started | - |
 | 3. Shared UI Components | 0/TBD | Not started | - |
 | 4. Counter Lookup Page | 0/TBD | Not started | - |
