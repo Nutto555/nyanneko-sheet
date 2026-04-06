@@ -51,6 +51,26 @@ export interface Database {
         Insert: Omit<GameUpdate, 'id' | 'created_at'>;
         Update: Partial<Omit<GameUpdate, 'id'>>;
       };
+      enemy_defense_templates: {
+        Row: EnemyDefenseTemplate;
+        Insert: Omit<EnemyDefenseTemplate, 'id' | 'created_at' | 'updated_at'>;
+        Update: Partial<Omit<EnemyDefenseTemplate, 'id'>>;
+      };
+      enemy_defense_members: {
+        Row: EnemyDefenseMember;
+        Insert: Omit<EnemyDefenseMember, 'id' | 'created_at'>;
+        Update: Partial<Omit<EnemyDefenseMember, 'id'>>;
+      };
+      counter_strategies: {
+        Row: CounterStrategy;
+        Insert: Omit<CounterStrategy, 'id' | 'created_at' | 'updated_at'>;
+        Update: Partial<Omit<CounterStrategy, 'id'>>;
+      };
+      strategy_conditions: {
+        Row: StrategyCondition;
+        Insert: Omit<StrategyCondition, 'id' | 'created_at'>;
+        Update: Partial<Omit<StrategyCondition, 'id'>>;
+      };
     };
   };
 }
@@ -216,6 +236,52 @@ export interface TeamMember {
 }
 
 // ============================================================
+// Counter-strategy types
+// ============================================================
+
+export type ConditionType = 'must_have' | 'must_not_have';
+
+export interface EnemyDefenseTemplate {
+  id: string;
+  name_en: string;
+  name_th: string | null;
+  slug: string;
+  description: string | null;
+  is_featured: boolean;
+  sort_order: number;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface EnemyDefenseMember {
+  id: string;
+  template_id: string;
+  character_id: string;
+  position: number;
+  created_at: string;
+}
+
+export interface CounterStrategy {
+  id: string;
+  template_id: string;
+  counter_team_id: string | null;
+  priority: number;
+  condition_note: string | null;
+  strategy_notes: string | null;
+  is_active: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface StrategyCondition {
+  id: string;
+  strategy_id: string;
+  character_id: string;
+  condition_type: ConditionType;
+  created_at: string;
+}
+
+// ============================================================
 // Extended types with joins
 // ============================================================
 
@@ -225,6 +291,15 @@ export interface CharacterWithSkills extends Character {
 
 export interface TeamWithMembers extends TeamComposition {
   team_members: (TeamMember & { characters: Character })[];
+}
+
+export interface EnemyDefenseTemplateWithMembers extends EnemyDefenseTemplate {
+  enemy_defense_members: (EnemyDefenseMember & { characters: Character })[];
+}
+
+export interface CounterStrategyWithConditions extends CounterStrategy {
+  strategy_conditions: (StrategyCondition & { characters: Character })[];
+  team_compositions: TeamComposition | null;
 }
 
 // ============================================================
