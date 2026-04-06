@@ -51,8 +51,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Types, service layer CRUD, and Zod validation schemas
-- [ ] 02-02-PLAN.md — Strategy matcher utility with TDD (tests first, then implementation)
+- [x] 02-01-PLAN.md — Types, service layer CRUD, and Zod validation schemas
+- [x] 02-02-PLAN.md — Strategy matcher utility with TDD (tests first, then implementation)
 
 ### Phase 3: Shared UI Components
 **Goal**: A reusable character multi-select component and character portrait display are available for use in both the member search page and the admin builder
