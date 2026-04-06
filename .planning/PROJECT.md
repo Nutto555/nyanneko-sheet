@@ -21,6 +21,7 @@ Guild members can look up any enemy defense team and instantly see what counter 
 - ✓ Character detail pages with skill information — existing
 - ✓ Counter-strategy schema (4 new tables) — Validated in Phase 1
 - ✓ TypeScript types, service layer, and strategy matcher utility — Validated in Phase 2
+- ✓ Shared UI components (CharacterPortrait, CharacterMultiSelect, safeImageUrl, useCharacterSearch) — Validated in Phase 3
 
 ### Active
 
@@ -85,4 +86,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-06 after Phase 2 completion*
+*Last updated: 2026-04-07 after Phase 3 completion*
