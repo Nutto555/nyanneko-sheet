@@ -48,7 +48,11 @@ Plans:
   3. `strategyMatcher.ts` exports `evaluateStrategy()` and `resolveMatchingStrategies()` as pure functions with no UI or Supabase imports
   4. Unit tests for `strategyMatcher.ts` cover must_have match, must_not_have rejection, priority ordering, and partial-match ranking — all pass
   5. Zod schemas validate strategy form payloads before any Supabase write
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Types, service layer CRUD, and Zod validation schemas
+- [ ] 02-02-PLAN.md — Strategy matcher utility with TDD (tests first, then implementation)
 
 ### Phase 3: Shared UI Components
 **Goal**: A reusable character multi-select component and character portrait display are available for use in both the member search page and the admin builder
@@ -131,7 +135,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Counter Strategy Schema | 0/1 | Not started | - |
-| 2. Types, Service Layer, and Matcher Utility | 0/TBD | Not started | - |
+| 2. Types, Service Layer, and Matcher Utility | 0/2 | Not started | - |
 | 3. Shared UI Components | 0/TBD | Not started | - |
 | 4. Counter Lookup Page | 0/TBD | Not started | - |
 | 5. Admin Strategy Builder | 0/TBD | Not started | - |
