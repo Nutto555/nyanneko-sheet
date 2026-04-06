@@ -63,8 +63,12 @@ Plans:
   2. Selected characters display as portrait chips that can be individually removed
   3. Team composition displays throughout the app show character portrait images, not text-only names
   4. The Fuse.js instance is created inside `useMemo` — retyping a character name does not re-index the full character list on each keystroke
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
+
+Plans:
+- [ ] 03-01-PLAN.md — Extract safeImageUrl utility, configure test infra, create CharacterPortrait component
+- [ ] 03-02-PLAN.md — Create useCharacterSearch hook and CharacterMultiSelect combobox component
 
 ### Phase 4: Counter Lookup Page
 **Goal**: A guild member can look up the right counter for any enemy defense team by selecting enemy characters or clicking a popular template, and sees prioritized results with conditions and notes
@@ -130,13 +134,13 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Counter Strategy Schema | 0/1 | Not started | - |
 | 2. Types, Service Layer, and Matcher Utility | 0/2 | Not started | - |
-| 3. Shared UI Components | 0/TBD | Not started | - |
+| 3. Shared UI Components | 0/2 | Not started | - |
 | 4. Counter Lookup Page | 0/TBD | Not started | - |
 | 5. Admin Strategy Builder | 0/TBD | Not started | - |
 | 6. Enemy Defense Templates | 0/TBD | Not started | - |
