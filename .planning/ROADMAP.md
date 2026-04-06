@@ -67,8 +67,8 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 03-01-PLAN.md — Extract safeImageUrl utility, configure test infra, create CharacterPortrait component
-- [ ] 03-02-PLAN.md — Create useCharacterSearch hook and CharacterMultiSelect combobox component
+- [x] 03-01-PLAN.md — Extract safeImageUrl utility, configure test infra, create CharacterPortrait component
+- [x] 03-02-PLAN.md — Create useCharacterSearch hook and CharacterMultiSelect combobox component
 
 ### Phase 4: Counter Lookup Page
 **Goal**: A guild member can look up the right counter for any enemy defense team by selecting enemy characters or clicking a popular template, and sees prioritized results with conditions and notes
