@@ -12,6 +12,8 @@ export type BadgeVariant = 'primary' | 'secondary' | 'accent' | 'neutral';
 export type ButtonVariant = 'primary' | 'secondary' | 'ghost';
 export type ButtonSize = 'sm' | 'md' | 'lg';
 
+export type CharacterPortraitSize = 'sm' | 'md' | 'lg';
+
 export type StatVariant = 'atk' | 'def' | 'block' | 'crit' | 'spd' | 'neutral';
 
 // ─── Team card ─────────────────────────────────────────────────────────────
