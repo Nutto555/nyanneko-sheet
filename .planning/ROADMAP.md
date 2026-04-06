@@ -36,7 +36,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Write migration 007_counter_strategies.sql, push schema, verify integrity
+- [x] 01-01-PLAN.md — Write migration 007_counter_strategies.sql, push schema, verify integrity
 
 ### Phase 2: Types, Service Layer, and Matcher Utility
 **Goal**: TypeScript types and service functions cover all counter-strategy reads and writes; the strategy matcher utility evaluates conditions against an enemy team with full unit test coverage
