@@ -1,21 +1,6 @@
 import type { EquipEntry } from '../../types/ui';
 import StatBadge from '../ui/StatBadge';
-
-/** Only allow relative paths and same-origin Supabase storage URLs as image src. */
-function safeImageUrl(url: string | null | undefined): string | null {
-  if (!url) return null;
-  if (url.startsWith('/')) return url; // relative path — always safe
-  try {
-    const parsed = new URL(url);
-    const supabaseHost = import.meta.env.VITE_SUPABASE_URL
-      ? new URL(import.meta.env.VITE_SUPABASE_URL).host
-      : null;
-    if (supabaseHost && parsed.host === supabaseHost) return url;
-  } catch {
-    // invalid URL — block it
-  }
-  return null;
-}
+import { safeImageUrl } from '../../utils/imageUrl';
 
 function parseStats(text?: string): string[] {
   if (!text) return [];
