@@ -86,43 +86,43 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DATA-01 | Pending | Pending |
-| DATA-02 | Pending | Pending |
-| DATA-03 | Pending | Pending |
-| DATA-04 | Pending | Pending |
-| DATA-05 | Pending | Pending |
-| DATA-06 | Pending | Pending |
-| DATA-07 | Pending | Pending |
-| DATA-08 | Pending | Pending |
-| LOOK-01 | Pending | Pending |
-| LOOK-02 | Pending | Pending |
-| LOOK-03 | Pending | Pending |
-| LOOK-04 | Pending | Pending |
-| LOOK-05 | Pending | Pending |
-| LOOK-06 | Pending | Pending |
-| LOOK-07 | Pending | Pending |
-| LOOK-08 | Pending | Pending |
-| ADMIN-01 | Pending | Pending |
-| ADMIN-02 | Pending | Pending |
-| ADMIN-03 | Pending | Pending |
-| ADMIN-04 | Pending | Pending |
-| ADMIN-05 | Pending | Pending |
-| ADMIN-06 | Pending | Pending |
-| ADMIN-07 | Pending | Pending |
-| SUB-01 | Pending | Pending |
-| SUB-02 | Pending | Pending |
-| SUB-03 | Pending | Pending |
-| SUB-04 | Pending | Pending |
-| UI-01 | Pending | Pending |
-| UI-02 | Pending | Pending |
-| UI-03 | Pending | Pending |
-| UI-04 | Pending | Pending |
+| DATA-01 | Phase 1 | Pending |
+| DATA-02 | Phase 1 | Pending |
+| DATA-03 | Phase 1 | Pending |
+| DATA-04 | Phase 1 | Pending |
+| DATA-05 | Phase 1 | Pending |
+| DATA-06 | Phase 1 | Pending |
+| DATA-07 | Phase 2 | Pending |
+| DATA-08 | Phase 2 | Pending |
+| LOOK-01 | Phase 4 | Pending |
+| LOOK-02 | Phase 3 | Pending |
+| LOOK-03 | Phase 3 | Pending |
+| LOOK-04 | Phase 4 | Pending |
+| LOOK-05 | Phase 4 | Pending |
+| LOOK-06 | Phase 4 | Pending |
+| LOOK-07 | Phase 4 | Pending |
+| LOOK-08 | Phase 4 | Pending |
+| ADMIN-01 | Phase 5 | Pending |
+| ADMIN-02 | Phase 5 | Pending |
+| ADMIN-03 | Phase 5 | Pending |
+| ADMIN-04 | Phase 5 | Pending |
+| ADMIN-05 | Phase 6 | Pending |
+| ADMIN-06 | Phase 5 | Pending |
+| ADMIN-07 | Phase 5 | Pending |
+| SUB-01 | Phase 7 | Pending |
+| SUB-02 | Phase 7 | Pending |
+| SUB-03 | Phase 7 | Pending |
+| SUB-04 | Phase 7 | Pending |
+| UI-01 | Phase 8 | Pending |
+| UI-02 | Phase 8 | Pending |
+| UI-03 | Phase 8 | Pending |
+| UI-04 | Phase 8 | Pending |
 
 **Coverage:**
 - v1 requirements: 31 total
-- Mapped to phases: 0
-- Unmapped: 31
+- Mapped to phases: 31
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-06*
-*Last updated: 2026-04-06 after initial definition*
+*Last updated: 2026-04-06 after roadmap creation*
