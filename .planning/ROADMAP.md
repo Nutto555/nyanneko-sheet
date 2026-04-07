@@ -80,8 +80,12 @@ Plans:
   3. Each counter result displays: counter team with portraits, priority rank (try A first, then B), conditions ("only if enemy has X but not Y"), and strategy notes
   4. Popular enemy defense templates are visible at the top of the page before any search input — clicking one populates the character selector automatically
   5. The `last_verified_at` timestamp is visible on each counter card so members know if the strategy is post-patch
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
+
+Plans:
+- [ ] 04-01-PLAN.md — Service extension (getAllActiveStrategies) and counter display sub-components (ConditionBadges, StrategyCard, CounterResultCard)
+- [ ] 04-02-PLAN.md — Data hook (useCounterSearch), EnemyTemplateGrid, CounterSearch page, and /counter route registration
 
 ### Phase 5: Admin Strategy Builder
 **Goal**: An authenticated admin can create, edit, delete, and reorder counter strategies through the web UI; unauthenticated users cannot access or modify strategy data
@@ -141,7 +145,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 1. Counter Strategy Schema | 0/1 | Not started | - |
 | 2. Types, Service Layer, and Matcher Utility | 0/2 | Not started | - |
 | 3. Shared UI Components | 0/2 | Not started | - |
-| 4. Counter Lookup Page | 0/TBD | Not started | - |
+| 4. Counter Lookup Page | 0/2 | Not started | - |
 | 5. Admin Strategy Builder | 0/TBD | Not started | - |
 | 6. Enemy Defense Templates | 0/TBD | Not started | - |
 | 7. Member Submission Queue | 0/TBD | Not started | - |
