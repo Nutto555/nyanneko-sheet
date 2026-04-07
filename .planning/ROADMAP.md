@@ -84,7 +84,7 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 04-01-PLAN.md — Service extension (getAllActiveStrategies) and counter display sub-components (ConditionBadges, StrategyCard, CounterResultCard)
+- [x] 04-01-PLAN.md — Service extension (getAllActiveStrategies) and counter display sub-components (ConditionBadges, StrategyCard, CounterResultCard)
 - [ ] 04-02-PLAN.md — Data hook (useCounterSearch), EnemyTemplateGrid, CounterSearch page, and /counter route registration
 
 ### Phase 5: Admin Strategy Builder
