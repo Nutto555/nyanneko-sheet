@@ -11,6 +11,7 @@ import EquipmentSets from './pages/EquipmentSets';
 import About from './pages/About';
 import Updates from './pages/Updates';
 import Admin from './pages/Admin';
+import CounterSearch from './pages/CounterSearch';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           <Route path="defense/phy" element={<GvgMode mode="defense-phy" />} />
           <Route path="defense/mage" element={<GvgMode mode="defense-mage" />} />
           <Route path="defense/tank" element={<GvgMode mode="defense-tank" />} />
+
+          {/* Counter lookup */}
+          <Route path="counter" element={<CounterSearch />} />
 
           {/* Database pages */}
           <Route path="characters" element={<Characters />} />
