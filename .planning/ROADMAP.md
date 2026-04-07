@@ -145,7 +145,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 1. Counter Strategy Schema | 0/1 | Not started | - |
 | 2. Types, Service Layer, and Matcher Utility | 0/2 | Not started | - |
 | 3. Shared UI Components | 0/2 | Not started | - |
-| 4. Counter Lookup Page | 0/2 | Not started | - |
+| 4. Counter Lookup Page | 1/2 | In Progress|  |
 | 5. Admin Strategy Builder | 0/TBD | Not started | - |
 | 6. Enemy Defense Templates | 0/TBD | Not started | - |
 | 7. Member Submission Queue | 0/TBD | Not started | - |

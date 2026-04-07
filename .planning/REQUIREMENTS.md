@@ -18,14 +18,14 @@
 
 ### Counter Lookup (Member-Facing)
 
-- [ ] **LOOK-01**: Counter search page — member inputs enemy characters, sees matching counter strategies
+- [x] **LOOK-01**: Counter search page — member inputs enemy characters, sees matching counter strategies
 - [ ] **LOOK-02**: Multi-character search input with fuzzy matching (Fuse.js) against character database
 - [ ] **LOOK-03**: Character portraits displayed in all team compositions (enemy and counter teams)
 - [x] **LOOK-04**: Priority-ordered counter alternatives displayed per scenario (try A first, then B, then C)
 - [x] **LOOK-05**: Conditional branching display — visual if/then/else showing which counter applies under which conditions
-- [ ] **LOOK-06**: Enemy defense templates shown prominently at top of browse view (common comps)
+- [x] **LOOK-06**: Enemy defense templates shown prominently at top of browse view (common comps)
 - [x] **LOOK-07**: Strategy notes, pros/cons visible per counter entry
-- [ ] **LOOK-08**: Partial-match search results when exact enemy comp not found (ranked by relevance)
+- [x] **LOOK-08**: Partial-match search results when exact enemy comp not found (ranked by relevance)
 
 ### Admin Strategy Builder
 
@@ -94,14 +94,14 @@
 | DATA-06 | Phase 1 | Pending |
 | DATA-07 | Phase 2 | Pending |
 | DATA-08 | Phase 2 | Pending |
-| LOOK-01 | Phase 4 | Pending |
+| LOOK-01 | Phase 4 | Complete |
 | LOOK-02 | Phase 3 | Pending |
 | LOOK-03 | Phase 3 | Pending |
 | LOOK-04 | Phase 4 | Complete |
 | LOOK-05 | Phase 4 | Complete |
-| LOOK-06 | Phase 4 | Pending |
+| LOOK-06 | Phase 4 | Complete |
 | LOOK-07 | Phase 4 | Complete |
-| LOOK-08 | Phase 4 | Pending |
+| LOOK-08 | Phase 4 | Complete |
 | ADMIN-01 | Phase 5 | Pending |
 | ADMIN-02 | Phase 5 | Pending |
 | ADMIN-03 | Phase 5 | Pending |
