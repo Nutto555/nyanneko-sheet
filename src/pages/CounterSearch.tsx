@@ -96,7 +96,7 @@ export default function CounterSearch(): React.JSX.Element {
               characters={characters}
               selectedCharacters={selectedEnemies}
               onChange={setSelectedEnemies}
-              maxSelections={6}
+              maxSelections={3}
               placeholder="Select enemy characters..."
             />
             {selectedEnemies.length > 0 && (
