@@ -68,6 +68,22 @@ export async function getCounterStrategies(templateId: string): Promise<CounterS
   return (data ?? []) as CounterStrategyWithConditions[];
 }
 
+export async function getAllActiveStrategies(): Promise<CounterStrategyWithConditions[]> {
+  if (!isSupabaseConfigured()) return [];
+
+  const { data, error } = await supabase
+    .from('counter_strategies')
+    .select('*, strategy_conditions(*, characters(*)), team_compositions(*, team_members(*, characters(*)))')
+    .eq('is_active', true)
+    .order('priority');
+
+  if (error) {
+    if (import.meta.env.DEV) console.error('Error fetching all active strategies:', error);
+    return [];
+  }
+  return (data ?? []) as CounterStrategyWithConditions[];
+}
+
 export async function getAllCounterStrategies(templateId: string): Promise<CounterStrategyWithConditions[]> {
   if (!isSupabaseConfigured()) return [];
 
