@@ -102,7 +102,7 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 05-01-PLAN.md — Admin auth gate, admin layout, strategy/template CRUD hooks
+- [x] 05-01-PLAN.md — Admin auth gate, admin layout, strategy/template CRUD hooks
 - [ ] 05-02-PLAN.md — Strategy builder UI (form, condition editor, drag-to-reorder)
 - [ ] 05-03-PLAN.md — Enemy template management UI + route registration + human verification
 

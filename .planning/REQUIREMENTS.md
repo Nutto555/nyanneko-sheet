@@ -29,8 +29,8 @@
 
 ### Admin Strategy Builder
 
-- [ ] **ADMIN-01**: Admin strategy builder page — create counter scenarios with enemy team + counter teams + conditions
-- [ ] **ADMIN-02**: Character autocomplete/search (Headless UI Combobox) for composing teams
+- [x] **ADMIN-01**: Admin strategy builder page — create counter scenarios with enemy team + counter teams + conditions
+- [x] **ADMIN-02**: Character autocomplete/search (Headless UI Combobox) for composing teams
 - [ ] **ADMIN-03**: Condition editor — add positive (must have) and negative (must not have) character conditions
 - [ ] **ADMIN-04**: Priority drag-and-drop reordering of counter alternatives (dnd-kit)
 - [ ] **ADMIN-05**: Enemy defense template management — create/edit/delete named popular comps
@@ -95,8 +95,8 @@
 | LOOK-06 | Phase 4 | Complete |
 | LOOK-07 | Phase 4 | Complete |
 | LOOK-08 | Phase 4 | Complete |
-| ADMIN-01 | Phase 5 | Pending |
-| ADMIN-02 | Phase 5 | Pending |
+| ADMIN-01 | Phase 5 | Complete |
+| ADMIN-02 | Phase 5 | Complete |
 | ADMIN-03 | Phase 5 | Pending |
 | ADMIN-04 | Phase 5 | Pending |
 | ADMIN-05 | Phase 5 | Pending |
