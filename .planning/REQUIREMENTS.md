@@ -31,11 +31,11 @@
 
 - [x] **ADMIN-01**: Admin strategy builder page — create counter scenarios with enemy team + counter teams + conditions
 - [x] **ADMIN-02**: Character autocomplete/search (Headless UI Combobox) for composing teams
-- [ ] **ADMIN-03**: Condition editor — add positive (must have) and negative (must not have) character conditions
-- [ ] **ADMIN-04**: Priority drag-and-drop reordering of counter alternatives (dnd-kit)
+- [x] **ADMIN-03**: Condition editor — add positive (must have) and negative (must not have) character conditions
+- [x] **ADMIN-04**: Priority drag-and-drop reordering of counter alternatives (dnd-kit)
 - [ ] **ADMIN-05**: Enemy defense template management — create/edit/delete named popular comps
-- [ ] **ADMIN-06**: Edit and delete existing counter strategies
-- [ ] **ADMIN-07**: Strategy version timestamp — auto-updated on save, visible to members
+- [x] **ADMIN-06**: Edit and delete existing counter strategies
+- [x] **ADMIN-07**: Strategy version timestamp — auto-updated on save, visible to members
 
 ### Frontend UI Improvements
 
@@ -97,11 +97,11 @@
 | LOOK-08 | Phase 4 | Complete |
 | ADMIN-01 | Phase 5 | Complete |
 | ADMIN-02 | Phase 5 | Complete |
-| ADMIN-03 | Phase 5 | Pending |
-| ADMIN-04 | Phase 5 | Pending |
+| ADMIN-03 | Phase 5 | Complete |
+| ADMIN-04 | Phase 5 | Complete |
 | ADMIN-05 | Phase 5 | Pending |
-| ADMIN-06 | Phase 5 | Pending |
-| ADMIN-07 | Phase 5 | Pending |
+| ADMIN-06 | Phase 5 | Complete |
+| ADMIN-07 | Phase 5 | Complete |
 | UI-01 | Phase 6 | Pending |
 | UI-02 | Phase 6 | Pending |
 | UI-03 | Phase 6 | Pending |
