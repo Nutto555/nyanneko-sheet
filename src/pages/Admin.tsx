@@ -1,4 +1,5 @@
 import { useEffect, useState, useCallback } from 'react';
+import { Link } from 'react-router';
 import type { Character, TeamWithMembers } from '../types/database';
 import {
   getAllCharacters, getAllTeams,
@@ -250,10 +251,24 @@ export default function Admin() {
           <h1 className="text-xl font-bold text-white">Admin Panel</h1>
           <p className="text-xs text-slate-400 mt-0.5">Manage teams and formations</p>
         </div>
-        <button onClick={() => setEditingTeam('new')}
-          className="px-3 py-1.5 rounded text-xs font-medium bg-amber-600 hover:bg-amber-500 text-white">
-          + New Team
-        </button>
+        <div className="flex items-center gap-3">
+          <Link
+            to="/admin/strategies"
+            className="px-3 py-1.5 rounded text-xs font-medium bg-slate-700 hover:bg-slate-600 text-white"
+          >
+            Strategy Builder
+          </Link>
+          <Link
+            to="/admin/templates"
+            className="px-3 py-1.5 rounded text-xs font-medium bg-slate-700 hover:bg-slate-600 text-white"
+          >
+            Template Manager
+          </Link>
+          <button onClick={() => setEditingTeam('new')}
+            className="px-3 py-1.5 rounded text-xs font-medium bg-amber-600 hover:bg-amber-500 text-white">
+            + New Team
+          </button>
+        </div>
       </div>
 
       {/* New team editor */}

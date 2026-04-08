@@ -11,6 +11,8 @@ import EquipmentSets from './pages/EquipmentSets';
 import About from './pages/About';
 import Updates from './pages/Updates';
 import Admin from './pages/Admin';
+import AdminStrategies from './pages/AdminStrategies';
+import AdminTemplates from './pages/AdminTemplates';
 import CounterSearch from './pages/CounterSearch';
 
 function App() {
@@ -42,6 +44,8 @@ function App() {
 
           {/* Admin */}
           <Route path="admin" element={<Admin />} />
+          <Route path="admin/strategies" element={<AdminStrategies />} />
+          <Route path="admin/templates" element={<AdminTemplates />} />
 
           {/* Misc */}
           <Route path="about" element={<About />} />
