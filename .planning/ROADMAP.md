@@ -98,8 +98,13 @@ Plans:
   6. An admin can create a named enemy template (e.g. "Lubu Sustain Core") by selecting 1-3 characters via the character autocomplete
   7. An admin can edit a template's name or member characters, or delete a template
   8. Templates created or edited by the admin appear in the member-facing template gallery on the counter lookup page without requiring a cache clear
-**Plans**: TBD
+**Plans**: 3 plans
 **UI hint**: yes
+
+Plans:
+- [ ] 05-01-PLAN.md — Admin auth gate, admin layout, strategy/template CRUD hooks
+- [ ] 05-02-PLAN.md — Strategy builder UI (form, condition editor, drag-to-reorder)
+- [ ] 05-03-PLAN.md — Enemy template management UI + route registration + human verification
 
 ### Phase 6: Frontend UI Polish
 **Goal**: The app has a consistent, clean visual design with character portraits everywhere, works well on mobile, and has clear navigation between all major sections
@@ -124,5 +129,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 2. Types, Service Layer, and Matcher Utility | 0/2 | Not started | - |
 | 3. Shared UI Components | 0/2 | Not started | - |
 | 4. Counter Lookup Page | 1/2 | In Progress|  |
-| 5. Admin Strategy & Template Builder | 0/TBD | Not started | - |
+| 5. Admin Strategy & Template Builder | 0/3 | Not started | - |
 | 6. Frontend UI Polish | 0/TBD | Not started | - |
