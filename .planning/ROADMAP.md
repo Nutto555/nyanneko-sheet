@@ -2,7 +2,7 @@
 
 ## Overview
 
-The existing codebase has a character database and basic GvG team viewer. This roadmap extends it with a conditional counter-strategy system: a relational data foundation, a member-facing counter lookup, an admin strategy builder with drag-to-reorder and condition authoring, a member submission queue, and a visual UI overhaul. Phases follow a strict dependency order — schema before types, types before service, service before UI, auth bundled with the first writable admin route.
+The existing codebase has a character database and basic GvG team viewer. This roadmap extends it with a conditional counter-strategy system: a relational data foundation, a member-facing counter lookup, an admin strategy & template builder with drag-to-reorder and condition authoring (simple password gate), and a visual UI overhaul. Phases follow a strict dependency order — schema before types, types before service, service before UI.
 
 ## Phases
 
@@ -16,10 +16,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 2: Types, Service Layer, and Matcher Utility** - TypeScript types, CRUD service functions, and the client-side strategy matcher utility with unit tests
 - [ ] **Phase 3: Shared UI Components** - Character multi-select (Headless UI + Fuse.js) and character portraits used throughout the app
 - [ ] **Phase 4: Counter Lookup Page** - Member-facing search page with template gallery, priority-ordered results, and conditional branching display
-- [ ] **Phase 5: Admin Strategy Builder** - Admin route with auth guard, strategy create/edit/delete, condition editor, and drag-to-reorder priority
-- [ ] **Phase 6: Enemy Defense Templates** - Admin management of named popular enemy comps shown at the top of the browse view
-- [ ] **Phase 7: Member Submission Queue** - Members submit counter team suggestions; admin reviews, approves, or rejects
-- [ ] **Phase 8: Frontend UI Polish** - Consistent visual design, character portraits everywhere, responsive layout, and clear navigation
+- [ ] **Phase 5: Admin Strategy & Template Builder** - Admin route with simple password gate, strategy CRUD, condition editor, drag-to-reorder priority, and enemy defense template management
+- [ ] **Phase 6: Frontend UI Polish** - Consistent visual design, character portraits everywhere, responsive layout, and clear navigation
 
 ## Phase Details
 
@@ -87,43 +85,23 @@ Plans:
 - [x] 04-01-PLAN.md — Service extension (getAllActiveStrategies) and counter display sub-components (ConditionBadges, StrategyCard, CounterResultCard)
 - [ ] 04-02-PLAN.md — Data hook (useCounterSearch), EnemyTemplateGrid, CounterSearch page, and /counter route registration
 
-### Phase 5: Admin Strategy Builder
-**Goal**: An authenticated admin can create, edit, delete, and reorder counter strategies through the web UI; unauthenticated users cannot access or modify strategy data
+### Phase 5: Admin Strategy & Template Builder
+**Goal**: An admin (authenticated via simple password gate) can create, edit, delete, and reorder counter strategies AND manage enemy defense templates through the web UI
 **Depends on**: Phase 4
-**Requirements**: ADMIN-01, ADMIN-02, ADMIN-03, ADMIN-04, ADMIN-06, ADMIN-07
+**Requirements**: ADMIN-01, ADMIN-02, ADMIN-03, ADMIN-04, ADMIN-05, ADMIN-06, ADMIN-07
 **Success Criteria** (what must be TRUE):
-  1. Navigating to `/admin/strategies` without an authenticated admin session redirects to a login page
+  1. Navigating to `/admin/strategies` without entering the correct admin password shows a password prompt; entering the correct string grants access
   2. An admin can create a new counter scenario: choose an enemy template, add one or more counter teams with character autocomplete, attach must_have and must_not_have conditions, and save — the new strategy appears in the member lookup immediately
   3. An admin can drag counter alternatives to reorder them; after saving, the member-facing priority order reflects the new sequence
   4. An admin can add strategy notes (free text) and a `last_verified_at` date to any counter entry
   5. An admin can edit or delete an existing counter strategy from the builder list
+  6. An admin can create a named enemy template (e.g. "Lubu Sustain Core") by selecting 1-3 characters via the character autocomplete
+  7. An admin can edit a template's name or member characters, or delete a template
+  8. Templates created or edited by the admin appear in the member-facing template gallery on the counter lookup page without requiring a cache clear
 **Plans**: TBD
 **UI hint**: yes
 
-### Phase 6: Enemy Defense Templates
-**Goal**: An admin can manage named enemy defense templates so guild members can browse by archetype rather than manually selecting characters
-**Depends on**: Phase 5
-**Requirements**: ADMIN-05
-**Success Criteria** (what must be TRUE):
-  1. An admin can create a named enemy template (e.g. "Lubu Sustain Core") by selecting 4-6 characters via the character autocomplete
-  2. An admin can edit a template's name or member characters, or delete a template
-  3. Templates created or edited by the admin appear in the member-facing template gallery on the counter lookup page without requiring a cache clear
-**Plans**: TBD
-**UI hint**: yes
-
-### Phase 7: Member Submission Queue
-**Goal**: Guild members can suggest counter teams for admin review, and the admin can approve or reject them through a dedicated review queue
-**Depends on**: Phase 5
-**Requirements**: SUB-01, SUB-02, SUB-03, SUB-04
-**Success Criteria** (what must be TRUE):
-  1. A guild member can submit a counter team suggestion for a specific enemy comp, including a note explaining their reasoning
-  2. Submitted strategies are not visible in the public counter lookup until an admin approves them
-  3. An admin can see a list of all pending submissions and click through to review each one
-  4. An admin can approve a submission (it becomes live in the lookup) or reject it (it is removed from the queue) with a single action
-**Plans**: TBD
-**UI hint**: yes
-
-### Phase 8: Frontend UI Polish
+### Phase 6: Frontend UI Polish
 **Goal**: The app has a consistent, clean visual design with character portraits everywhere, works well on mobile, and has clear navigation between all major sections
 **Depends on**: Phase 3
 **Requirements**: UI-01, UI-02, UI-03, UI-04
@@ -138,7 +116,7 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
@@ -146,7 +124,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 2. Types, Service Layer, and Matcher Utility | 0/2 | Not started | - |
 | 3. Shared UI Components | 0/2 | Not started | - |
 | 4. Counter Lookup Page | 1/2 | In Progress|  |
-| 5. Admin Strategy Builder | 0/TBD | Not started | - |
-| 6. Enemy Defense Templates | 0/TBD | Not started | - |
-| 7. Member Submission Queue | 0/TBD | Not started | - |
-| 8. Frontend UI Polish | 0/TBD | Not started | - |
+| 5. Admin Strategy & Template Builder | 0/TBD | Not started | - |
+| 6. Frontend UI Polish | 0/TBD | Not started | - |

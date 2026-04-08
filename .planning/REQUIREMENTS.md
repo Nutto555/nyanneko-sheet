@@ -37,13 +37,6 @@
 - [ ] **ADMIN-06**: Edit and delete existing counter strategies
 - [ ] **ADMIN-07**: Strategy version timestamp — auto-updated on save, visible to members
 
-### Member Submissions
-
-- [ ] **SUB-01**: Member can submit a counter team suggestion for a specific enemy comp
-- [ ] **SUB-02**: Submission includes notes explaining reasoning
-- [ ] **SUB-03**: Admin can view pending submissions queue
-- [ ] **SUB-04**: Admin can approve (publish) or reject submissions
-
 ### Frontend UI Improvements
 
 - [ ] **UI-01**: Improved visual design — cleaner layout, better spacing, consistent styling
@@ -106,21 +99,17 @@
 | ADMIN-02 | Phase 5 | Pending |
 | ADMIN-03 | Phase 5 | Pending |
 | ADMIN-04 | Phase 5 | Pending |
-| ADMIN-05 | Phase 6 | Pending |
+| ADMIN-05 | Phase 5 | Pending |
 | ADMIN-06 | Phase 5 | Pending |
 | ADMIN-07 | Phase 5 | Pending |
-| SUB-01 | Phase 7 | Pending |
-| SUB-02 | Phase 7 | Pending |
-| SUB-03 | Phase 7 | Pending |
-| SUB-04 | Phase 7 | Pending |
-| UI-01 | Phase 8 | Pending |
-| UI-02 | Phase 8 | Pending |
-| UI-03 | Phase 8 | Pending |
-| UI-04 | Phase 8 | Pending |
+| UI-01 | Phase 6 | Pending |
+| UI-02 | Phase 6 | Pending |
+| UI-03 | Phase 6 | Pending |
+| UI-04 | Phase 6 | Pending |
 
 **Coverage:**
-- v1 requirements: 31 total
-- Mapped to phases: 31
+- v1 requirements: 27 total (4 SUB-* requirements removed — member submissions cancelled)
+- Mapped to phases: 27
 - Unmapped: 0
 
 ---
