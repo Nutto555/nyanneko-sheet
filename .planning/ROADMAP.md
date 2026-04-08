@@ -104,7 +104,7 @@ Plans:
 Plans:
 - [x] 05-01-PLAN.md — Admin auth gate, admin layout, strategy/template CRUD hooks
 - [x] 05-02-PLAN.md — Strategy builder UI (form, condition editor, drag-to-reorder)
-- [ ] 05-03-PLAN.md — Enemy template management UI + route registration + human verification
+- [x] 05-03-PLAN.md — Enemy template management UI + route registration + human verification
 
 ### Phase 6: Frontend UI Polish
 **Goal**: The app has a consistent, clean visual design with character portraits everywhere, works well on mobile, and has clear navigation between all major sections
