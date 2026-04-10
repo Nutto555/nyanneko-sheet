@@ -54,7 +54,7 @@ Source: RESEARCH.md Pattern 1 (page container standardization).
 | Role | Size | Weight | Line Height | Font Family |
 |------|------|--------|-------------|-------------|
 | Body | 14px (text-sm) | 400 (normal) | 1.5 | Sarabun |
-| Label | 12px (text-xs) | 600 (semibold) | 1.5 | Sarabun |
+| Label | 12px (text-xs) | 700 (bold) | 1.5 | Sarabun |
 | Heading | 24px (text-2xl) | 700 (bold) | 1.2 | Cinzel (--font-display) |
 | Display | 30px (text-3xl) | 700 (bold) | 1.2 | Cinzel (--font-display) |
 
@@ -213,7 +213,7 @@ Source: Navbar.tsx existing state classes, Button.tsx variant styles.
 1. Do NOT use `getImageUrl()` with raw `<img>` tags where a full Character object is available -- use CharacterPortrait instead.
 2. Do NOT refactor UnitSlot to use CharacterPortrait -- UnitSlot operates on UnitSlotData (partial data) and has its own portrait rendering with stat badges. Leave as-is.
 3. Do NOT use inline `style={{}}` for colors that are already available as Tailwind classes via `@theme` (e.g., use `bg-primary` not `style={{ background: 'var(--color-primary)' }}`).
-4. Do NOT add new font weights beyond 400 and 700. Cinzel is loaded with 400/600/700; Sarabun with 300/400/500/600/700. This phase uses only 400 (body) and 700 (headings).
+4. Do NOT add new font weights beyond 400 and 700. Cinzel is loaded with 400/600/700; Sarabun with 300/400/500/600/700. This phase uses only 400 (body) and 700 (headings/labels).
 5. Do NOT change existing Tailwind `@theme` tokens. This phase enforces consistency with existing tokens, not new ones.
 
 Source: RESEARCH.md Pitfall 3 (UnitSlot), Pitfall 4 (Tailwind 4 syntax), Anti-Patterns section.
