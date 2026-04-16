@@ -9,10 +9,8 @@ type NavGroup =
 
 const navGroups: NavGroup[] = [
   { label_th: 'หน้าแรก', label_en: 'Home', path: '/' },
-  {
-    label_th: 'GVG โจมตี', label_en: 'Attack',
-    path: '/attack',
-  },
+  { label_th: 'ค้นหาเคาน์เตอร์', label_en: 'Counter', path: '/counter' },
+  { label_th: 'GVG โจมตี', label_en: 'Attack', path: '/attack' },
   {
     label_th: 'GVG รับ', label_en: 'Defense',
     children: [
@@ -31,6 +29,7 @@ const navGroups: NavGroup[] = [
     ],
   },
   { label_th: 'อุปกรณ์แนะนำ', label_en: 'Gear Guide', path: '/equip' },
+  { label_th: 'จัดการ', label_en: 'Admin', path: '/admin' },
 ];
 
 export default function Navbar() {
