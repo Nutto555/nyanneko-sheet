@@ -115,8 +115,14 @@ Plans:
   2. A guild member checking the app on a phone during a GvG battle can read counter strategies and navigate between pages without horizontal scrolling or unreadable text
   3. A navigation element on every page gives one-click access to: Counter Lookup, Team Browser, Character Database, and Admin (admin-only)
   4. The visual layout has consistent spacing, typography, and color use across all pages — no mismatched or unstyled sections
-**Plans**: TBD
+**Plans**: 4 plans
 **UI hint**: yes
+
+Plans:
+- [ ] 06-01-PLAN.md — Shared components (PageHeader, Skeleton) + Navbar updates + CSS animations
+- [ ] 06-02-PLAN.md — CharacterPortrait adoption (Characters, CharacterDetail, UnitSlot) + CounterSearch standardization
+- [ ] 06-03-PLAN.md — Member page standardization (Home, GvgMode, About, Pets, Rings, Equipment, Equip, Updates)
+- [ ] 06-04-PLAN.md — Admin page standardization + full visual verification checkpoint
 
 ## Progress
 
@@ -130,4 +136,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 3. Shared UI Components | 0/2 | Not started | - |
 | 4. Counter Lookup Page | 1/2 | In Progress|  |
 | 5. Admin Strategy & Template Builder | 0/3 | Not started | - |
-| 6. Frontend UI Polish | 0/TBD | Not started | - |
+| 6. Frontend UI Polish | 0/4 | Not started | - |
