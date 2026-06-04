@@ -3,7 +3,7 @@ import { useCharacter } from '../hooks/useCharacters';
 import Card from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
 import Button from '../components/ui/Button';
-import { getImageUrl } from '../lib/supabase';
+import { CharacterPortrait } from '../components/character-portrait/CharacterPortrait';
 import { ROLE_INFO, type CharacterRole } from '../types/database';
 
 const roleColors: Record<string, 'primary' | 'secondary' | 'accent' | 'neutral'> = {
@@ -26,7 +26,7 @@ export default function CharacterDetail() {
 
   if (loading) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center">
           <p className="text-gray-400">Loading character details...</p>
         </div>
@@ -36,7 +36,7 @@ export default function CharacterDetail() {
 
   if (error || !character) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Button
           variant="secondary"
           size="sm"
@@ -55,7 +55,7 @@ export default function CharacterDetail() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Back Button */}
       <Button
         variant="secondary"
@@ -70,22 +70,15 @@ export default function CharacterDetail() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
         {/* Portrait */}
         <div className="lg:col-span-1 flex justify-center">
-          <Card hover={false} className="inline-block">
-            <img
-              src={getImageUrl(character.image_url || '')}
-              alt={character.name_en}
-              className="w-48 h-auto rounded-lg mx-auto"
-              onError={(e) => {
-                e.currentTarget.style.display = 'none';
-              }}
-            />
+          <Card hover={false} className="inline-block p-4">
+            <CharacterPortrait character={character} size="xl" showName={false} />
           </Card>
         </div>
 
         {/* Info */}
         <div className="lg:col-span-2">
           <div className="mb-4">
-            <h1 className="text-4xl font-bold text-white">{character.name_en}</h1>
+            <h1 className="text-2xl font-bold text-white" style={{ fontFamily: 'var(--font-display)' }}>{character.name_en}</h1>
             <p className="text-xl text-gray-400 mt-2">{character.name_th}</p>
           </div>
 

@@ -3,6 +3,8 @@ import { useEquipmentSets, useEquipmentItems } from '../hooks/useEquipment';
 import Card from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
 import Button from '../components/ui/Button';
+import { PageHeader } from '../components/ui/PageHeader';
+import { SkeletonCard } from '../components/ui/Skeleton';
 
 const setBadgeColors: Record<string, 'primary' | 'secondary' | 'accent' | 'neutral'> = {
   'sword-set': 'accent',
@@ -25,9 +27,10 @@ export default function EquipmentSets() {
 
   if (loading) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center">
-          <p className="text-gray-400">Loading equipment...</p>
+      <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <PageHeader title="Equipment Sets" subtitle="Browse equipment set bonuses and effects" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {Array.from({ length: 6 }, (_, i) => <SkeletonCard key={i} />)}
         </div>
       </div>
     );
@@ -41,14 +44,11 @@ export default function EquipmentSets() {
     : items;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      {/* Header */}
-      <div className="mb-12">
-        <h1 className="text-4xl font-bold text-white">Equipment Database</h1>
-        <p className="mt-3 text-gray-400">
-          Browse equipment sets and items — {sets.length} sets, {items.length} items
-        </p>
-      </div>
+    <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <PageHeader
+        title="Equipment Sets"
+        subtitle={`Browse equipment set bonuses and effects — ${sets.length} sets, ${items.length} items`}
+      />
 
       {/* Set Filter */}
       <div className="mb-10 flex flex-wrap gap-3">

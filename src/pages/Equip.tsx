@@ -3,6 +3,8 @@ import EquipCard from '../components/equip-card/EquipCard';
 import { getCharacters } from '../services/characters';
 import type { Character } from '../types/database';
 import type { EquipEntry } from '../types/ui';
+import { PageHeader } from '../components/ui/PageHeader';
+import { SkeletonCard } from '../components/ui/Skeleton';
 
 // Equip notes are stored in character.notes and character.type
 function buildEquipEntries(chars: Character[]): EquipEntry[] {
@@ -13,28 +15,6 @@ function buildEquipEntries(chars: Character[]): EquipEntry[] {
       team_context: c.type || undefined,
       skill_1: c.notes || undefined,
     }));
-}
-
-function Skeleton() {
-  return (
-    <div
-      className="rounded-xl overflow-hidden animate-pulse"
-      style={{ background: 'var(--color-surface)', border: '1px solid var(--color-border)' }}
-    >
-      <div className="h-16 flex items-center px-4 gap-3" style={{ background: 'var(--color-surface-raised)' }}>
-        <div className="w-10 h-10 rounded-lg" style={{ background: 'var(--color-border)' }} />
-        <div className="space-y-1.5">
-          <div className="w-24 h-3 rounded" style={{ background: 'var(--color-border)' }} />
-          <div className="w-16 h-2.5 rounded" style={{ background: 'var(--color-border)' }} />
-        </div>
-      </div>
-      <div className="p-4 space-y-2">
-        {[0, 1, 2].map((i) => (
-          <div key={i} className="h-3 rounded" style={{ background: 'var(--color-border)', width: `${70 + i * 10}%` }} />
-        ))}
-      </div>
-    </div>
-  );
 }
 
 export default function Equip() {
@@ -66,23 +46,11 @@ export default function Equip() {
     : entries;
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Header */}
-      <div className="mb-8">
-        <div className="flex items-center gap-3 mb-2">
-          <span className="text-3xl">📖</span>
-          <div>
-            <h1 className="text-2xl font-bold text-white" style={{ fontFamily: 'var(--font-display)' }}>
-              Equipment Guide
-            </h1>
-            <p className="text-sm opacity-50">คู่มืออุปกรณ์ตัวละคร</p>
-          </div>
-        </div>
-        <p className="text-sm text-slate-400 mt-2 max-w-xl">
-          Stat priorities per skill slot for each character — from the EquipLegend sheet.
-        </p>
-        <div className="mt-3 h-px" style={{ background: 'linear-gradient(to right, var(--color-gold-dim), transparent)' }} />
-      </div>
+    <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <PageHeader
+        title="Equipment Guide"
+        subtitle="Per-character equipment stat priorities for each skill slot"
+      />
 
       {/* Search */}
       <div className="mb-6">
@@ -105,7 +73,7 @@ export default function Equip() {
       {/* Grid */}
       {loading ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {Array.from({ length: 6 }).map((_, i) => <Skeleton key={i} />)}
+          {Array.from({ length: 6 }).map((_, i) => <SkeletonCard key={i} />)}
         </div>
       ) : filtered.length === 0 ? (
         <div className="text-center py-16 text-slate-500">

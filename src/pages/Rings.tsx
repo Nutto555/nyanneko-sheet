@@ -1,6 +1,8 @@
 import { useState, useMemo } from 'react';
 import { useRings } from '../hooks/useRings';
 import Card from '../components/ui/Card';
+import { PageHeader } from '../components/ui/PageHeader';
+import { SkeletonCard } from '../components/ui/Skeleton';
 
 export default function Rings() {
   const { rings, loading, error } = useRings();
@@ -18,9 +20,10 @@ export default function Rings() {
 
   if (loading) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center">
-          <p className="text-gray-400">Loading rings...</p>
+      <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <PageHeader title="Ring Database" subtitle="Browse all rings and their effects" />
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+          {Array.from({ length: 12 }, (_, i) => <SkeletonCard key={i} />)}
         </div>
       </div>
     );
@@ -28,7 +31,8 @@ export default function Rings() {
 
   if (error) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <PageHeader title="Ring Database" subtitle="Browse all rings and their effects" />
         <div className="text-center">
           <p className="text-red-400">Error loading rings: {error}</p>
         </div>
@@ -37,14 +41,11 @@ export default function Rings() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      {/* Header */}
-      <div className="mb-12">
-        <h1 className="text-4xl font-bold text-white">Ring Database</h1>
-        <p className="mt-3 text-gray-400">
-          Browse all Seven Knights rings — {rings.length} rings available
-        </p>
-      </div>
+    <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <PageHeader
+        title="Ring Database"
+        subtitle={`Browse all Seven Knights rings — ${rings.length} rings available`}
+      />
 
       {/* Search */}
       <div className="mb-8">

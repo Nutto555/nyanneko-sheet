@@ -6,6 +6,9 @@ import {
   createTeam, updateTeam, deleteTeam,
   addTeamMember, removeTeamMember,
 } from '../services/admin';
+import { PageHeader } from '../components/ui/PageHeader';
+import { SkeletonCard } from '../components/ui/Skeleton';
+import { CharacterPortrait } from '../components/character-portrait/CharacterPortrait';
 
 const CATEGORIES = [
   { value: 'attack', label: 'Attack' },
@@ -160,8 +163,8 @@ function MemberEditor({
         return (
           <div key={m.id} className="flex items-center gap-2 text-xs text-slate-300">
             <span className="w-5 text-center text-slate-500">{m.position}</span>
-            {char?.image_url && (
-              <img src={char.image_url} alt="" className="w-8 h-8 rounded object-cover" />
+            {char && (
+              <CharacterPortrait character={char} size="sm" showName={false} />
             )}
             <span className="flex-1">
               {char?.name_en || 'Unknown'}
@@ -244,14 +247,13 @@ export default function Admin() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 page-enter">
       {/* Header */}
-      <div className="flex items-center justify-between mb-6">
-        <div>
-          <h1 className="text-xl font-bold text-white">Admin Panel</h1>
-          <p className="text-xs text-slate-400 mt-0.5">Manage teams and formations</p>
+      <div className="flex items-start justify-between gap-4 mb-2">
+        <div className="flex-1 min-w-0">
+          <PageHeader title="Team Manager" subtitle="Manage GvG team compositions" />
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 shrink-0 mt-1">
           <Link
             to="/admin/strategies"
             className="px-3 py-1.5 rounded text-xs font-medium bg-slate-700 hover:bg-slate-600 text-white"
@@ -299,7 +301,13 @@ export default function Admin() {
         })}
       </div>
 
-      {loading && <p className="text-slate-500 text-xs mb-4">Loading...</p>}
+      {loading && (
+        <div className="space-y-3 mb-4">
+          <SkeletonCard />
+          <SkeletonCard />
+          <SkeletonCard />
+        </div>
+      )}
 
       {/* Team list */}
       <div className="space-y-3">

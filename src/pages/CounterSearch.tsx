@@ -2,6 +2,7 @@ import { useCounterSearch } from '../hooks/useCounterSearch';
 import { CharacterMultiSelect } from '../components/character-multi-select/CharacterMultiSelect';
 import { EnemyTemplateGrid } from '../components/counter/EnemyTemplateGrid';
 import { CounterResultCard } from '../components/counter/CounterResultCard';
+import { PageHeader } from '../components/ui/PageHeader';
 import type { EnemyDefenseTemplateWithMembers } from '../types/database';
 
 function CounterSearchSkeleton(): React.JSX.Element {
@@ -63,17 +64,9 @@ export default function CounterSearch(): React.JSX.Element {
   );
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="page-enter max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Page header */}
-      <h1
-        className="text-2xl font-semibold"
-        style={{ fontFamily: 'var(--font-display)' }}
-      >
-        Counter Lookup
-      </h1>
-      <p className="text-gray-400 mt-2">
-        Find the right counter for any enemy defense
-      </p>
+      <PageHeader title="Counter Lookup" subtitle="Find the right counter for any enemy defense composition" />
 
       {/* Error state */}
       {error && (

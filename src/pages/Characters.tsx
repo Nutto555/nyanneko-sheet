@@ -4,7 +4,9 @@ import { useCharacters } from '../hooks/useCharacters';
 import Card from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
 import Button from '../components/ui/Button';
-import { getImageUrl } from '../lib/supabase';
+import { CharacterPortrait } from '../components/character-portrait/CharacterPortrait';
+import { PageHeader } from '../components/ui/PageHeader';
+import { SkeletonCard } from '../components/ui/Skeleton';
 import { ROLE_INFO, type CharacterRole } from '../types/database';
 
 const roleColors: Record<string, 'primary' | 'secondary' | 'accent' | 'neutral'> = {
@@ -51,9 +53,10 @@ export default function Characters() {
 
   if (loading) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center">
-          <p className="text-gray-400">Loading characters...</p>
+      <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <PageHeader title="Character Database" subtitle="Browse all Seven Knights characters and their skills" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {Array.from({ length: 8 }, (_, i) => <SkeletonCard key={i} />)}
         </div>
       </div>
     );
@@ -61,7 +64,7 @@ export default function Characters() {
 
   if (error) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center">
           <p className="text-red-400">Error loading characters: {error}</p>
         </div>
@@ -70,12 +73,9 @@ export default function Characters() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="page-enter max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
-      <div className="mb-12">
-        <h1 className="text-4xl font-bold text-white">Character Database</h1>
-        <p className="mt-3 text-gray-400">Browse all Seven Knights characters and their skills</p>
-      </div>
+      <PageHeader title="Character Database" subtitle="Browse all Seven Knights characters and their skills" />
 
       {/* Search */}
       <div className="mb-8">
@@ -127,15 +127,8 @@ export default function Characters() {
             <Link key={character.id} to={`/characters/${character.slug}`}>
               <Card className="h-full flex flex-col">
                 {/* Character Image */}
-                <div className="mb-4 -mx-6 -mt-6 bg-gradient-to-b from-primary/5 to-transparent rounded-t-xl overflow-hidden flex justify-center">
-                  <img
-                    src={getImageUrl(character.image_url || '')}
-                    alt={character.name_en}
-                    className="h-48 w-auto object-contain"
-                    onError={(e) => {
-                      e.currentTarget.src = '/images/placeholder.png';
-                    }}
-                  />
+                <div className="mb-4 -mx-6 -mt-6 bg-gradient-to-b from-primary/5 to-transparent rounded-t-xl overflow-hidden flex justify-center py-4">
+                  <CharacterPortrait character={character} size="lg" showName={false} />
                 </div>
 
                 {/* Character Info */}

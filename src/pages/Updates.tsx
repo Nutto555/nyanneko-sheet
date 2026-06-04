@@ -156,7 +156,7 @@ export default function Updates() {
     : null;
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="page-enter max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Page header */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">

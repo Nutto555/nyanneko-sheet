@@ -6,6 +6,8 @@ import { useAdminTemplates } from '../hooks/useAdminTemplates';
 import { useCharacters } from '../hooks/useCharacters';
 import { TemplateForm, type TemplateFormData } from '../components/admin/TemplateForm';
 import { TemplateList } from '../components/admin/TemplateList';
+import { PageHeader } from '../components/ui/PageHeader';
+import { SkeletonCard } from '../components/ui/Skeleton';
 import type { EnemyDefenseTemplateWithMembers } from '../types/database';
 
 type EditingState = null | 'new' | EnemyDefenseTemplateWithMembers;
@@ -78,16 +80,16 @@ function TemplateManagerContent(): React.JSX.Element {
   const loading = templatesLoading || charsLoading;
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 page-enter">
       {/* Header */}
-      <div className="flex items-center justify-between mb-6">
-        <div>
-          <h1 className="text-xl font-bold text-white">Template Manager</h1>
-          <p className="text-xs text-slate-400 mt-0.5">
-            Create and manage enemy defense templates
-          </p>
+      <div className="flex items-start justify-between gap-4 mb-2">
+        <div className="flex-1 min-w-0">
+          <PageHeader
+            title="Template Manager"
+            subtitle="Manage enemy defense templates"
+          />
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 shrink-0 mt-1">
           <Link
             to="/admin"
             className="text-xs text-slate-400 hover:text-white transition-colors duration-150"
@@ -122,7 +124,13 @@ function TemplateManagerContent(): React.JSX.Element {
       </div>
 
       {/* Loading / Error */}
-      {loading && <p className="text-xs text-slate-500 mb-4">Loading...</p>}
+      {loading && (
+        <div className="space-y-3 mb-4">
+          <SkeletonCard />
+          <SkeletonCard />
+          <SkeletonCard />
+        </div>
+      )}
       {templatesError && (
         <p className="text-red-400 text-xs mb-4">{templatesError}</p>
       )}

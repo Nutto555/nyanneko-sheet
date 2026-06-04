@@ -8,6 +8,8 @@ import { useCharacters } from '../hooks/useCharacters';
 import { StrategyForm, type StrategyFormData } from '../components/admin/StrategyForm';
 import { StrategyList } from '../components/admin/StrategyList';
 import { CharacterPortrait } from '../components/character-portrait/CharacterPortrait';
+import { PageHeader } from '../components/ui/PageHeader';
+import { SkeletonCard, SkeletonText } from '../components/ui/Skeleton';
 import type { CounterStrategyWithConditions, EnemyDefenseTemplateWithMembers } from '../types/database';
 
 type EditingState = null | 'new' | CounterStrategyWithConditions;
@@ -92,7 +94,7 @@ function StrategyBuilderContent(): React.JSX.Element {
           Enemy Defense Template
         </label>
         {templatesLoading ? (
-          <p className="text-xs text-slate-500">Loading templates...</p>
+          <SkeletonText lines={3} />
         ) : templates.length === 0 ? (
           <p className="text-xs text-slate-500">
             No templates found. Create templates in the template manager first.
@@ -149,16 +151,16 @@ function StrategyBuilderContent(): React.JSX.Element {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 page-enter">
       {/* Header */}
-      <div className="flex items-center justify-between mb-6">
-        <div>
-          <h1 className="text-xl font-bold text-white">Strategy Builder</h1>
-          <p className="text-xs text-slate-400 mt-0.5">
-            Create and manage counter strategies for enemy defense templates
-          </p>
+      <div className="flex items-start justify-between gap-4 mb-2">
+        <div className="flex-1 min-w-0">
+          <PageHeader
+            title="Strategy Builder"
+            subtitle="Create and manage counter strategies"
+          />
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 shrink-0 mt-1">
           <Link
             to="/admin"
             className="text-xs text-slate-400 hover:text-white transition-colors duration-150"
@@ -207,7 +209,10 @@ function StrategyBuilderContent(): React.JSX.Element {
 
               {/* Loading / Error */}
               {strategiesLoading && (
-                <p className="text-xs text-slate-500 mb-3">Loading strategies...</p>
+                <div className="space-y-3 mb-3">
+                  <SkeletonCard />
+                  <SkeletonCard />
+                </div>
               )}
               {strategiesError && (
                 <p className="text-red-400 text-xs mb-3">{strategiesError}</p>

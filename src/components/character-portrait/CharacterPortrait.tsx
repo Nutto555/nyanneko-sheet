@@ -16,12 +16,14 @@ const SIZE_MAP: Record<CharacterPortraitSize, number> = {
   sm: 32,
   md: 48,
   lg: 72,
+  xl: 192,
 };
 
 const TEXT_SIZE: Record<CharacterPortraitSize, string> = {
   sm: 'text-xs',
   md: 'text-xs',
   lg: 'text-sm',
+  xl: 'text-base',
 };
 
 export function CharacterPortrait({

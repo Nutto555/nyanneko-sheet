@@ -16,6 +16,14 @@ A guild strategy hub for Seven Knights Rebirth that helps guild members find the
 - **Solo admin**: Strategy authoring UX must be fast for a single power user
 <!-- GSD:project-end -->
 
+## Open Review Findings
+
+Latest full-stack review: **`.planning/reviews/2026-05-20-full-stack-review.md`**
+
+- 2 CRITICAL (admin password in JS bundle; RLS open to anon writes) — block any public deploy
+- 10 HIGH, ~15 MEDIUM, ~12 LOW
+- Read the review doc before starting any non-trivial change, and remove items as they are fixed.
+
 <!-- GSD:stack-start source:codebase/STACK.md -->
 ## Technology Stack
 

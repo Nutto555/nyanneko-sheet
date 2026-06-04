@@ -52,7 +52,7 @@ const databases = [
 
 export default function Home() {
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div className="page-enter max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
       {/* Hero */}
       <section className="text-center mb-14">

@@ -1,9 +1,10 @@
 import Card from '../components/ui/Card';
+import { PageHeader } from '../components/ui/PageHeader';
 
 export default function About() {
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-bold text-white mb-8">About NyanNeko Sheet</h1>
+    <div className="page-enter max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <PageHeader title="About NyanNeko Sheet" />
       <Card hover={false}>
         <div className="space-y-4 text-gray-300 leading-relaxed">
           <p>

@@ -1,38 +1,33 @@
 import StatBadge from '../ui/StatBadge';
+import { CharacterPortrait } from '../character-portrait/CharacterPortrait';
 import type { UnitSlotData } from '../../types/ui';
-import { safeImageUrl } from '../../utils/imageUrl';
+import type { Character } from '../../types/database';
 
 interface UnitSlotProps {
   unit: UnitSlotData;
 }
 
 export default function UnitSlot({ unit }: UnitSlotProps) {
-  const portraitUrl = safeImageUrl(unit.image_url);
+  // Cast needed: UnitSlotData is a partial view type, not a full Character.
+  // We construct a display-only Character to satisfy CharacterPortrait's prop type.
+  const minimalCharacter = {
+    id: '',
+    name_en: unit.name_en,
+    name_th: unit.name_th ?? '',
+    slug: '',
+    role: null,
+    type: null,
+    image_url: unit.image_url ?? null,
+    thumbnail_url: null,
+    notes: null,
+    created_at: '',
+    updated_at: '',
+  } as Character;
+
   return (
     <div className="flex flex-col items-center gap-1.5 min-w-0">
       {/* Portrait */}
-      <div
-        className="relative rounded-lg overflow-hidden shrink-0"
-        style={{
-          width: 72,
-          height: 72,
-          background: 'var(--color-surface-raised)',
-          border: '1px solid var(--color-border-bright)',
-        }}
-      >
-        {portraitUrl ? (
-          <img
-            src={portraitUrl}
-            alt={unit.name_en}
-            loading="lazy"
-            className="w-full h-full object-cover"
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-2xl opacity-30">
-            ⚔
-          </div>
-        )}
-      </div>
+      <CharacterPortrait character={minimalCharacter} size="lg" showName={false} />
 
       {/* Name */}
       <div className="text-center leading-tight max-w-[80px]">

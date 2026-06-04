@@ -155,14 +155,14 @@ export default function GvgMode({ mode }: GvgModeProps) {
 
   if (!config) {
     return (
-      <div className="max-w-4xl mx-auto px-4 py-16 text-center">
+      <div className="page-enter max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
         <p className="text-slate-400">Mode not found.</p>
       </div>
     );
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="page-enter max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Page header */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">
